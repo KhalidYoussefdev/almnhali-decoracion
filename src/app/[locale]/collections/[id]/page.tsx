@@ -3,16 +3,17 @@
 import { use, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useLocale } from 'next-intl';
-import { collections } from '@/data/catalog';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { getLocalizedField } from '@/lib/utils';
 import { useProducts } from '@/hooks/useProducts';
+import { useSiteSettings } from '@/contexts/SettingsContext';
 
 export default function CollectionDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
   const locale = useLocale();
+  const settings = useSiteSettings();
   const { products, loading } = useProducts();
-  const collection = collections.find((c) => c.id === id);
+  const collection = settings.collections.find((c) => c.id === id);
 
   const filtered = useMemo(() => products.filter((p) => p.collection === id), [products, id]);
 

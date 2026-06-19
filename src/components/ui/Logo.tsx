@@ -1,6 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
+import { useSiteSettings } from '@/contexts/SettingsContext';
 
 interface LogoProps {
   className?: string;
@@ -9,7 +11,23 @@ interface LogoProps {
 }
 
 export function Logo({ className, variant = 'full', theme = 'light' }: LogoProps) {
+  const settings = useSiteSettings();
   const isDark = theme === 'dark';
+
+  if (settings.brand.logo) {
+    return (
+      <div className={cn('relative', variant === 'full' ? 'h-12 w-40' : 'h-8 w-28', className)}>
+        <Image
+          src={settings.brand.logo}
+          alt={settings.brand.name_en}
+          fill
+          className="object-contain object-start"
+          sizes="160px"
+          unoptimized={settings.brand.logo.startsWith('/uploads/')}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className={cn('flex flex-col', className)}>
@@ -20,7 +38,7 @@ export function Logo({ className, variant = 'full', theme = 'light' }: LogoProps
           isDark ? 'text-white' : 'text-navy'
         )}
       >
-        Almnhali
+        {settings.brand.name_en}
         <span className="text-gold"> Decoración</span>
       </span>
       {variant === 'full' && (
@@ -31,7 +49,7 @@ export function Logo({ className, variant = 'full', theme = 'light' }: LogoProps
           )}
           dir="rtl"
         >
-          المنهالي للديكور
+          {settings.brand.name_ar}
         </span>
       )}
       <div className="h-0.5 w-12 bg-gold-gradient mt-1 rounded-full" aria-hidden />

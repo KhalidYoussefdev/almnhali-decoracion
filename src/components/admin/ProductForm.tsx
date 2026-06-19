@@ -1,9 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import type { Product } from '@/types/product';
-import { categories, collections } from '@/data/catalog';
+import type { Product, SiteSettings } from '@/types/product';
+import { ImageField } from './ImageField';
 
 const emptyProduct = (): Product => ({
   id: '',
@@ -27,8 +27,15 @@ const emptyProduct = (): Product => ({
 export function ProductForm({ initial }: { initial?: Product }) {
   const router = useRouter();
   const [product, setProduct] = useState<Product>(initial ?? emptyProduct());
+  const [catalog, setCatalog] = useState<Pick<SiteSettings, 'categories' | 'collections'> | null>(null);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    fetch('/api/admin/settings').then((r) => r.json()).then((s: SiteSettings) => {
+      setCatalog({ categories: s.categories, collections: s.collections });
+    });
+  }, []);
 
   const set = <K extends keyof Product>(key: K, value: Product[K]) => {
     setProduct((p) => ({ ...p, [key]: value }));
@@ -61,10 +68,12 @@ export function ProductForm({ initial }: { initial?: Product }) {
   };
 
   const onCategoryChange = (catId: string) => {
-    const cat = categories.find((c) => c.id === catId);
+    const cat = catalog?.categories.find((c) => c.id === catId);
     set('category', catId);
     if (cat) set('category_ar', cat.name_ar);
   };
+
+  if (!catalog) return <p className="text-charcoal/60">Loading...</p>;
 
   return (
     <form onSubmit={save} className="max-w-3xl space-y-6">
@@ -83,7 +92,7 @@ export function ProductForm({ initial }: { initial?: Product }) {
             onChange={(e) => onCategoryChange(e.target.value)}
             className="w-full mt-1 px-4 py-3 rounded-xl border border-beige-dark focus:border-gold outline-none"
           >
-            {categories.map((c) => (
+            {catalog.categories.map((c) => (
               <option key={c.id} value={c.id}>{c.name_en}</option>
             ))}
           </select>
@@ -95,7 +104,7 @@ export function ProductForm({ initial }: { initial?: Product }) {
             onChange={(e) => set('collection', e.target.value)}
             className="w-full mt-1 px-4 py-3 rounded-xl border border-beige-dark focus:border-gold outline-none"
           >
-            {collections.map((c) => (
+            {catalog.collections.map((c) => (
               <option key={c.id} value={c.id}>{c.name_en}</option>
             ))}
           </select>
@@ -104,7 +113,12 @@ export function ProductForm({ initial }: { initial?: Product }) {
 
       <Field label="Description (English)" value={product.desc_en} onChange={(v) => set('desc_en', v)} multiline />
       <Field label="Description (Arabic)" value={product.desc_ar} onChange={(v) => set('desc_ar', v)} multiline dir="rtl" />
-      <Field label="Image URL" value={product.images[0] ?? ''} onChange={(v) => set('images', [v])} placeholder="https://..." />
+      <ImageField
+        label="Product Image"
+        value={product.images[0] ?? ''}
+        onChange={(v) => set('images', [v])}
+        hint="Upload from PC or paste an image URL"
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Field label="Badge (EN)" value={product.badge ?? ''} onChange={(v) => set('badge', v || undefined)} placeholder="Bestseller, New..." />
         <Field label="Badge (AR)" value={product.badge_ar ?? ''} onChange={(v) => set('badge_ar', v || undefined)} dir="rtl" />

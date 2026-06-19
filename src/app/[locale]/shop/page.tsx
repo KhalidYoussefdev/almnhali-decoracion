@@ -4,16 +4,18 @@ import { useState, useMemo } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 import { SlidersHorizontal, X } from 'lucide-react';
-import { categories } from '@/data/catalog';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { cn, getLocalizedField } from '@/lib/utils';
 import { useProducts } from '@/hooks/useProducts';
+import { useSiteSettings } from '@/contexts/SettingsContext';
 
 type SortOption = 'featured' | 'price-asc' | 'price-desc' | 'rating';
 
 export default function ShopPage() {
   const t = useTranslations('shop');
   const locale = useLocale();
+  const settings = useSiteSettings();
+  const categories = settings.categories;
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [sort, setSort] = useState<SortOption>('featured');

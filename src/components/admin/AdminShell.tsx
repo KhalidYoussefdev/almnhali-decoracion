@@ -7,7 +7,7 @@ import { LayoutDashboard, Package, Palette, LogOut, ExternalLink } from 'lucide-
 const nav = [
   { href: '/admin/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/admin/products', label: 'Products', icon: Package },
-  { href: '/admin/appearance', label: 'Appearance', icon: Palette },
+  { href: '/admin/appearance', label: 'Site Content', icon: Palette },
 ];
 
 export function AdminShell({ children }: { children: React.ReactNode }) {
