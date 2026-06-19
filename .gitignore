@@ -13,4 +13,4 @@ Thumbs.db
 *.log
 coverage/
 .turbo/
-data/
+/data/
