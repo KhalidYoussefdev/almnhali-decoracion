@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Heart, ShoppingBag, Box } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { type Product } from '@/data/products';
+import type { Product } from '@/types/product';
 import { formatPrice, getLocalizedField, cn } from '@/lib/utils';
 import { useWishlistStore } from '@/stores/wishlist';
 import { useCartStore } from '@/stores/cart';

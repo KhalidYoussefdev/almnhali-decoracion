@@ -3,74 +3,46 @@
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Button } from '@/components/ui/Button';
 import { Box } from 'lucide-react';
+import type { SiteSettings } from '@/types/product';
 
-export function Hero() {
-  const t = useTranslations('hero');
+export function Hero({ settings }: { settings: SiteSettings }) {
+  const locale = useLocale();
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
   const y = useTransform(scrollYProgress, [0, 1], ['0%', '30%']);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
+  const title = locale === 'ar' ? settings.hero.title_ar : settings.hero.title_en;
+  const subtitle = locale === 'ar' ? settings.hero.subtitle_ar : settings.hero.subtitle_en;
+  const cta = locale === 'ar' ? settings.hero.cta_ar : settings.hero.cta_en;
+
   return (
     <section ref={ref} className="relative h-[90vh] min-h-[600px] overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0">
-        <Image
-          src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=85"
-          alt="Luxury Saudi interior"
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
+        <Image src={settings.hero.image} alt="Luxury Saudi interior" fill priority className="object-cover" sizes="100vw" />
       </motion.div>
       <div className="absolute inset-0 bg-hero-overlay" />
 
       <motion.div style={{ opacity }} className="relative h-full flex items-end pb-16 md:pb-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="max-w-2xl"
-          >
+          <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="max-w-2xl">
             <div className="h-1 w-16 bg-gold-gradient mb-6 rounded-full" />
-            <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
-              {t('title')}
-            </h1>
-            <p className="mt-4 text-lg md:text-xl text-cream/90 max-w-lg">
-              {t('subtitle')}
-            </p>
+            <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-white leading-tight">{title}</h1>
+            <p className="mt-4 text-lg md:text-xl text-cream/90 max-w-lg">{subtitle}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href="/collections">
-                <Button variant="gold" size="lg">{t('cta')}</Button>
-              </Link>
+              <Link href="/collections"><Button variant="gold" size="lg">{cta}</Button></Link>
               <Link href="/inspiration?ar=true">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-navy">
-                  <Box className="h-5 w-5" />
-                  {t('secondary')}
+                  <Box className="h-5 w-5" /> AR Tour
                 </Button>
               </Link>
             </div>
           </motion.div>
         </div>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-cream/60"
-      >
-        <span className="text-xs tracking-widest uppercase">Scroll</span>
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5 }}
-          className="w-px h-8 bg-gold"
-        />
       </motion.div>
     </section>
   );

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { collections } from '@/data/products';
+import { collections } from '@/data/catalog';
 import { getLocalizedField } from '@/lib/utils';
 
 export function FeaturedCollections() {

@@ -4,9 +4,10 @@ import { useState, useMemo } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 import { SlidersHorizontal, X } from 'lucide-react';
-import { products, categories } from '@/data/products';
+import { categories } from '@/data/catalog';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { cn, getLocalizedField } from '@/lib/utils';
+import { useProducts } from '@/hooks/useProducts';
 
 type SortOption = 'featured' | 'price-asc' | 'price-desc' | 'rating';
 
@@ -17,6 +18,7 @@ export default function ShopPage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [sort, setSort] = useState<SortOption>('featured');
   const [search, setSearch] = useState('');
+  const { products, loading } = useProducts();
 
   const filtered = useMemo(() => {
     let result = [...products];
@@ -36,7 +38,7 @@ export default function ShopPage() {
       case 'rating': result.sort((a, b) => b.rating - a.rating); break;
     }
     return result;
-  }, [selectedCategory, sort, search]);
+  }, [products, selectedCategory, sort, search]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
@@ -87,7 +89,7 @@ export default function ShopPage() {
                       selectedCategory === cat.id ? 'bg-gold/20 text-navy font-medium' : 'hover:bg-beige dark:hover:bg-navy-700'
                     )}
                   >
-                    {getLocalizedField(cat, 'name', locale)} ({cat.count})
+                    {getLocalizedField(cat, 'name', locale)} ({products.filter((p) => p.category === cat.id).length})
                   </button>
                 ))}
               </div>
@@ -116,11 +118,15 @@ export default function ShopPage() {
             </select>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
-            {filtered.map((product, i) => (
-              <ProductCard key={product.id} product={product} index={i} />
-            ))}
-          </div>
+          {loading ? (
+            <p className="text-charcoal/60">Loading products...</p>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
+              {filtered.map((product, i) => (
+                <ProductCard key={product.id} product={product} index={i} />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

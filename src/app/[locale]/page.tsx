@@ -3,23 +3,23 @@ import { FeaturedCollections } from '@/components/home/FeaturedCollections';
 import { BentoGallery } from '@/components/home/BentoGallery';
 import { TrustSignals } from '@/components/home/TrustSignals';
 import { ProductCard } from '@/components/ui/ProductCard';
-import { products } from '@/data/products';
+import { getAllProducts } from '@/data/products';
+import { getSettings } from '@/lib/data-store';
 
-export default function HomePage() {
+export default async function HomePage() {
+  const [products, settings] = await Promise.all([getAllProducts(), getSettings()]);
   const featured = products.filter((p) => p.badge).slice(0, 4);
 
   return (
     <>
-      <Hero />
+      <Hero settings={settings} />
       <FeaturedCollections />
       <section className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-end justify-between mb-12">
             <div>
               <span className="text-gold text-sm font-semibold tracking-widest uppercase">Featured</span>
-              <h2 className="font-display text-3xl md:text-5xl text-navy dark:text-cream mt-2">
-                Bestsellers
-              </h2>
+              <h2 className="font-display text-3xl md:text-5xl text-navy dark:text-cream mt-2">Bestsellers</h2>
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">

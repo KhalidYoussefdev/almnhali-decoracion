@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useTranslations, useLocale } from 'next-intl';
 import { CreditCard, Smartphone, Wallet } from 'lucide-react';
 import { useCartStore } from '@/stores/cart';
-import { getProductById } from '@/data/products';
+import { useProducts } from '@/hooks/useProducts';
 import { formatPrice } from '@/lib/utils';
 import { Button } from '@/components/ui/Button';
 
@@ -22,13 +22,16 @@ export default function CheckoutPage() {
   const t = useTranslations('checkout');
   const locale = useLocale();
   const { items, clearCart } = useCartStore();
+  const { products, loading } = useProducts();
   const [payment, setPayment] = useState<PaymentMethod>('mada');
   const [processing, setProcessing] = useState(false);
 
   const subtotal = items.reduce((sum, item) => {
-    const product = getProductById(item.productId);
+    const product = products.find((p) => p.id === item.productId);
     return sum + (product?.price ?? 0) * item.quantity;
   }, 0);
+
+  if (loading) return <div className="p-12 text-center">Loading...</div>;
   const total = subtotal + (subtotal >= 500 ? 0 : 49);
 
   const placeOrder = async () => {

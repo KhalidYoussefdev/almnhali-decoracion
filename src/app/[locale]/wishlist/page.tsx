@@ -3,15 +3,21 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { useWishlistStore } from '@/stores/wishlist';
-import { getProductById } from '@/data/products';
+import { useProducts } from '@/hooks/useProducts';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { Button } from '@/components/ui/Button';
+import type { Product } from '@/types/product';
 
 export default function WishlistPage() {
   const t = useTranslations('account');
   const locale = useLocale();
   const items = useWishlistStore((s) => s.items);
-  const products = items.map(getProductById).filter(Boolean);
+  const { products: allProducts, loading } = useProducts();
+  const products = items
+    .map((id) => allProducts.find((p) => p.id === id))
+    .filter(Boolean) as Product[];
+
+  if (loading) return <div className="p-12 text-center">Loading...</div>;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
