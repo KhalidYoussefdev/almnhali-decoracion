@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "nodeVersion": "20",
+  "rootDirectory": ".",
+  "appDirectory": "apps/web",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build:web",
+  "startCommand": "npm run start:web",
+  "outputDirectory": "apps/web/.next"
+}
