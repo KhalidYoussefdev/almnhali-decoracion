@@ -6,13 +6,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H 0.0.0.0",
     "lint": "next lint",
     "dev:mobile": "npm run start --workspace=@almnhali/mobile"
   },
   "workspaces": [
-    "packages/*",
-    "apps/mobile"
+    "packages/*"
   ],
   "dependencies": {
     "@almnhali/design-system": "*",
