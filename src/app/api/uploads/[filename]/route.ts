@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { readFile, stat } from 'fs/promises';
 import path from 'path';
-import { UPLOAD_DIR, isImageFilename } from '@/lib/media';
+import { isImageFilename, uploadDirs } from '@/lib/media';
 
 const MIME: Record<string, string> = {
   '.jpg': 'image/jpeg',
@@ -11,6 +11,19 @@ const MIME: Record<string, string> = {
   '.gif': 'image/gif',
   '.svg': 'image/svg+xml',
 };
+
+async function findUploadFile(filename: string): Promise<string | null> {
+  for (const dir of uploadDirs()) {
+    const filePath = path.join(dir, filename);
+    try {
+      const info = await stat(filePath);
+      if (info.isFile()) return filePath;
+    } catch {
+      // try next directory
+    }
+  }
+  return null;
+}
 
 export async function GET(
   _req: Request,
@@ -22,12 +35,12 @@ export async function GET(
     return NextResponse.json({ error: 'Not found' }, { status: 404 });
   }
 
-  const filePath = path.join(UPLOAD_DIR, filename);
+  const filePath = await findUploadFile(filename);
+  if (!filePath) {
+    return NextResponse.json({ error: 'Not found' }, { status: 404 });
+  }
 
   try {
-    const info = await stat(filePath);
-    if (!info.isFile()) return NextResponse.json({ error: 'Not found' }, { status: 404 });
-
     const buffer = await readFile(filePath);
     const ext = path.extname(filename).toLowerCase();
 

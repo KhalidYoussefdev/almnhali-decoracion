@@ -1,8 +1,9 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useId, useState } from 'react';
 import { AppImage } from '@/components/ui/AppImage';
 import { Upload, Trash2, Copy, Check, ImageIcon } from 'lucide-react';
+import { uploadImageFile } from '@/lib/upload-client';
 
 export interface MediaItem {
   url: string;
@@ -16,6 +17,8 @@ interface MediaLibraryProps {
   selectLabel?: string;
 }
 
+const FILE_ACCEPT = 'image/*,.jpg,.jpeg,.png,.webp,.gif,.svg';
+
 function formatSize(bytes: number): string {
   if (bytes < 1024) return `${bytes} B`;
   if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
@@ -23,15 +26,16 @@ function formatSize(bytes: number): string {
 }
 
 export function MediaLibrary({ onSelect, selectLabel = 'Use Image' }: MediaLibraryProps) {
+  const inputId = useId();
   const [items, setItems] = useState<MediaItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
+  const [error, setError] = useState('');
   const [copied, setCopied] = useState<string | null>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
 
   const load = useCallback(() => {
     setLoading(true);
-    fetch('/api/admin/media')
+    fetch('/api/admin/media', { credentials: 'include' })
       .then((r) => r.json())
       .then(setItems)
       .finally(() => setLoading(false));
@@ -39,18 +43,27 @@ export function MediaLibrary({ onSelect, selectLabel = 'Use Image' }: MediaLibra
 
   useEffect(() => { load(); }, [load]);
 
-  const upload = async (file: File) => {
+  const handleFile = async (file: File) => {
     setUploading(true);
-    const fd = new FormData();
-    fd.append('file', file);
-    const res = await fetch('/api/admin/upload', { method: 'POST', body: fd });
-    setUploading(false);
-    if (res.ok) load();
+    setError('');
+    try {
+      await uploadImageFile(file);
+      load();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Upload failed');
+    } finally {
+      setUploading(false);
+    }
   };
 
   const remove = async (url: string) => {
     if (!confirm('Delete this image from the server?')) return;
-    await fetch('/api/admin/media', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url }) });
+    await fetch('/api/admin/media', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ url }),
+    });
     load();
   };
 
@@ -63,27 +76,29 @@ export function MediaLibrary({ onSelect, selectLabel = 'Use Image' }: MediaLibra
 
   return (
     <div>
-      <div className="flex justify-end mb-4">
-        <button
-          type="button"
-          onClick={() => inputRef.current?.click()}
-          disabled={uploading}
-          className="flex items-center gap-2 px-4 py-2 bg-gold text-navy font-semibold rounded-xl hover:opacity-90 disabled:opacity-50 text-sm"
+      <div className="flex flex-col items-end gap-2 mb-4">
+        <label
+          htmlFor={inputId}
+          className={`flex items-center gap-2 px-4 py-2 bg-gold text-navy font-semibold rounded-xl hover:opacity-90 text-sm cursor-pointer ${
+            uploading ? 'opacity-50 pointer-events-none' : ''
+          }`}
         >
           <Upload className="h-4 w-4" />
           {uploading ? 'Uploading...' : 'Upload New Image'}
-        </button>
+        </label>
         <input
-          ref={inputRef}
+          id={inputId}
           type="file"
-          accept="image/jpeg,image/png,image/webp,image/gif,image/svg+xml"
-          className="hidden"
+          accept={FILE_ACCEPT}
+          disabled={uploading}
+          className="sr-only"
           onChange={(e) => {
             const file = e.target.files?.[0];
-            if (file) upload(file);
+            if (file) void handleFile(file);
             e.target.value = '';
           }}
         />
+        {error && <p className="text-xs text-terracotta">{error}</p>}
       </div>
 
       {loading ? (

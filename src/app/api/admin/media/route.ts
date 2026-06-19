@@ -2,7 +2,12 @@ import { NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { isAdminAuthenticated } from '@/lib/auth';
-import { UPLOAD_DIR, UPLOAD_URL_PREFIX, isImageFilename, uploadUrlToFilename } from '@/lib/media';
+import {
+  UPLOAD_URL_PREFIX,
+  isImageFilename,
+  uploadDirs,
+  uploadUrlToFilename,
+} from '@/lib/media';
 
 export interface MediaItem {
   url: string;
@@ -11,37 +16,48 @@ export interface MediaItem {
   createdAt: string;
 }
 
+async function listUploads(): Promise<MediaItem[]> {
+  const byFilename = new Map<string, MediaItem>();
+
+  for (const dir of uploadDirs()) {
+    await fs.mkdir(dir, { recursive: true });
+
+    let entries: string[];
+    try {
+      entries = await fs.readdir(dir);
+    } catch {
+      continue;
+    }
+
+    for (const filename of entries) {
+      if (filename.startsWith('.') || !isImageFilename(filename)) continue;
+      const filePath = path.join(dir, filename);
+      try {
+        const stat = await fs.stat(filePath);
+        if (!stat.isFile()) continue;
+        byFilename.set(filename, {
+          url: `${UPLOAD_URL_PREFIX}${filename}`,
+          filename,
+          size: stat.size,
+          createdAt: stat.mtime.toISOString(),
+        });
+      } catch {
+        // skip unreadable files
+      }
+    }
+  }
+
+  return Array.from(byFilename.values()).sort(
+    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  );
+}
+
 export async function GET() {
   if (!(await isAdminAuthenticated())) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  await fs.mkdir(UPLOAD_DIR, { recursive: true });
-
-  let entries: string[];
-  try {
-    entries = await fs.readdir(UPLOAD_DIR);
-  } catch {
-    return NextResponse.json([]);
-  }
-
-  const items: MediaItem[] = [];
-
-  for (const filename of entries) {
-    if (filename.startsWith('.') || !isImageFilename(filename)) continue;
-    const filePath = path.join(UPLOAD_DIR, filename);
-    const stat = await fs.stat(filePath);
-    if (!stat.isFile()) continue;
-    items.push({
-      url: `${UPLOAD_URL_PREFIX}${filename}`,
-      filename,
-      size: stat.size,
-      createdAt: stat.mtime.toISOString(),
-    });
-  }
-
-  items.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-  return NextResponse.json(items);
+  return NextResponse.json(await listUploads());
 }
 
 export async function DELETE(req: Request) {
@@ -59,12 +75,15 @@ export async function DELETE(req: Request) {
     return NextResponse.json({ error: 'Invalid upload URL' }, { status: 400 });
   }
 
-  const filePath = path.join(UPLOAD_DIR, filename);
-  try {
-    await fs.unlink(filePath);
-  } catch {
-    return NextResponse.json({ error: 'File not found' }, { status: 404 });
+  for (const dir of uploadDirs()) {
+    const filePath = path.join(dir, filename);
+    try {
+      await fs.unlink(filePath);
+      return NextResponse.json({ ok: true });
+    } catch {
+      // try next directory
+    }
   }
 
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ error: 'File not found' }, { status: 404 });
 }

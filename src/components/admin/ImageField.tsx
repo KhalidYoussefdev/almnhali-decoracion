@@ -1,9 +1,10 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useId, useState } from 'react';
 import { AppImage } from '@/components/ui/AppImage';
 import { Upload, X, Images } from 'lucide-react';
 import { MediaLibraryModal } from './MediaLibraryModal';
+import { uploadImageFile } from '@/lib/upload-client';
 
 interface ImageFieldProps {
   label: string;
@@ -12,25 +13,25 @@ interface ImageFieldProps {
   hint?: string;
 }
 
+const FILE_ACCEPT = 'image/*,.jpg,.jpeg,.png,.webp,.gif,.svg';
+
 export function ImageField({ label, value, onChange, hint }: ImageFieldProps) {
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputId = useId();
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState('');
   const [libraryOpen, setLibraryOpen] = useState(false);
 
-  const upload = async (file: File) => {
+  const handleFile = async (file: File) => {
     setUploading(true);
     setError('');
-    const fd = new FormData();
-    fd.append('file', file);
-    const res = await fetch('/api/admin/upload', { method: 'POST', body: fd });
-    const data = await res.json();
-    setUploading(false);
-    if (!res.ok) {
-      setError(data.error ?? 'Upload failed');
-      return;
+    try {
+      const { url } = await uploadImageFile(file);
+      onChange(url);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Upload failed');
+    } finally {
+      setUploading(false);
     }
-    onChange(data.url);
   };
 
   return (
@@ -63,23 +64,24 @@ export function ImageField({ label, value, onChange, hint }: ImageFieldProps) {
           <Images className="h-4 w-4" />
           Library
         </button>
-        <button
-          type="button"
-          onClick={() => inputRef.current?.click()}
-          disabled={uploading}
-          className="flex items-center gap-2 px-4 py-3 bg-navy text-cream rounded-xl hover:opacity-90 disabled:opacity-50 text-sm shrink-0"
+        <label
+          htmlFor={inputId}
+          className={`flex items-center gap-2 px-4 py-3 bg-navy text-cream rounded-xl hover:opacity-90 text-sm shrink-0 cursor-pointer ${
+            uploading ? 'opacity-50 pointer-events-none' : ''
+          }`}
         >
           <Upload className="h-4 w-4" />
           {uploading ? 'Uploading...' : 'Upload'}
-        </button>
+        </label>
         <input
-          ref={inputRef}
+          id={inputId}
           type="file"
-          accept="image/jpeg,image/png,image/webp,image/gif,image/svg+xml"
-          className="hidden"
+          accept={FILE_ACCEPT}
+          disabled={uploading}
+          className="sr-only"
           onChange={(e) => {
             const file = e.target.files?.[0];
-            if (file) upload(file);
+            if (file) void handleFile(file);
             e.target.value = '';
           }}
         />
