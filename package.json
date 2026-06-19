@@ -1,0 +1,23 @@
+{
+  "name": "almnhali-decoracion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Luxury e-commerce ecosystem for Almnhali Decoración — Riyadh, Saudi Arabia",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=@almnhali/web",
+    "build:web": "npm run build --workspace=@almnhali/web",
+    "dev:mobile": "npm run start --workspace=@almnhali/mobile",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "overrides": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
