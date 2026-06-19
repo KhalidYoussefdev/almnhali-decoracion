@@ -2,7 +2,8 @@
 
 import { useRef, useState } from 'react';
 import Image from 'next/image';
-import { Upload, X } from 'lucide-react';
+import { Upload, X, Images } from 'lucide-react';
+import { MediaLibraryModal } from './MediaLibraryModal';
 
 interface ImageFieldProps {
   label: string;
@@ -15,6 +16,7 @@ export function ImageField({ label, value, onChange, hint }: ImageFieldProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState('');
+  const [libraryOpen, setLibraryOpen] = useState(false);
 
   const upload = async (file: File) => {
     setUploading(true);
@@ -46,13 +48,21 @@ export function ImageField({ label, value, onChange, hint }: ImageFieldProps) {
           </button>
         </div>
       )}
-      <div className="flex gap-2 mt-2">
+      <div className="flex flex-wrap gap-2 mt-2">
         <input
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder="Paste image URL or upload from PC"
-          className="flex-1 px-4 py-3 rounded-xl border border-beige-dark focus:border-gold outline-none text-sm"
+          className="flex-1 min-w-[200px] px-4 py-3 rounded-xl border border-beige-dark focus:border-gold outline-none text-sm"
         />
+        <button
+          type="button"
+          onClick={() => setLibraryOpen(true)}
+          className="flex items-center gap-2 px-4 py-3 bg-beige text-navy rounded-xl hover:bg-beige-dark/30 text-sm shrink-0"
+        >
+          <Images className="h-4 w-4" />
+          Library
+        </button>
         <button
           type="button"
           onClick={() => inputRef.current?.click()}
@@ -76,6 +86,12 @@ export function ImageField({ label, value, onChange, hint }: ImageFieldProps) {
       </div>
       {hint && <p className="text-xs text-charcoal/50 mt-1">{hint}</p>}
       {error && <p className="text-xs text-terracotta mt-1">{error}</p>}
+
+      <MediaLibraryModal
+        open={libraryOpen}
+        onClose={() => setLibraryOpen(false)}
+        onSelect={onChange}
+      />
     </div>
   );
 }

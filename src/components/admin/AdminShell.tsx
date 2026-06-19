@@ -2,12 +2,13 @@
 
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { LayoutDashboard, Package, Palette, LogOut, ExternalLink } from 'lucide-react';
+import { LayoutDashboard, Package, Palette, Images, LogOut, ExternalLink } from 'lucide-react';
 
 const nav = [
   { href: '/admin/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/admin/products', label: 'Products', icon: Package },
   { href: '/admin/appearance', label: 'Site Content', icon: Palette },
+  { href: '/admin/media', label: 'Media Library', icon: Images },
 ];
 
 export function AdminShell({ children }: { children: React.ReactNode }) {

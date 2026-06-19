@@ -1,8 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import type { CollectionItem, GalleryItem, MoodBoard, SiteSettings } from '@/types/product';
+import { Plus, Trash2 } from 'lucide-react';
+import type { CategoryItem, CollectionItem, GalleryItem, MoodBoard, SiteSettings } from '@/types/product';
 import { ImageField } from './ImageField';
+
+function newId(prefix: string) {
+  return `${prefix}-${Date.now().toString(36)}`;
+}
 
 type Tab = 'brand' | 'hero' | 'homepage' | 'collections' | 'inspiration' | 'footer' | 'text' | 'seo' | 'theme';
 
@@ -98,6 +103,17 @@ export function SiteContentEditor() {
       return { ...s, inspiration: { ...s.inspiration, moodboards } };
     });
   };
+
+  const updateCategory = (index: number, patch: Partial<CategoryItem>) => {
+    setSettings((s) => {
+      if (!s) return s;
+      const categories = [...s.categories];
+      categories[index] = { ...categories[index], ...patch };
+      return { ...s, categories };
+    });
+  };
+
+  const removeAt = <T,>(arr: T[], index: number) => arr.filter((_, i) => i !== index);
 
   return (
     <div className="p-6 md:p-8">
@@ -243,7 +259,10 @@ export function SiteContentEditor() {
             <Card title="Bento Gallery Images">
               {settings.gallery.map((item, i) => (
                 <div key={item.id} className="p-4 border border-beige-dark/40 rounded-xl space-y-3">
-                  <p className="font-medium text-navy text-sm">{item.title_en}</p>
+                  <ItemHeader
+                    title={item.title_en || `Gallery item ${i + 1}`}
+                    onRemove={() => setSettings((s) => s && { ...s, gallery: removeAt(s.gallery, i) })}
+                  />
                   <ImageField label="Image" value={item.image} onChange={(v) => updateGallery(i, { image: v })} />
                   <Bilingual label="Room Title" en={item.title_en} ar={item.title_ar}
                     onEn={(v) => updateGallery(i, { title_en: v })} onAr={(v) => updateGallery(i, { title_ar: v })} />
@@ -251,6 +270,19 @@ export function SiteContentEditor() {
                     hint="e.g. col-span-1, col-span-2 row-span-2" />
                 </div>
               ))}
+              <AddButton
+                label="Add Gallery Image"
+                onClick={() => setSettings((s) => s && {
+                  ...s,
+                  gallery: [...s.gallery, {
+                    id: newId('gallery'),
+                    image: '',
+                    title_en: 'New Room',
+                    title_ar: 'غرفة جديدة',
+                    span: 'col-span-1',
+                  }],
+                })}
+              />
             </Card>
           </>
         )}
@@ -259,31 +291,33 @@ export function SiteContentEditor() {
           <>
           <Card title="Shop Categories">
             {settings.categories.map((cat, i) => (
-              <div key={cat.id} className="grid grid-cols-1 md:grid-cols-3 gap-3 p-3 border border-beige-dark/30 rounded-xl">
-                <Field label="ID" value={cat.id} onChange={(v) => setSettings((s) => {
-                  if (!s) return s;
-                  const categories = [...s.categories];
-                  categories[i] = { ...categories[i], id: v };
-                  return { ...s, categories };
-                })} />
-                <Field label="Name EN" value={cat.name_en} onChange={(v) => setSettings((s) => {
-                  if (!s) return s;
-                  const categories = [...s.categories];
-                  categories[i] = { ...categories[i], name_en: v };
-                  return { ...s, categories };
-                })} />
-                <Field label="Name AR" value={cat.name_ar} onChange={(v) => setSettings((s) => {
-                  if (!s) return s;
-                  const categories = [...s.categories];
-                  categories[i] = { ...categories[i], name_ar: v };
-                  return { ...s, categories };
-                })} />
+              <div key={`${cat.id}-${i}`} className="p-3 border border-beige-dark/30 rounded-xl space-y-3">
+                <ItemHeader
+                  title={cat.name_en || `Category ${i + 1}`}
+                  onRemove={() => setSettings((s) => s && { ...s, categories: removeAt(s.categories, i) })}
+                />
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <Field label="ID" value={cat.id} onChange={(v) => updateCategory(i, { id: v })} />
+                  <Field label="Name EN" value={cat.name_en} onChange={(v) => updateCategory(i, { name_en: v })} />
+                  <Field label="Name AR" value={cat.name_ar} onChange={(v) => updateCategory(i, { name_ar: v })} />
+                </div>
               </div>
             ))}
+            <AddButton
+              label="Add Category"
+              onClick={() => setSettings((s) => s && {
+                ...s,
+                categories: [...s.categories, { id: newId('category'), name_en: 'New Category', name_ar: 'فئة جديدة' }],
+              })}
+            />
           </Card>
           <Card title="Collections">
             {settings.collections.map((col, i) => (
-              <div key={col.id} className="p-4 border border-beige-dark/40 rounded-xl space-y-3">
+              <div key={`${col.id}-${i}`} className="p-4 border border-beige-dark/40 rounded-xl space-y-3">
+                <ItemHeader
+                  title={col.name_en || `Collection ${i + 1}`}
+                  onRemove={() => setSettings((s) => s && { ...s, collections: removeAt(s.collections, i) })}
+                />
                 <Field label="Collection ID" value={col.id} onChange={(v) => updateCollection(i, { id: v })} />
                 <ImageField label="Cover Image" value={col.image} onChange={(v) => updateCollection(i, { image: v })} />
                 <Bilingual label="Name" en={col.name_en} ar={col.name_ar}
@@ -292,6 +326,21 @@ export function SiteContentEditor() {
                   onEn={(v) => updateCollection(i, { desc_en: v })} onAr={(v) => updateCollection(i, { desc_ar: v })} multiline />
               </div>
             ))}
+            <AddButton
+              label="Add Collection"
+              onClick={() => setSettings((s) => s && {
+                ...s,
+                collections: [...s.collections, {
+                  id: newId('collection'),
+                  name_en: 'New Collection',
+                  name_ar: 'مجموعة جديدة',
+                  desc_en: 'Description in English',
+                  desc_ar: 'الوصف بالعربية',
+                  image: '',
+                  productCount: 0,
+                }],
+              })}
+            />
           </Card>
           </>
         )}
@@ -314,6 +363,13 @@ export function SiteContentEditor() {
                 onAr={(v) => setSettings((s) => s && { ...s, inspiration: { ...s.inspiration, moodboardsHeading_ar: v } })} />
               {settings.inspiration.moodboards.map((board, i) => (
                 <div key={board.id} className="p-4 border border-beige-dark/40 rounded-xl space-y-3">
+                  <ItemHeader
+                    title={board.title_en || `Mood board ${i + 1}`}
+                    onRemove={() => setSettings((s) => s && {
+                      ...s,
+                      inspiration: { ...s.inspiration, moodboards: removeAt(s.inspiration.moodboards, i) },
+                    })}
+                  />
                   <ImageField label="Mood Board Image" value={board.image} onChange={(v) => updateMoodboard(i, { image: v })} />
                   <Bilingual label="Title" en={board.title_en} ar={board.title_ar}
                     onEn={(v) => updateMoodboard(i, { title_en: v })} onAr={(v) => updateMoodboard(i, { title_ar: v })} />
@@ -321,6 +377,23 @@ export function SiteContentEditor() {
                     onEn={(v) => updateMoodboard(i, { tags_en: v })} onAr={(v) => updateMoodboard(i, { tags_ar: v })} />
                 </div>
               ))}
+              <AddButton
+                label="Add Mood Board"
+                onClick={() => setSettings((s) => s && {
+                  ...s,
+                  inspiration: {
+                    ...s.inspiration,
+                    moodboards: [...s.inspiration.moodboards, {
+                      id: newId('moodboard'),
+                      title_en: 'New Mood Board',
+                      title_ar: 'لوحة إلهام جديدة',
+                      image: '',
+                      tags_en: 'Tag 1, Tag 2',
+                      tags_ar: 'وسم ١، وسم ٢',
+                    }],
+                  },
+                })}
+              />
             </Card>
           </>
         )}
@@ -471,6 +544,33 @@ function Field({ label, value, onChange, hint }: { label: string; value: string;
       <input value={value} onChange={(e) => onChange(e.target.value)} className="w-full mt-1 px-4 py-3 rounded-xl border border-beige-dark focus:border-gold outline-none text-sm" />
       {hint && <p className="text-xs text-charcoal/50 mt-1">{hint}</p>}
     </div>
+  );
+}
+
+function ItemHeader({ title, onRemove }: { title: string; onRemove: () => void }) {
+  return (
+    <div className="flex items-center justify-between">
+      <p className="font-medium text-navy text-sm">{title}</p>
+      <button
+        type="button"
+        onClick={() => { if (confirm('Remove this item?')) onRemove(); }}
+        className="flex items-center gap-1 px-2 py-1 text-xs text-terracotta hover:bg-terracotta/10 rounded-lg"
+      >
+        <Trash2 className="h-3.5 w-3.5" /> Remove
+      </button>
+    </div>
+  );
+}
+
+function AddButton({ label, onClick }: { label: string; onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="flex items-center gap-2 w-full justify-center py-3 border-2 border-dashed border-beige-dark/50 rounded-xl text-sm font-medium text-navy hover:border-gold hover:text-gold transition-colors"
+    >
+      <Plus className="h-4 w-4" /> {label}
+    </button>
   );
 }
 

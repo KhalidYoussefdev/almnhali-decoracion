@@ -3,8 +3,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { randomBytes } from 'crypto';
 import { isAdminAuthenticated } from '@/lib/auth';
-
-const UPLOAD_DIR = path.join(process.cwd(), 'public', 'uploads');
+import { UPLOAD_DIR, UPLOAD_URL_PREFIX } from '@/lib/media';
 const MAX_SIZE = 5 * 1024 * 1024;
 const ALLOWED_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml']);
 
@@ -36,5 +35,5 @@ export async function POST(req: Request) {
   const buffer = Buffer.from(await file.arrayBuffer());
   await fs.writeFile(path.join(UPLOAD_DIR, filename), buffer);
 
-  return NextResponse.json({ url: `/uploads/${filename}` });
+  return NextResponse.json({ url: `${UPLOAD_URL_PREFIX}${filename}` });
 }
