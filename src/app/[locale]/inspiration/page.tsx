@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion } from 'framer-motion';
 import { useLocale } from 'next-intl';
 import { BentoGallery } from '@/components/home/BentoGallery';
@@ -15,13 +15,12 @@ export default function InspirationPage() {
   return (
     <>
       <section className="relative h-[50vh] min-h-[400px]">
-        <Image
+        <AppImage
           src={inspiration.heroImage}
           alt={isAr ? inspiration.heroTitle_ar : inspiration.heroTitle_en}
           fill
           className="object-cover"
           priority
-          unoptimized={inspiration.heroImage.startsWith('/uploads/')}
         />
         <div className="absolute inset-0 bg-hero-overlay flex items-end pb-12">
           <div className="max-w-7xl mx-auto px-4 w-full">
@@ -57,13 +56,12 @@ export default function InspirationPage() {
                   transition={{ delay: i * 0.1 }}
                   className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
                 >
-                  <Image
+                  <AppImage
                     src={board.image}
                     alt={title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                     sizes="33vw"
-                    unoptimized={board.image.startsWith('/uploads/')}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent" />
                   <div className="absolute bottom-0 p-6">

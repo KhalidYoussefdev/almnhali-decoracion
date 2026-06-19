@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef, useState } from 'react';
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { Upload, X, Images } from 'lucide-react';
 import { MediaLibraryModal } from './MediaLibraryModal';
 
@@ -38,7 +38,7 @@ export function ImageField({ label, value, onChange, hint }: ImageFieldProps) {
       <label className="text-sm font-medium text-navy">{label}</label>
       {value && (
         <div className="relative mt-2 w-full max-w-xs aspect-video rounded-xl overflow-hidden border border-beige-dark bg-beige/30">
-          <Image src={value} alt="" fill className="object-cover" sizes="320px" unoptimized={value.startsWith('/uploads/')} />
+          <AppImage src={value} alt="" fill className="object-cover" sizes="320px" />
           <button
             type="button"
             onClick={() => onChange('')}

@@ -1,7 +1,7 @@
 'use client';
 
 import { use, useState, useMemo } from 'react';
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion } from 'framer-motion';
 import { Heart, ShoppingBag, Star, Truck, Shield } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
@@ -43,13 +43,13 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
           ) : (
             <div className="space-y-4">
               <div className="relative aspect-square rounded-2xl overflow-hidden bg-beige">
-                <Image src={product.images[selectedImage]} alt={getLocalizedField(product, 'name', locale)} fill className="object-cover" priority sizes="(max-width: 1024px) 100vw, 50vw" />
+                <AppImage src={product.images[selectedImage]} alt={getLocalizedField(product, 'name', locale)} fill className="object-cover" priority sizes="(max-width: 1024px) 100vw, 50vw" />
               </div>
               {product.images.length > 1 && (
                 <div className="flex gap-3">
                   {product.images.map((img, i) => (
                     <button key={i} onClick={() => setSelectedImage(i)} className={`relative w-20 h-20 rounded-xl overflow-hidden border-2 ${selectedImage === i ? 'border-gold' : 'border-transparent'}`}>
-                      <Image src={img} alt="" fill className="object-cover" sizes="80px" />
+                      <AppImage src={img} alt="" fill className="object-cover" sizes="80px" />
                     </button>
                   ))}
                 </div>

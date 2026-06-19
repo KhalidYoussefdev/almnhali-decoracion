@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion } from 'framer-motion';
 import { useLocale } from 'next-intl';
 import { useSiteSettings } from '@/contexts/SettingsContext';
@@ -39,13 +39,12 @@ export function BentoGallery() {
                 transition={{ delay: i * 0.08 }}
                 className={`relative overflow-hidden rounded-2xl group ${item.span}`}
               >
-                <Image
+                <AppImage
                   src={item.image}
                   alt={itemTitle}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   sizes="(max-width: 768px) 50vw, 25vw"
-                  unoptimized={item.image.startsWith('/uploads/')}
                 />
                 <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/40 transition-colors duration-300" />
                 <div className="absolute bottom-0 start-0 end-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">

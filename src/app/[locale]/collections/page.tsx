@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion } from 'framer-motion';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
@@ -32,13 +32,12 @@ export default function CollectionsPage() {
             transition={{ delay: i * 0.1 }}
           >
             <Link href={`/collections/${collection.id}`} className="group block relative aspect-[3/2] rounded-2xl overflow-hidden">
-              <Image
+              <AppImage
                 src={collection.image}
                 alt={getLocalizedField(collection, 'name', locale)}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
                 sizes="50vw"
-                unoptimized={collection.image.startsWith('/uploads/')}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent" />
               <div className="absolute bottom-0 p-8">

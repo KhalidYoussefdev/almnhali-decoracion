@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { Plus, Pencil, Trash2 } from 'lucide-react';
 import type { Product } from '@/types/product';
 
@@ -58,7 +58,7 @@ export default function AdminProductsPage() {
                     <div className="flex items-center gap-3">
                       {p.images[0] && (
                         <div className="relative w-12 h-12 rounded-lg overflow-hidden shrink-0">
-                          <Image src={p.images[0]} alt="" fill className="object-cover" sizes="48px" />
+                          <AppImage src={p.images[0]} alt="" fill className="object-cover" sizes="48px" />
                         </div>
                       )}
                       <div>

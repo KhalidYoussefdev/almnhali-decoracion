@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { Upload, Trash2, Copy, Check, ImageIcon } from 'lucide-react';
 
 export interface MediaItem {
@@ -98,7 +98,7 @@ export function MediaLibrary({ onSelect, selectLabel = 'Use Image' }: MediaLibra
           {items.map((item) => (
             <div key={item.url} className="group relative bg-white rounded-xl border border-beige-dark/40 overflow-hidden">
               <div className="relative aspect-square">
-                <Image src={item.url} alt={item.filename} fill className="object-cover" sizes="200px" unoptimized />
+                <AppImage src={item.url} alt={item.filename} fill className="object-cover" sizes="200px" />
               </div>
               <div className="p-2">
                 <p className="text-xs text-charcoal/70 truncate" title={item.filename}>{item.filename}</p>

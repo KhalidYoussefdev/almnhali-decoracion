@@ -4,7 +4,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
 import { useSiteSettings } from '@/contexts/SettingsContext';
-import { Instagram, Twitter } from 'lucide-react';
+import { Instagram, Twitter, Phone } from 'lucide-react';
+import { whatsappUrl } from '@/lib/image';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -27,7 +28,18 @@ export function Footer() {
           <div className="md:col-span-2">
             <Logo theme="dark" />
             <p className="mt-4 text-cream/70 max-w-md leading-relaxed">{tagline}</p>
-            <div className="flex gap-4 mt-6">
+            <div className="flex flex-wrap gap-4 mt-6">
+              {settings.contact.whatsapp && (
+                <a
+                  href={whatsappUrl(settings.contact.whatsapp, isAr ? 'مرحباً' : 'Hello')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="WhatsApp"
+                >
+                  <Phone className="h-5 w-5 text-gold" />
+                </a>
+              )}
               {settings.social.instagram && (
                 <a href={settings.social.instagram} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="Instagram">
                   <Instagram className="h-5 w-5 text-gold" />

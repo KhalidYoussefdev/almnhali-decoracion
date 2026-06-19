@@ -11,7 +11,11 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: 'picsum.photos' },
+      { protocol: 'https', hostname: 'almnhali.com' },
+      { protocol: 'https', hostname: 'www.almnhali.com' },
+      { protocol: 'http', hostname: 'localhost' },
     ],
+    dangerouslyAllowSVG: true,
   },
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],

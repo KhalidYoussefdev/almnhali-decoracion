@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion } from 'framer-motion';
 import { Heart, ShoppingBag, Box } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
@@ -33,13 +33,12 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
     >
       <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-beige">
         <Link href={`/product/${product.id}`}>
-          <Image
+          <AppImage
             src={product.images[0]}
             alt={getLocalizedField(product, 'name', locale)}
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-            unoptimized={product.images[0]?.startsWith('/uploads/')}
           />
         </Link>
 

@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { cn } from '@/lib/utils';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 
@@ -17,13 +17,12 @@ export function Logo({ className, variant = 'full', theme = 'light' }: LogoProps
   if (settings.brand.logo) {
     return (
       <div className={cn('relative', variant === 'full' ? 'h-12 w-40' : 'h-8 w-28', className)}>
-        <Image
+        <AppImage
           src={settings.brand.logo}
           alt={settings.brand.name_en}
           fill
           className="object-contain object-start"
           sizes="160px"
-          unoptimized={settings.brand.logo.startsWith('/uploads/')}
         />
       </div>
     );

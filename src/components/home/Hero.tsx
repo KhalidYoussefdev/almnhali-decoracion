@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { useLocale } from 'next-intl';
@@ -27,14 +27,13 @@ export function Hero() {
   return (
     <section ref={ref} className="relative h-[90vh] min-h-[600px] overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0">
-        <Image
+        <AppImage
           src={settings.hero.image}
           alt={imageAlt}
           fill
           priority
           className="object-cover"
           sizes="100vw"
-          unoptimized={settings.hero.image.startsWith('/uploads/')}
         />
       </motion.div>
       <div className="absolute inset-0 bg-hero-overlay" />

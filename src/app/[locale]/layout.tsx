@@ -6,6 +6,7 @@ import { routing } from '@/i18n/routing';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { AIAssistant } from '@/components/ai/AIAssistant';
+import { WhatsAppButton } from '@/components/layout/WhatsAppButton';
 import { LocaleHtmlAttrs } from '@/components/layout/LocaleHtmlAttrs';
 import { ThemeInjector } from '@/components/layout/ThemeInjector';
 import { AnnouncementBar } from '@/components/layout/AnnouncementBar';
@@ -58,6 +59,7 @@ export default async function LocaleLayout({
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <WhatsAppButton />
         <AIAssistant />
       </SettingsProvider>
     </NextIntlClientProvider>

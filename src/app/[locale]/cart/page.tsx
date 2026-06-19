@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { AppImage } from '@/components/ui/AppImage';
 import { motion } from 'framer-motion';
 import { Minus, Plus, Trash2 } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
@@ -48,7 +48,7 @@ export default function CartPage() {
           {cartProducts.map(({ product, quantity, productId }, i) => (
             <motion.div key={productId} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} className="flex gap-4 p-4 bg-white dark:bg-navy-800 rounded-2xl shadow-sm">
               <div className="relative w-24 h-24 rounded-xl overflow-hidden flex-shrink-0">
-                <Image src={product.images[0]} alt="" fill className="object-cover" sizes="96px" />
+                <AppImage src={product.images[0]} alt="" fill className="object-cover" sizes="96px" />
               </div>
               <div className="flex-1 min-w-0">
                 <h3 className="font-display text-lg text-navy dark:text-cream truncate">{getLocalizedField(product, 'name', locale)}</h3>
