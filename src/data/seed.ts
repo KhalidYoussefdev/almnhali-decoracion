@@ -17,7 +17,7 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
     desc_en: 'Timeless designs inspired by Saudi architectural heritage.',
     desc_ar: 'تصاميم خالدة مستوحاة من التراث المعماري السعودي.',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
-    productCount: 12,
+    productCount: 24,
   },
   {
     id: 'desert-luxe',
@@ -25,8 +25,8 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
     name_ar: 'فخامة الصحراء',
     desc_en: 'Warm earth tones celebrating the Arabian landscape.',
     desc_ar: 'درجات ألوان ترابية دافئة تحتفي بالمناظر العربية.',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c5fb57?w=1200&q=80',
-    productCount: 8,
+    image: '/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-3.jpg',
+    productCount: 17,
   },
   {
     id: 'marble-elegance',
@@ -49,11 +49,11 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
 ];
 
 export const SEED_GALLERY: SiteSettings['gallery'] = [
-  { id: 'living', image: 'https://images.unsplash.com/photo-1600210492486-724fe5c5fb57?w=800&q=80', span: 'col-span-2 row-span-2', title_en: 'Living Room', title_ar: 'غرفة المعيشة' },
+  { id: 'living', image: '/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-2.jpg', span: 'col-span-2 row-span-2', title_en: 'Living Room', title_ar: 'غرفة المعيشة' },
   { id: 'bedroom', image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80', span: 'col-span-1', title_en: 'Bedroom', title_ar: 'غرفة النوم' },
   { id: 'dining', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80', span: 'col-span-1', title_en: 'Dining', title_ar: 'غرفة الطعام' },
   { id: 'majlis', image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80', span: 'col-span-1', title_en: 'Majlis', title_ar: 'المجلس' },
-  { id: 'outdoor', image: 'https://images.unsplash.com/photo-1600566753190-17f0baa8a6c3?w=800&q=80', span: 'col-span-2', title_en: 'Outdoor', title_ar: 'خارجي' },
+  { id: 'outdoor', image: '/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-5.jpg', span: 'col-span-2', title_en: 'Outdoor', title_ar: 'خارجي' },
 ];
 
 export const SEED_MOODBOARDS: SiteSettings['inspiration']['moodboards'] = [

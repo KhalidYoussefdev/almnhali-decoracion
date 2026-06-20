@@ -9,8 +9,8 @@ const PRODUCTS_FILE = path.join(DATA_DIR, 'products.json');
 const SETTINGS_FILE = path.join(DATA_DIR, 'settings.json');
 const CATALOG_VERSION_FILE = path.join(DATA_DIR, '.catalog-version');
 const SETTINGS_VERSION_FILE = path.join(DATA_DIR, '.settings-version');
-const CATALOG_VERSION = '3';
-const SETTINGS_VERSION = '3';
+const CATALOG_VERSION = '4';
+const SETTINGS_VERSION = '4';
 
 async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });
@@ -72,6 +72,8 @@ export async function getSettings(): Promise<SiteSettings> {
     merged.contact = DEFAULT_SETTINGS.contact;
     merged.social = DEFAULT_SETTINGS.social;
     merged.categories = DEFAULT_SETTINGS.categories;
+    merged.collections = DEFAULT_SETTINGS.collections;
+    merged.gallery = DEFAULT_SETTINGS.gallery;
     await fs.writeFile(SETTINGS_FILE, JSON.stringify(merged, null, 2));
     await fs.writeFile(SETTINGS_VERSION_FILE, SETTINGS_VERSION);
   }

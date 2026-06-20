@@ -7,7 +7,8 @@ import { getAllProducts } from '@/data/products';
 
 export default async function HomePage() {
   const products = await getAllProducts();
-  const featured = products.filter((p) => p.badge).slice(0, 4);
+  const badged = products.filter((p) => p.badge);
+  const featured = (badged.length > 0 ? badged : products).slice(0, 4);
 
   return (
     <>
