@@ -9,8 +9,8 @@ const PRODUCTS_FILE = path.join(DATA_DIR, 'products.json');
 const SETTINGS_FILE = path.join(DATA_DIR, 'settings.json');
 const CATALOG_VERSION_FILE = path.join(DATA_DIR, '.catalog-version');
 const SETTINGS_VERSION_FILE = path.join(DATA_DIR, '.settings-version');
-const CATALOG_VERSION = '2';
-const SETTINGS_VERSION = '2';
+const CATALOG_VERSION = '3';
+const SETTINGS_VERSION = '3';
 
 async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });

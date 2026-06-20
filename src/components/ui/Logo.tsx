@@ -37,7 +37,8 @@ export function Logo({ className, variant = 'full', theme = 'light' }: LogoProps
           isDark ? 'text-white' : 'text-navy'
         )}
       >
-        {settings.brand.name_en}
+        Almanhali
+        <span className="text-gold"> Decoration</span>
       </span>
       {variant === 'full' && (
         <span

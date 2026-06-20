@@ -4,15 +4,8 @@ import arMessages from '../../messages/ar.json';
 import catalogProducts from './catalog-products.json';
 
 export const SEED_CATEGORIES: SiteSettings['categories'] = [
-  { id: 'flooring', name_en: 'SPC Flooring', name_ar: 'أرضيات SPC' },
   { id: 'wall-panels', name_en: 'WPC Wall Panels', name_ar: 'ألواح جدران WPC' },
-  { id: 'wood-alternative', name_en: 'Interior Wood Alternative', name_ar: 'بديل الخشب الداخلي' },
-  { id: 'outdoor-panels', name_en: 'Outdoor WPC Panels', name_ar: 'بديل الخشب الخارجي' },
-  { id: 'stone-alternative', name_en: 'Stone Alternative', name_ar: 'بديل الحجر' },
-  { id: 'chipboard', name_en: 'Chipboard Veneer', name_ar: 'بديل الشيبورد' },
-  { id: 'soundproofing', name_en: 'Soundproofing', name_ar: 'عوازل الصوت' },
-  { id: 'baseboards', name_en: 'Fiber Baseboards', name_ar: 'نعلات فايبر' },
-  { id: 'partition-columns', name_en: 'Partition Columns', name_ar: 'أعمدة بارتشن' },
+  { id: 'outdoor-panels', name_en: 'Outdoor WPC Panels', name_ar: 'ألواح WPC الخارجية' },
   { id: 'timber-tubes', name_en: 'WPC Timber Tubes', name_ar: 'أنابيب خشب WPC' },
 ];
 
@@ -73,7 +66,7 @@ export const SEED_PRODUCTS: Product[] = catalogProducts as Product[];
 
 export const DEFAULT_SETTINGS: SiteSettings = {
   brand: {
-    logo: '/brand/logo.png',
+    logo: '',
     name_en: 'Almanhali Decoration',
     name_ar: 'المنهالي للديكور',
     tagline_en: 'Premium decoration solutions for Saudi homes',
