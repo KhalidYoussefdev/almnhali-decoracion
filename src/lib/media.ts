@@ -36,10 +36,10 @@ export function uploadUrlToFilename(url: string): string | null {
   const prefixes = [UPLOAD_URL_PREFIX, '/uploads/'];
   const prefix = prefixes.find((p) => url.startsWith(p));
   if (!prefix) return null;
-  const filename = url.slice(prefix.length);
-  if (!filename || filename.includes('..') || filename.includes('/') || filename.includes('\\')) return null;
-  if (!isImageFilename(filename)) return null;
-  return filename;
+  const relative = url.slice(prefix.length).replace(/\\/g, '/');
+  if (!relative || relative.includes('..')) return null;
+  if (!isImageFilename(path.basename(relative))) return null;
+  return relative;
 }
 
 export function uploadDirs(): string[] {

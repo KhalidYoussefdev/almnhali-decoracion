@@ -1,0 +1,4106 @@
+[
+  {
+    "id": "outdoor-wpc-001",
+    "name_en": "Outdoor WPC Panel — Design 1",
+    "name_ar": "لوح WPC خارجي — تصميم 1",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-001-f4c647a6.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-002",
+    "name_en": "Outdoor WPC Panel — Design 2",
+    "name_ar": "لوح WPC خارجي — تصميم 2",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-002-013848b0.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-003",
+    "name_en": "Outdoor WPC Panel — Design 3",
+    "name_ar": "لوح WPC خارجي — تصميم 3",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-003-3411c1e2.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-004",
+    "name_en": "Outdoor WPC Panel — Design 4",
+    "name_ar": "لوح WPC خارجي — تصميم 4",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-004-96164379.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-005",
+    "name_en": "Outdoor WPC Panel — Design 5",
+    "name_ar": "لوح WPC خارجي — تصميم 5",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-005-9df783e9.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "wpc-timber-tube-001",
+    "name_en": "WPC Timber Tube — Design 1",
+    "name_ar": "أنبوب خشب WPC — تصميم 1",
+    "desc_en": "Premium wpc timber tubes from Almanhali Decoration catalog.",
+    "desc_ar": "أنابيب خشب WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 155,
+    "category": "timber-tubes",
+    "category_ar": "أنابيب خشب WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-timber-tube/wpc-timber-tube-001-de55afcf.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Timber Tubes"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-timber-tube"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-001",
+    "name_en": "WPC Wall Panel — Design 1",
+    "name_ar": "لوح جدار WPC — تصميم 1",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-001-93ff2588.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-002",
+    "name_en": "WPC Wall Panel — Design 2",
+    "name_ar": "لوح جدار WPC — تصميم 2",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-002-63ab4d64.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-003",
+    "name_en": "WPC Wall Panel — Design 3",
+    "name_ar": "لوح جدار WPC — تصميم 3",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-003-2e5598fe.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-004",
+    "name_en": "WPC Wall Panel — Design 4",
+    "name_ar": "لوح جدار WPC — تصميم 4",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-004-16b9e443.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-005",
+    "name_en": "WPC Wall Panel — Design 5",
+    "name_ar": "لوح جدار WPC — تصميم 5",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-005-1b943895.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-006",
+    "name_en": "WPC Wall Panel — Design 6",
+    "name_ar": "لوح جدار WPC — تصميم 6",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-006-7de74b71.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-007",
+    "name_en": "WPC Wall Panel — Design 7",
+    "name_ar": "لوح جدار WPC — تصميم 7",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-007-79969c19.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-008",
+    "name_en": "WPC Wall Panel — Design 8",
+    "name_ar": "لوح جدار WPC — تصميم 8",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-008-02b8cbd8.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-009",
+    "name_en": "WPC Wall Panel — Design 9",
+    "name_ar": "لوح جدار WPC — تصميم 9",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-009-2071ff87.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-010",
+    "name_en": "WPC Wall Panel — Design 10",
+    "name_ar": "لوح جدار WPC — تصميم 10",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-010-0b2ea41c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-011",
+    "name_en": "WPC Wall Panel — Design 11",
+    "name_ar": "لوح جدار WPC — تصميم 11",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-011-dc78c31e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-012",
+    "name_en": "WPC Wall Panel — Design 12",
+    "name_ar": "لوح جدار WPC — تصميم 12",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-012-9462447b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-013",
+    "name_en": "WPC Wall Panel — Design 13",
+    "name_ar": "لوح جدار WPC — تصميم 13",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-013-c6818d41.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-014",
+    "name_en": "WPC Wall Panel — Design 14",
+    "name_ar": "لوح جدار WPC — تصميم 14",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-014-e35e36ea.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-015",
+    "name_en": "WPC Wall Panel — Design 15",
+    "name_ar": "لوح جدار WPC — تصميم 15",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-015-6d8a7fb2.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-016",
+    "name_en": "WPC Wall Panel — Design 16",
+    "name_ar": "لوح جدار WPC — تصميم 16",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-016-35b21b2a.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-017",
+    "name_en": "WPC Wall Panel — Design 17",
+    "name_ar": "لوح جدار WPC — تصميم 17",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-017-e2b41917.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-018",
+    "name_en": "WPC Wall Panel — Design 18",
+    "name_ar": "لوح جدار WPC — تصميم 18",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-018-134a8c96.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-019",
+    "name_en": "WPC Wall Panel — Design 19",
+    "name_ar": "لوح جدار WPC — تصميم 19",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-019-264d2eb1.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-020",
+    "name_en": "WPC Wall Panel — Design 20",
+    "name_ar": "لوح جدار WPC — تصميم 20",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-020-62a1c97d.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-021",
+    "name_en": "WPC Wall Panel — Design 21",
+    "name_ar": "لوح جدار WPC — تصميم 21",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-021-f4a19ce3.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-022",
+    "name_en": "WPC Wall Panel — Design 22",
+    "name_ar": "لوح جدار WPC — تصميم 22",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-022-aab6b066.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-023",
+    "name_en": "WPC Wall Panel — Design 23",
+    "name_ar": "لوح جدار WPC — تصميم 23",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-023-f3322655.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-024",
+    "name_en": "WPC Wall Panel — Design 24",
+    "name_ar": "لوح جدار WPC — تصميم 24",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-024-8f66633f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-025",
+    "name_en": "WPC Wall Panel — Design 25",
+    "name_ar": "لوح جدار WPC — تصميم 25",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-025-77bc19e0.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-026",
+    "name_en": "WPC Wall Panel — Design 26",
+    "name_ar": "لوح جدار WPC — تصميم 26",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-026-70d4b3ec.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-027",
+    "name_en": "WPC Wall Panel — Design 27",
+    "name_ar": "لوح جدار WPC — تصميم 27",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-027-ca419497.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-028",
+    "name_en": "WPC Wall Panel — Design 28",
+    "name_ar": "لوح جدار WPC — تصميم 28",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-028-bc67477e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-029",
+    "name_en": "WPC Wall Panel — Design 29",
+    "name_ar": "لوح جدار WPC — تصميم 29",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-029-40a3325e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-030",
+    "name_en": "WPC Wall Panel — Design 30",
+    "name_ar": "لوح جدار WPC — تصميم 30",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-030-6a621e4e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-031",
+    "name_en": "WPC Wall Panel — Design 31",
+    "name_ar": "لوح جدار WPC — تصميم 31",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-031-a498a979.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-032",
+    "name_en": "WPC Wall Panel — Design 32",
+    "name_ar": "لوح جدار WPC — تصميم 32",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-032-e48b7352.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-033",
+    "name_en": "WPC Wall Panel — Design 33",
+    "name_ar": "لوح جدار WPC — تصميم 33",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-033-8c0d75b8.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-034",
+    "name_en": "WPC Wall Panel — Design 34",
+    "name_ar": "لوح جدار WPC — تصميم 34",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-034-8bf74382.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-035",
+    "name_en": "WPC Wall Panel — Design 35",
+    "name_ar": "لوح جدار WPC — تصميم 35",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-035-e758599c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-036",
+    "name_en": "WPC Wall Panel — Design 36",
+    "name_ar": "لوح جدار WPC — تصميم 36",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-036-e2e38c79.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-037",
+    "name_en": "WPC Wall Panel — Design 37",
+    "name_ar": "لوح جدار WPC — تصميم 37",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-037-593c3594.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-038",
+    "name_en": "WPC Wall Panel — Design 38",
+    "name_ar": "لوح جدار WPC — تصميم 38",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-038-11c1a5b7.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-039",
+    "name_en": "WPC Wall Panel — Design 39",
+    "name_ar": "لوح جدار WPC — تصميم 39",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-039-b7aaee4f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-040",
+    "name_en": "WPC Wall Panel — Design 40",
+    "name_ar": "لوح جدار WPC — تصميم 40",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-040-5b76d345.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-041",
+    "name_en": "WPC Wall Panel — Design 41",
+    "name_ar": "لوح جدار WPC — تصميم 41",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-041-93c7fc85.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-042",
+    "name_en": "WPC Wall Panel — Design 42",
+    "name_ar": "لوح جدار WPC — تصميم 42",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-042-0ec3b42b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-043",
+    "name_en": "WPC Wall Panel — Design 43",
+    "name_ar": "لوح جدار WPC — تصميم 43",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-043-ce37c1fd.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-044",
+    "name_en": "WPC Wall Panel — Design 44",
+    "name_ar": "لوح جدار WPC — تصميم 44",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-044-b69521bc.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-045",
+    "name_en": "WPC Wall Panel — Design 45",
+    "name_ar": "لوح جدار WPC — تصميم 45",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-045-7bd8555c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-046",
+    "name_en": "WPC Wall Panel — Design 46",
+    "name_ar": "لوح جدار WPC — تصميم 46",
+    "desc_en": "Premium wpc wall panels from Almanhali Decoration catalog.",
+    "desc_ar": "ألواح جدران WPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/wpc-wall-panel/wpc-wall-panel-046-6ac5459c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "WPC Wall Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel"
+    ]
+  },
+  {
+    "id": "partition-columns-001",
+    "name_en": "Partition Column — Design 1",
+    "name_ar": "عمود بارتشن — تصميم 1",
+    "desc_en": "Premium partition columns from Almanhali Decoration catalog.",
+    "desc_ar": "أعمدة بارتشن فاخر من كتالوج المنهالي للديكور.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/partition-columns/partition-columns-001-de55afcf.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Partition Columns"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns"
+    ]
+  },
+  {
+    "id": "spc-flooring-001",
+    "name_en": "SPC Flooring — Design 1",
+    "name_ar": "أرضيات SPC — تصميم 1",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-001-abd6274f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-002",
+    "name_en": "SPC Flooring — Design 2",
+    "name_ar": "أرضيات SPC — تصميم 2",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-002-48d3cac1.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-003",
+    "name_en": "SPC Flooring — Design 3",
+    "name_ar": "أرضيات SPC — تصميم 3",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-003-a063b422.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-004",
+    "name_en": "SPC Flooring — Design 4",
+    "name_ar": "أرضيات SPC — تصميم 4",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-004-c771bbf0.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-005",
+    "name_en": "SPC Flooring — Design 5",
+    "name_ar": "أرضيات SPC — تصميم 5",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-005-7b3eabcd.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-006",
+    "name_en": "SPC Flooring — Design 6",
+    "name_ar": "أرضيات SPC — تصميم 6",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-006-d5ec4c56.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-007",
+    "name_en": "SPC Flooring — Design 7",
+    "name_ar": "أرضيات SPC — تصميم 7",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-007-d555b476.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-008",
+    "name_en": "SPC Flooring — Design 8",
+    "name_ar": "أرضيات SPC — تصميم 8",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-008-b7cb830b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-009",
+    "name_en": "SPC Flooring — Design 9",
+    "name_ar": "أرضيات SPC — تصميم 9",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-009-d4ed861a.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-010",
+    "name_en": "SPC Flooring — Design 10",
+    "name_ar": "أرضيات SPC — تصميم 10",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-010-8697b071.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-011",
+    "name_en": "SPC Flooring — Design 11",
+    "name_ar": "أرضيات SPC — تصميم 11",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-011-acafa533.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-012",
+    "name_en": "SPC Flooring — Design 12",
+    "name_ar": "أرضيات SPC — تصميم 12",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-012-4f990b16.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-013",
+    "name_en": "SPC Flooring — Design 13",
+    "name_ar": "أرضيات SPC — تصميم 13",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-013-06f72953.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-014",
+    "name_en": "SPC Flooring — Design 14",
+    "name_ar": "أرضيات SPC — تصميم 14",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-014-90ec5f57.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-015",
+    "name_en": "SPC Flooring — Design 15",
+    "name_ar": "أرضيات SPC — تصميم 15",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-015-43ffbaa8.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-016",
+    "name_en": "SPC Flooring — Design 16",
+    "name_ar": "أرضيات SPC — تصميم 16",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-016-72400366.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-017",
+    "name_en": "SPC Flooring — Design 17",
+    "name_ar": "أرضيات SPC — تصميم 17",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-017-fa37fe38.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-018",
+    "name_en": "SPC Flooring — Design 18",
+    "name_ar": "أرضيات SPC — تصميم 18",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-018-292d465f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-019",
+    "name_en": "SPC Flooring — Design 19",
+    "name_ar": "أرضيات SPC — تصميم 19",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-019-e71ea19f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-020",
+    "name_en": "SPC Flooring — Design 20",
+    "name_ar": "أرضيات SPC — تصميم 20",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-020-3e014a6f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-021",
+    "name_en": "SPC Flooring — Design 21",
+    "name_ar": "أرضيات SPC — تصميم 21",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-021-7d5967ea.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-022",
+    "name_en": "SPC Flooring — Design 22",
+    "name_ar": "أرضيات SPC — تصميم 22",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-022-5e0024f6.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-023",
+    "name_en": "SPC Flooring — Design 23",
+    "name_ar": "أرضيات SPC — تصميم 23",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-023-2423d480.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-024",
+    "name_en": "SPC Flooring — Design 24",
+    "name_ar": "أرضيات SPC — تصميم 24",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-024-28ae0212.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-025",
+    "name_en": "SPC Flooring — Design 25",
+    "name_ar": "أرضيات SPC — تصميم 25",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-025-b50d902b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-026",
+    "name_en": "SPC Flooring — Design 26",
+    "name_ar": "أرضيات SPC — تصميم 26",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-026-f5131e8a.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-027",
+    "name_en": "SPC Flooring — Design 27",
+    "name_ar": "أرضيات SPC — تصميم 27",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-027-c46a1846.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-028",
+    "name_en": "SPC Flooring — Design 28",
+    "name_ar": "أرضيات SPC — تصميم 28",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-028-50645a22.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-029",
+    "name_en": "SPC Flooring — Design 29",
+    "name_ar": "أرضيات SPC — تصميم 29",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-029-46329265.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "spc-flooring-030",
+    "name_en": "SPC Flooring — Design 30",
+    "name_ar": "أرضيات SPC — تصميم 30",
+    "desc_en": "Premium spc flooring from Almanhali Decoration catalog.",
+    "desc_ar": "أرضيات SPC فاخر من كتالوج المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/spc-flooring/spc-flooring-030-f2ef2b11.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "SPC Flooring"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "id": "stone-alternative-001",
+    "name_en": "Stone Alternative Panel — Design 1",
+    "name_ar": "بديل الحجر — تصميم 1",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-001-4ccafa5e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-002",
+    "name_en": "Stone Alternative Panel — Design 2",
+    "name_ar": "بديل الحجر — تصميم 2",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-002-f4c647a6.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-003",
+    "name_en": "Stone Alternative Panel — Design 3",
+    "name_ar": "بديل الحجر — تصميم 3",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-003-484eaf02.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-004",
+    "name_en": "Stone Alternative Panel — Design 4",
+    "name_ar": "بديل الحجر — تصميم 4",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-004-a1edc41b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-005",
+    "name_en": "Stone Alternative Panel — Design 5",
+    "name_ar": "بديل الحجر — تصميم 5",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-005-06c80135.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-006",
+    "name_en": "Stone Alternative Panel — Design 6",
+    "name_ar": "بديل الحجر — تصميم 6",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-006-c075737a.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-007",
+    "name_en": "Stone Alternative Panel — Design 7",
+    "name_ar": "بديل الحجر — تصميم 7",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-007-6e8c5cdd.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-008",
+    "name_en": "Stone Alternative Panel — Design 8",
+    "name_ar": "بديل الحجر — تصميم 8",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-008-cbdb2574.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-009",
+    "name_en": "Stone Alternative Panel — Design 9",
+    "name_ar": "بديل الحجر — تصميم 9",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-009-b0e84f49.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-010",
+    "name_en": "Stone Alternative Panel — Design 10",
+    "name_ar": "بديل الحجر — تصميم 10",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-010-05674c90.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-011",
+    "name_en": "Stone Alternative Panel — Design 11",
+    "name_ar": "بديل الحجر — تصميم 11",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-011-99b1eb73.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-012",
+    "name_en": "Stone Alternative Panel — Design 12",
+    "name_ar": "بديل الحجر — تصميم 12",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-012-e121f5d4.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-013",
+    "name_en": "Stone Alternative Panel — Design 13",
+    "name_ar": "بديل الحجر — تصميم 13",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-013-973f34e3.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-014",
+    "name_en": "Stone Alternative Panel — Design 14",
+    "name_ar": "بديل الحجر — تصميم 14",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-014-af494663.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-015",
+    "name_en": "Stone Alternative Panel — Design 15",
+    "name_ar": "بديل الحجر — تصميم 15",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-015-344c86d5.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "stone-alternative-016",
+    "name_en": "Stone Alternative Panel — Design 16",
+    "name_ar": "بديل الحجر — تصميم 16",
+    "desc_en": "Premium stone alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الحجر فاخر من كتالوج المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/stone-alternative/stone-alternative-016-58257a3b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Stone Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-001",
+    "name_en": "Outdoor WPC Panel — Design 1",
+    "name_ar": "لوح WPC خارجي — تصميم 1",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-001-f4c647a6.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-002",
+    "name_en": "Outdoor WPC Panel — Design 2",
+    "name_ar": "لوح WPC خارجي — تصميم 2",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-002-013848b0.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-003",
+    "name_en": "Outdoor WPC Panel — Design 3",
+    "name_ar": "لوح WPC خارجي — تصميم 3",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-003-3411c1e2.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-004",
+    "name_en": "Outdoor WPC Panel — Design 4",
+    "name_ar": "لوح WPC خارجي — تصميم 4",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-004-96164379.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-005",
+    "name_en": "Outdoor WPC Panel — Design 5",
+    "name_ar": "لوح WPC خارجي — تصميم 5",
+    "desc_en": "Premium outdoor wpc panels from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الخارجي فاخر من كتالوج المنهالي للديكور.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "بديل الخشب الخارجي",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/products/outdoor-wpc/outdoor-wpc-005-9df783e9.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Outdoor WPC Panels"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc"
+    ]
+  },
+  {
+    "id": "interior-wood-001",
+    "name_en": "Interior Wood Panel — Design 1",
+    "name_ar": "بديل الخشب الداخلي — تصميم 1",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-001-93ff2588.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-002",
+    "name_en": "Interior Wood Panel — Design 2",
+    "name_ar": "بديل الخشب الداخلي — تصميم 2",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-002-63ab4d64.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-003",
+    "name_en": "Interior Wood Panel — Design 3",
+    "name_ar": "بديل الخشب الداخلي — تصميم 3",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-003-2e5598fe.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-004",
+    "name_en": "Interior Wood Panel — Design 4",
+    "name_ar": "بديل الخشب الداخلي — تصميم 4",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-004-16b9e443.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-005",
+    "name_en": "Interior Wood Panel — Design 5",
+    "name_ar": "بديل الخشب الداخلي — تصميم 5",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-005-1b943895.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-006",
+    "name_en": "Interior Wood Panel — Design 6",
+    "name_ar": "بديل الخشب الداخلي — تصميم 6",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-006-7de74b71.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-007",
+    "name_en": "Interior Wood Panel — Design 7",
+    "name_ar": "بديل الخشب الداخلي — تصميم 7",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-007-79969c19.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-008",
+    "name_en": "Interior Wood Panel — Design 8",
+    "name_ar": "بديل الخشب الداخلي — تصميم 8",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-008-02b8cbd8.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-009",
+    "name_en": "Interior Wood Panel — Design 9",
+    "name_ar": "بديل الخشب الداخلي — تصميم 9",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-009-2071ff87.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-010",
+    "name_en": "Interior Wood Panel — Design 10",
+    "name_ar": "بديل الخشب الداخلي — تصميم 10",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-010-0b2ea41c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-011",
+    "name_en": "Interior Wood Panel — Design 11",
+    "name_ar": "بديل الخشب الداخلي — تصميم 11",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-011-dc78c31e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-012",
+    "name_en": "Interior Wood Panel — Design 12",
+    "name_ar": "بديل الخشب الداخلي — تصميم 12",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-012-9462447b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-013",
+    "name_en": "Interior Wood Panel — Design 13",
+    "name_ar": "بديل الخشب الداخلي — تصميم 13",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-013-c6818d41.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-014",
+    "name_en": "Interior Wood Panel — Design 14",
+    "name_ar": "بديل الخشب الداخلي — تصميم 14",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-014-e35e36ea.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-015",
+    "name_en": "Interior Wood Panel — Design 15",
+    "name_ar": "بديل الخشب الداخلي — تصميم 15",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-015-6d8a7fb2.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-016",
+    "name_en": "Interior Wood Panel — Design 16",
+    "name_ar": "بديل الخشب الداخلي — تصميم 16",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-016-35b21b2a.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-017",
+    "name_en": "Interior Wood Panel — Design 17",
+    "name_ar": "بديل الخشب الداخلي — تصميم 17",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-017-e2b41917.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-018",
+    "name_en": "Interior Wood Panel — Design 18",
+    "name_ar": "بديل الخشب الداخلي — تصميم 18",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-018-134a8c96.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-019",
+    "name_en": "Interior Wood Panel — Design 19",
+    "name_ar": "بديل الخشب الداخلي — تصميم 19",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-019-264d2eb1.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-020",
+    "name_en": "Interior Wood Panel — Design 20",
+    "name_ar": "بديل الخشب الداخلي — تصميم 20",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-020-62a1c97d.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-021",
+    "name_en": "Interior Wood Panel — Design 21",
+    "name_ar": "بديل الخشب الداخلي — تصميم 21",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-021-f4a19ce3.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-022",
+    "name_en": "Interior Wood Panel — Design 22",
+    "name_ar": "بديل الخشب الداخلي — تصميم 22",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-022-aab6b066.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-023",
+    "name_en": "Interior Wood Panel — Design 23",
+    "name_ar": "بديل الخشب الداخلي — تصميم 23",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-023-f3322655.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-024",
+    "name_en": "Interior Wood Panel — Design 24",
+    "name_ar": "بديل الخشب الداخلي — تصميم 24",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-024-8f66633f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-025",
+    "name_en": "Interior Wood Panel — Design 25",
+    "name_ar": "بديل الخشب الداخلي — تصميم 25",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-025-77bc19e0.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-026",
+    "name_en": "Interior Wood Panel — Design 26",
+    "name_ar": "بديل الخشب الداخلي — تصميم 26",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-026-70d4b3ec.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-027",
+    "name_en": "Interior Wood Panel — Design 27",
+    "name_ar": "بديل الخشب الداخلي — تصميم 27",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-027-ca419497.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-028",
+    "name_en": "Interior Wood Panel — Design 28",
+    "name_ar": "بديل الخشب الداخلي — تصميم 28",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-028-bc67477e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-029",
+    "name_en": "Interior Wood Panel — Design 29",
+    "name_ar": "بديل الخشب الداخلي — تصميم 29",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-029-40a3325e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-030",
+    "name_en": "Interior Wood Panel — Design 30",
+    "name_ar": "بديل الخشب الداخلي — تصميم 30",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-030-6a621e4e.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-031",
+    "name_en": "Interior Wood Panel — Design 31",
+    "name_ar": "بديل الخشب الداخلي — تصميم 31",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-031-a498a979.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-032",
+    "name_en": "Interior Wood Panel — Design 32",
+    "name_ar": "بديل الخشب الداخلي — تصميم 32",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-032-e48b7352.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-033",
+    "name_en": "Interior Wood Panel — Design 33",
+    "name_ar": "بديل الخشب الداخلي — تصميم 33",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-033-8c0d75b8.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-034",
+    "name_en": "Interior Wood Panel — Design 34",
+    "name_ar": "بديل الخشب الداخلي — تصميم 34",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-034-8bf74382.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-035",
+    "name_en": "Interior Wood Panel — Design 35",
+    "name_ar": "بديل الخشب الداخلي — تصميم 35",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-035-e758599c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-036",
+    "name_en": "Interior Wood Panel — Design 36",
+    "name_ar": "بديل الخشب الداخلي — تصميم 36",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-036-e2e38c79.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-037",
+    "name_en": "Interior Wood Panel — Design 37",
+    "name_ar": "بديل الخشب الداخلي — تصميم 37",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-037-593c3594.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-038",
+    "name_en": "Interior Wood Panel — Design 38",
+    "name_ar": "بديل الخشب الداخلي — تصميم 38",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-038-11c1a5b7.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-039",
+    "name_en": "Interior Wood Panel — Design 39",
+    "name_ar": "بديل الخشب الداخلي — تصميم 39",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-039-b7aaee4f.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-040",
+    "name_en": "Interior Wood Panel — Design 40",
+    "name_ar": "بديل الخشب الداخلي — تصميم 40",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-040-5b76d345.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-041",
+    "name_en": "Interior Wood Panel — Design 41",
+    "name_ar": "بديل الخشب الداخلي — تصميم 41",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-041-93c7fc85.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-042",
+    "name_en": "Interior Wood Panel — Design 42",
+    "name_ar": "بديل الخشب الداخلي — تصميم 42",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-042-0ec3b42b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-043",
+    "name_en": "Interior Wood Panel — Design 43",
+    "name_ar": "بديل الخشب الداخلي — تصميم 43",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-043-ce37c1fd.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-044",
+    "name_en": "Interior Wood Panel — Design 44",
+    "name_ar": "بديل الخشب الداخلي — تصميم 44",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-044-b69521bc.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-045",
+    "name_en": "Interior Wood Panel — Design 45",
+    "name_ar": "بديل الخشب الداخلي — تصميم 45",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-045-7bd8555c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "interior-wood-046",
+    "name_en": "Interior Wood Panel — Design 46",
+    "name_ar": "بديل الخشب الداخلي — تصميم 46",
+    "desc_en": "Premium interior wood alternative from Almanhali Decoration catalog.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من كتالوج المنهالي للديكور.",
+    "price": 165,
+    "category": "wood-alternative",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/products/interior-wood/interior-wood-046-6ac5459c.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Interior Wood Alternative"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood"
+    ]
+  },
+  {
+    "id": "soundproofing-001",
+    "name_en": "Soundproof Panel — Design 1",
+    "name_ar": "عازل صوت — تصميم 1",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-001-ed57cff9.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-002",
+    "name_en": "Soundproof Panel — Design 2",
+    "name_ar": "عازل صوت — تصميم 2",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-002-48d3cac1.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-003",
+    "name_en": "Soundproof Panel — Design 3",
+    "name_ar": "عازل صوت — تصميم 3",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-003-576211d7.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-004",
+    "name_en": "Soundproof Panel — Design 4",
+    "name_ar": "عازل صوت — تصميم 4",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-004-e255c638.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-005",
+    "name_en": "Soundproof Panel — Design 5",
+    "name_ar": "عازل صوت — تصميم 5",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-005-aa10aab6.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-006",
+    "name_en": "Soundproof Panel — Design 6",
+    "name_ar": "عازل صوت — تصميم 6",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-006-ade7126b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-007",
+    "name_en": "Soundproof Panel — Design 7",
+    "name_ar": "عازل صوت — تصميم 7",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-007-12adecdf.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-008",
+    "name_en": "Soundproof Panel — Design 8",
+    "name_ar": "عازل صوت — تصميم 8",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-008-ea3b3ed3.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-009",
+    "name_en": "Soundproof Panel — Design 9",
+    "name_ar": "عازل صوت — تصميم 9",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-009-07583b91.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-010",
+    "name_en": "Soundproof Panel — Design 10",
+    "name_ar": "عازل صوت — تصميم 10",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-010-862dbf77.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-011",
+    "name_en": "Soundproof Panel — Design 11",
+    "name_ar": "عازل صوت — تصميم 11",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-011-14599953.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-012",
+    "name_en": "Soundproof Panel — Design 12",
+    "name_ar": "عازل صوت — تصميم 12",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-012-54ad0768.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-013",
+    "name_en": "Soundproof Panel — Design 13",
+    "name_ar": "عازل صوت — تصميم 13",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-013-c5ca1ab0.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-014",
+    "name_en": "Soundproof Panel — Design 14",
+    "name_ar": "عازل صوت — تصميم 14",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-014-bde83a42.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "soundproofing-015",
+    "name_en": "Soundproof Panel — Design 15",
+    "name_ar": "عازل صوت — تصميم 15",
+    "desc_en": "Premium soundproofing from Almanhali Decoration catalog.",
+    "desc_ar": "عوازل الصوت فاخر من كتالوج المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/products/soundproofing/soundproofing-015-a6fb08e7.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Soundproofing"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-001",
+    "name_en": "Fiber Baseboard — Design 1",
+    "name_ar": "نعلة فايبر — تصميم 1",
+    "desc_en": "Premium fiber baseboards from Almanhali Decoration catalog.",
+    "desc_ar": "نعلات فايبر فاخر من كتالوج المنهالي للديكور.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/fiber-baseboards/fiber-baseboards-001-48d3cac1.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Fiber Baseboards"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-002",
+    "name_en": "Fiber Baseboard — Design 2",
+    "name_ar": "نعلة فايبر — تصميم 2",
+    "desc_en": "Premium fiber baseboards from Almanhali Decoration catalog.",
+    "desc_ar": "نعلات فايبر فاخر من كتالوج المنهالي للديكور.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/fiber-baseboards/fiber-baseboards-002-b1c1f85b.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Fiber Baseboards"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-003",
+    "name_en": "Fiber Baseboard — Design 3",
+    "name_ar": "نعلة فايبر — تصميم 3",
+    "desc_en": "Premium fiber baseboards from Almanhali Decoration catalog.",
+    "desc_ar": "نعلات فايبر فاخر من كتالوج المنهالي للديكور.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/fiber-baseboards/fiber-baseboards-003-2d85837a.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Fiber Baseboards"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-004",
+    "name_en": "Fiber Baseboard — Design 4",
+    "name_ar": "نعلة فايبر — تصميم 4",
+    "desc_en": "Premium fiber baseboards from Almanhali Decoration catalog.",
+    "desc_ar": "نعلات فايبر فاخر من كتالوج المنهالي للديكور.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/fiber-baseboards/fiber-baseboards-004-c58a7049.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Fiber Baseboards"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-005",
+    "name_en": "Fiber Baseboard — Design 5",
+    "name_ar": "نعلة فايبر — تصميم 5",
+    "desc_en": "Premium fiber baseboards from Almanhali Decoration catalog.",
+    "desc_ar": "نعلات فايبر فاخر من كتالوج المنهالي للديكور.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/fiber-baseboards/fiber-baseboards-005-3b26cbf3.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Fiber Baseboards"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-006",
+    "name_en": "Fiber Baseboard — Design 6",
+    "name_ar": "نعلة فايبر — تصميم 6",
+    "desc_en": "Premium fiber baseboards from Almanhali Decoration catalog.",
+    "desc_ar": "نعلات فايبر فاخر من كتالوج المنهالي للديكور.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/products/fiber-baseboards/fiber-baseboards-006-62ed185d.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "Fiber Baseboards"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards"
+    ]
+  }
+]

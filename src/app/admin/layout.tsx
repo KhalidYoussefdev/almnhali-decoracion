@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Admin — Almnhali Decoración',
+  title: 'Admin — Almanhali Decoration',
   robots: 'noindex, nofollow',
 };
 

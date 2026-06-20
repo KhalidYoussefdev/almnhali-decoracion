@@ -38,7 +38,6 @@ export function Logo({ className, variant = 'full', theme = 'light' }: LogoProps
         )}
       >
         {settings.brand.name_en}
-        <span className="text-gold"> Decoración</span>
       </span>
       {variant === 'full' && (
         <span

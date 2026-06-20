@@ -424,7 +424,8 @@ export function SiteContentEditor() {
             </Card>
             <Card title="Social Media Links">
               <Field label="Instagram URL" value={settings.social.instagram} onChange={(v) => setSettings((s) => s && { ...s, social: { ...s.social, instagram: v } })} />
-              <Field label="Twitter URL" value={settings.social.twitter} onChange={(v) => setSettings((s) => s && { ...s, social: { ...s.social, twitter: v } })} />
+              <Field label="X (Twitter) URL" value={settings.social.twitter} onChange={(v) => setSettings((s) => s && { ...s, social: { ...s.social, twitter: v } })} />
+              <Field label="Snapchat URL" value={settings.social.snapchat} onChange={(v) => setSettings((s) => s && { ...s, social: { ...s.social, snapchat: v } })} />
               <Field label="Pinterest URL" value={settings.social.pinterest} onChange={(v) => setSettings((s) => s && { ...s, social: { ...s.social, pinterest: v } })} />
             </Card>
           </>

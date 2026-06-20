@@ -14,7 +14,7 @@ export function normalizeImageSrc(src?: string | null): string | null {
 }
 
 export function shouldUnoptimizeImage(src: string): boolean {
-  return src.startsWith('/api/uploads/') || src.startsWith('/uploads/');
+  return src.startsWith('/api/uploads/') || src.startsWith('/uploads/') || src.startsWith('/brand/');
 }
 
 export function whatsappUrl(phone: string, message?: string): string {

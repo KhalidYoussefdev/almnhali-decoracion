@@ -16,38 +16,50 @@ export interface MediaItem {
   createdAt: string;
 }
 
-async function listUploads(): Promise<MediaItem[]> {
-  const byFilename = new Map<string, MediaItem>();
+async function walkUploads(dir: string, relativeDir = ''): Promise<MediaItem[]> {
+  const items: MediaItem[] = [];
+  let entries: import('fs').Dirent[];
+  try {
+    entries = await fs.readdir(dir, { withFileTypes: true });
+  } catch {
+    return items;
+  }
 
-  for (const dir of uploadDirs()) {
-    await fs.mkdir(dir, { recursive: true });
-
-    let entries: string[];
-    try {
-      entries = await fs.readdir(dir);
-    } catch {
+  for (const entry of entries) {
+    if (entry.name.startsWith('.')) continue;
+    const relativePath = relativeDir ? `${relativeDir}/${entry.name}` : entry.name;
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      items.push(...await walkUploads(fullPath, relativePath));
       continue;
     }
-
-    for (const filename of entries) {
-      if (filename.startsWith('.') || !isImageFilename(filename)) continue;
-      const filePath = path.join(dir, filename);
-      try {
-        const stat = await fs.stat(filePath);
-        if (!stat.isFile()) continue;
-        byFilename.set(filename, {
-          url: `${UPLOAD_URL_PREFIX}${filename}`,
-          filename,
-          size: stat.size,
-          createdAt: stat.mtime.toISOString(),
-        });
-      } catch {
-        // skip unreadable files
-      }
+    if (!isImageFilename(entry.name)) continue;
+    try {
+      const stat = await fs.stat(fullPath);
+      if (!stat.isFile()) continue;
+      items.push({
+        url: `${UPLOAD_URL_PREFIX}${relativePath.replace(/\\/g, '/')}`,
+        filename: relativePath.replace(/\\/g, '/'),
+        size: stat.size,
+        createdAt: stat.mtime.toISOString(),
+      });
+    } catch {
+      // skip unreadable files
     }
   }
 
-  return Array.from(byFilename.values()).sort(
+  return items;
+}
+
+async function listUploads(): Promise<MediaItem[]> {
+  const byPath = new Map<string, MediaItem>();
+  for (const dir of uploadDirs()) {
+    await fs.mkdir(dir, { recursive: true });
+    for (const item of await walkUploads(dir)) {
+      byPath.set(item.filename, item);
+    }
+  }
+  return Array.from(byPath.values()).sort(
     (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
   );
 }

@@ -105,6 +105,7 @@ export interface SiteSettings {
   social: {
     instagram: string;
     twitter: string;
+    snapchat: string;
     pinterest: string;
   };
   footer: {

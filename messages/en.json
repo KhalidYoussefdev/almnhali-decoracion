@@ -55,7 +55,7 @@
   "ai": {
     "title": "Design Assistant",
     "placeholder": "Ask about styles, sizing, or room ideas...",
-    "greeting": "Hello! I'm your Almnhali design assistant. How can I help elevate your space today?"
+    "greeting": "Hello! I'm your Almanhali Decoration design assistant. How can I help elevate your space today?"
   },
   "trust": {
     "delivery": "Saudi-wide Delivery",
@@ -66,6 +66,6 @@
   "footer": {
     "newsletter": "Join our newsletter",
     "subscribe": "Subscribe",
-    "rights": "© 2026 Almnhali Decoración. All rights reserved."
+    "rights": "© 2026 Almanhali Decoration. All rights reserved."
   }
 }

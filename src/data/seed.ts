@@ -1,16 +1,19 @@
 import type { Product, SiteSettings } from '@/types/product';
 import enMessages from '../../messages/en.json';
 import arMessages from '../../messages/ar.json';
+import catalogProducts from './catalog-products.json';
 
 export const SEED_CATEGORIES: SiteSettings['categories'] = [
   { id: 'flooring', name_en: 'SPC Flooring', name_ar: 'أرضيات SPC' },
-  { id: 'wall-panels', name_en: 'Wall Panels', name_ar: 'ألواح الجدران' },
-  { id: 'wood-alternative', name_en: 'Wood Alternative', name_ar: 'بديل الخشب' },
+  { id: 'wall-panels', name_en: 'WPC Wall Panels', name_ar: 'ألواح جدران WPC' },
+  { id: 'wood-alternative', name_en: 'Interior Wood Alternative', name_ar: 'بديل الخشب الداخلي' },
+  { id: 'outdoor-panels', name_en: 'Outdoor WPC Panels', name_ar: 'بديل الخشب الخارجي' },
   { id: 'stone-alternative', name_en: 'Stone Alternative', name_ar: 'بديل الحجر' },
+  { id: 'chipboard', name_en: 'Chipboard Veneer', name_ar: 'بديل الشيبورد' },
   { id: 'soundproofing', name_en: 'Soundproofing', name_ar: 'عوازل الصوت' },
-  { id: 'baseboards', name_en: 'Baseboards', name_ar: 'نعلات' },
-  { id: 'lighting', name_en: 'Lighting', name_ar: 'إضاءة' },
-  { id: 'textiles', name_en: 'Textiles', name_ar: 'منسوجات' },
+  { id: 'baseboards', name_en: 'Fiber Baseboards', name_ar: 'نعلات فايبر' },
+  { id: 'partition-columns', name_en: 'Partition Columns', name_ar: 'أعمدة بارتشن' },
+  { id: 'timber-tubes', name_en: 'WPC Timber Tubes', name_ar: 'أنابيب خشب WPC' },
 ];
 
 export const SEED_COLLECTIONS: SiteSettings['collections'] = [
@@ -66,81 +69,20 @@ export const SEED_MOODBOARDS: SiteSettings['inspiration']['moodboards'] = [
   { id: 'coastal', title_en: 'Coastal Elegance', title_ar: 'أناقة ساحلية', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80', tags_en: 'Light, Airy', tags_ar: 'فاتح, منعش' },
 ];
 
-export const SEED_PRODUCTS: Product[] = [
-  {
-    id: 'spc-oak-heritage',
-    name_en: 'Heritage Oak SPC Flooring',
-    name_ar: 'أرضيات SPC بلوط التراث',
-    desc_en: 'Waterproof SPC flooring with authentic oak grain texture. Perfect for Saudi climate — heat and humidity resistant.',
-    desc_ar: 'أرضيات SPC مقاومة للماء بملمس حبيبات البلوط الأصيل. مثالية للمناخ السعودي — مقاومة للحرارة والرطوبة.',
-    price: 189,
-    category: 'flooring',
-    category_ar: 'أرضيات SPC',
-    collection: 'heritage',
-    images: ['https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=800&q=80'],
-    badge: 'Bestseller',
-    badge_ar: 'الأكثر مبيعاً',
-    rating: 4.9,
-    reviewCount: 127,
-    colors: ['#C4A882', '#8B7355'],
-    materials: ['SPC', 'UV Coating'],
-    inStock: true,
-    tags: ['waterproof', 'durable'],
-  },
-  {
-    id: 'wpc-wall-sand',
-    name_en: 'Desert Sand WPC Wall Panel',
-    name_ar: 'لوح جدار WPC رمل الصحراء',
-    desc_en: 'Premium WPC interior wall panel in warm desert sand tone.',
-    desc_ar: 'لوح جدار داخلي WPC فاخر بلون رمل الصحراء الدافئ.',
-    price: 145,
-    category: 'wall-panels',
-    category_ar: 'ألواح الجدران',
-    collection: 'desert-luxe',
-    images: ['https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80'],
-    badge: 'New',
-    badge_ar: 'جديد',
-    rating: 4.8,
-    reviewCount: 43,
-    colors: ['#D4BC8E'],
-    materials: ['WPC'],
-    inStock: true,
-    tags: ['interior'],
-  },
-  {
-    id: 'lamp-aura-gold',
-    name_en: 'Aura Gold Table Lamp',
-    name_ar: 'مصباح أورا الذهبي',
-    desc_en: 'Sculptural ceramic base with gold leaf accents.',
-    desc_ar: 'قاعدة خزفية منحوتة بلمسات ورق الذهب.',
-    price: 890,
-    category: 'lighting',
-    category_ar: 'إضاءة',
-    collection: 'aura',
-    images: ['https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80'],
-    badge: 'Limited',
-    badge_ar: 'محدود',
-    rating: 5.0,
-    reviewCount: 18,
-    colors: ['#C5A46E'],
-    materials: ['Ceramic'],
-    inStock: true,
-    tags: ['ambient'],
-  },
-];
+export const SEED_PRODUCTS: Product[] = catalogProducts as Product[];
 
 export const DEFAULT_SETTINGS: SiteSettings = {
   brand: {
-    logo: '',
-    name_en: 'Almnhali',
+    logo: '/brand/logo.png',
+    name_en: 'Almanhali Decoration',
     name_ar: 'المنهالي للديكور',
-    tagline_en: 'Elevating Saudi Homes with Timeless Elegance',
-    tagline_ar: 'نرتقي بمنازل السعودية بأناقة خالدة',
+    tagline_en: 'Premium decoration solutions for Saudi homes',
+    tagline_ar: 'حلول ديكور فاخرة للمنازل السعودية',
     location_en: 'Riyadh, Saudi Arabia',
     location_ar: 'الرياض، المملكة العربية السعودية',
   },
   seo: {
-    title_en: 'Almnhali Decoración | Premium Home Decoration — Riyadh',
+    title_en: 'Almanhali Decoration | Premium Home Decoration — Riyadh',
     title_ar: 'المنهالي للديكور | ديكور منزلي فاخر — الرياض',
     description_en: 'Luxury home decoration and interior design for Saudi Arabia. SPC flooring, wall panels, and curated decor.',
     description_ar: 'ديكور منزلي فاخر وتصميم داخلي للمملكة العربية السعودية. أرضيات SPC وألواح جدران وديكورات منتقاة.',
@@ -172,14 +114,15 @@ export const DEFAULT_SETTINGS: SiteSettings = {
     text_ar: 'شحن مجاني للطلبات فوق ٥٠٠ ر.س',
   },
   contact: {
-    phone: '+966 11 XXX XXXX',
+    phone: '+966558466791',
     email: 'hello@almnhali.com',
-    whatsapp: '+966501234567',
+    whatsapp: '+966558466791',
   },
   social: {
-    instagram: 'https://instagram.com/almnhali',
-    twitter: 'https://twitter.com/almnhali',
-    pinterest: 'https://pinterest.com/almnhali',
+    instagram: 'https://instagram.com/almanhali_decor',
+    twitter: 'https://x.com/Almanhali_decor',
+    snapchat: 'https://snapchat.com/add/almanhali_decor',
+    pinterest: '',
   },
   footer: {
     shopHeading_en: 'Shop',
@@ -206,7 +149,7 @@ export const DEFAULT_SETTINGS: SiteSettings = {
     galleryEyebrow_ar: 'إلهام',
     galleryTitle_en: 'Scrollytelling Gallery',
     galleryTitle_ar: 'معرض بصري',
-    gallerySubtitle_en: 'Real Saudi homes transformed with Almnhali — scroll through curated mood boards',
+    gallerySubtitle_en: 'Real Saudi homes transformed with Almanhali — scroll through curated mood boards',
     gallerySubtitle_ar: 'منازل سعودية حقيقية تحولت مع المنهالي — تصفح لوحات الإلهام',
     productsLabel_en: 'products',
     productsLabel_ar: 'منتج',

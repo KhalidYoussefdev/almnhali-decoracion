@@ -5,6 +5,7 @@ import { Link } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 import { Instagram, Twitter, Phone } from 'lucide-react';
+import { SnapchatIcon } from '@/components/ui/SnapchatIcon';
 import { whatsappUrl } from '@/lib/image';
 
 export function Footer() {
@@ -46,8 +47,13 @@ export function Footer() {
                 </a>
               )}
               {settings.social.twitter && (
-                <a href={settings.social.twitter} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="Twitter">
+                <a href={settings.social.twitter} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="X (Twitter)">
                   <Twitter className="h-5 w-5 text-gold" />
+                </a>
+              )}
+              {settings.social.snapchat && (
+                <a href={settings.social.snapchat} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="Snapchat">
+                  <SnapchatIcon className="h-5 w-5 text-gold" />
                 </a>
               )}
             </div>

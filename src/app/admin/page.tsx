@@ -31,7 +31,7 @@ export default function AdminLoginPage() {
     <div className="min-h-screen bg-navy flex items-center justify-center p-6">
       <form onSubmit={login} className="w-full max-w-md bg-cream rounded-2xl p-8 shadow-xl">
         <h1 className="font-display text-3xl text-navy">Admin Login</h1>
-        <p className="text-charcoal/60 mt-2 text-sm">Almnhali Decoración management panel</p>
+        <p className="text-charcoal/60 mt-2 text-sm">Almanhali Decoration management panel</p>
         <input
           type="password"
           value={password}

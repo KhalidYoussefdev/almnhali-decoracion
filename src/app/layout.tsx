@@ -9,11 +9,11 @@ const ibmArabic = IBM_Plex_Sans_Arabic({ subsets: ['arabic'], weight: ['400', '5
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://almnhali.com'),
-  title: 'Almnhali Decoración | Premium Home Decoration — Riyadh',
+  title: 'Almanhali Decoration | Premium Home Decoration — Riyadh',
   description: 'Luxury home decoration and interior design for Saudi Arabia. SPC flooring, wall panels, and curated decor.',
   keywords: ['home decor', 'Saudi Arabia', 'Riyadh', 'interior design', 'SPC flooring', 'المنهالي للديكور'],
   openGraph: {
-    title: 'Almnhali Decoración',
+    title: 'Almanhali Decoration',
     description: 'Elevating Saudi Homes with Timeless Elegance',
     locale: 'en_SA',
     type: 'website',
