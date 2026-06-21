@@ -161,6 +161,7 @@ async function main() {
   fs.mkdirSync(OUT_ROOT, { recursive: true });
 
   const products = [];
+  const slugCounters = {};
   const folders = fs.readdirSync(SOURCE, { withFileTypes: true }).filter((d) => d.isDirectory());
 
   for (const dir of folders) {
@@ -169,6 +170,7 @@ async function main() {
     const srcDir = path.join(SOURCE, folderName);
     const outDir = path.join(OUT_ROOT, cfg.slug);
     fs.mkdirSync(outDir, { recursive: true });
+    slugCounters[cfg.slug] = slugCounters[cfg.slug] ?? 0;
 
     const files = fs
       .readdirSync(srcDir)
@@ -178,9 +180,11 @@ async function main() {
     let index = 0;
     for (const file of files) {
       index++;
+      slugCounters[cfg.slug] += 1;
+      const globalIndex = slugCounters[cfg.slug];
       const page = pageNumber(file) || index;
       const src = path.join(srcDir, file);
-      const destName = `${cfg.slug}-${String(page).padStart(4, '0')}.jpg`;
+      const destName = `${cfg.slug}-${String(globalIndex).padStart(4, '0')}.jpg`;
       const dest = path.join(outDir, destName);
 
       const info = await sharp(src).jpeg({ quality: 88 }).toFile(dest);
