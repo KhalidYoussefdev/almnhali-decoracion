@@ -7,6 +7,13 @@ export const SEED_CATEGORIES: SiteSettings['categories'] = [
   { id: 'wall-panels', name_en: 'WPC Wall Panels', name_ar: 'ألواح جدران WPC' },
   { id: 'outdoor-panels', name_en: 'Outdoor WPC Panels', name_ar: 'ألواح WPC الخارجية' },
   { id: 'timber-tubes', name_en: 'WPC Timber Tubes', name_ar: 'أنابيب خشب WPC' },
+  { id: 'flooring', name_en: 'SPC Flooring', name_ar: 'أرضيات SPC' },
+  { id: 'interior-wood', name_en: 'Interior Wood Alternative', name_ar: 'بديل الخشب الداخلي' },
+  { id: 'stone-alternative', name_en: 'Stone Alternative', name_ar: 'بديل الحجر' },
+  { id: 'chipboard', name_en: 'Chipboard Veneer', name_ar: 'بديل الشيبورد' },
+  { id: 'baseboards', name_en: 'Fiber Baseboards', name_ar: 'نعلات فايبر' },
+  { id: 'soundproofing', name_en: 'Soundproofing', name_ar: 'عوازل الصوت' },
+  { id: 'partition-columns', name_en: 'Partition Columns', name_ar: 'أعمدة بارتشن' },
 ];
 
 export const SEED_COLLECTIONS: SiteSettings['collections'] = [
@@ -16,8 +23,8 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
     name_ar: 'مجموعة التراث',
     desc_en: 'Timeless designs inspired by Saudi architectural heritage.',
     desc_ar: 'تصاميم خالدة مستوحاة من التراث المعماري السعودي.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
-    productCount: 24,
+    image: '/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0002.jpg',
+    productCount: 143,
   },
   {
     id: 'desert-luxe',
@@ -25,8 +32,8 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
     name_ar: 'فخامة الصحراء',
     desc_en: 'Warm earth tones celebrating the Arabian landscape.',
     desc_ar: 'درجات ألوان ترابية دافئة تحتفي بالمناظر العربية.',
-    image: '/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-3.jpg',
-    productCount: 17,
+    image: '/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0005.jpg',
+    productCount: 32,
   },
   {
     id: 'marble-elegance',
@@ -34,8 +41,8 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
     name_ar: 'أناقة الرخام',
     desc_en: 'Sophisticated stone alternatives for Saudi interiors.',
     desc_ar: 'بدائل حجرية راقية للديكورات السعودية.',
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80',
-    productCount: 6,
+    image: '/api/uploads/catalog/stone-alternative/stone-alternative-0002.jpg',
+    productCount: 16,
   },
   {
     id: 'quiet-luxury',
@@ -43,17 +50,17 @@ export const SEED_COLLECTIONS: SiteSettings['collections'] = [
     name_ar: 'الفخامة الهادئة',
     desc_en: 'Understated elegance through acoustic solutions.',
     desc_ar: 'أناقة راقية من خلال حلول عزل صوتي.',
-    productCount: 5,
-    image: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?w=1200&q=80',
+    productCount: 4,
+    image: '/api/uploads/catalog/soundproofing/soundproofing-0002.jpg',
   },
 ];
 
 export const SEED_GALLERY: SiteSettings['gallery'] = [
-  { id: 'living', image: '/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-2.jpg', span: 'col-span-2 row-span-2', title_en: 'Living Room', title_ar: 'غرفة المعيشة' },
-  { id: 'bedroom', image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80', span: 'col-span-1', title_en: 'Bedroom', title_ar: 'غرفة النوم' },
-  { id: 'dining', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80', span: 'col-span-1', title_en: 'Dining', title_ar: 'غرفة الطعام' },
-  { id: 'majlis', image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80', span: 'col-span-1', title_en: 'Majlis', title_ar: 'المجلس' },
-  { id: 'outdoor', image: '/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-5.jpg', span: 'col-span-2', title_en: 'Outdoor', title_ar: 'خارجي' },
+  { id: 'living', image: '/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0002.jpg', span: 'col-span-2 row-span-2', title_en: 'Living Room', title_ar: 'غرفة المعيشة' },
+  { id: 'bedroom', image: '/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0003.jpg', span: 'col-span-1', title_en: 'Bedroom', title_ar: 'غرفة النوم' },
+  { id: 'dining', image: '/api/uploads/catalog/spc-flooring/spc-flooring-0004.jpg', span: 'col-span-1', title_en: 'Dining', title_ar: 'غرفة الطعام' },
+  { id: 'majlis', image: '/api/uploads/catalog/chipboard/chipboard-0005.jpg', span: 'col-span-1', title_en: 'Majlis', title_ar: 'المجلس' },
+  { id: 'outdoor', image: '/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0005.jpg', span: 'col-span-2', title_en: 'Outdoor', title_ar: 'خارجي' },
 ];
 
 export const SEED_MOODBOARDS: SiteSettings['inspiration']['moodboards'] = [
@@ -84,7 +91,7 @@ export const DEFAULT_SETTINGS: SiteSettings = {
     ogImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=85',
   },
   hero: {
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=85',
+    image: '/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0001.jpg',
     imageAlt_en: 'Luxury Saudi interior',
     imageAlt_ar: 'ديكور داخلي سعودي فاخر',
     title_en: 'Elevate Your Space',

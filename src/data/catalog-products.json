@@ -1,668 +1,2070 @@
 [
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-2",
-    "name_en": "WPC Wall Panel IP 202",
-    "name_ar": "لوح جداري WPC IP 202",
-    "badge": "Bestseller",
-    "badge_ar": "الأكثر مبيعاً",
-    "desc_en": "Interior WPC wall panel with horizontal grooves and light natural wood finish, 204 mm wide by 9 mm thick. Size: 204×9 mm. Image: 1024×576px. Codes: IP 202.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد أفقية وتشطيب خشب طبيعي فاتح، عرض 204 مم وسمك 9 مم. المقاس: 204×9 mm. الرموز: IP 202.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0001-f441e1d6",
+    "name_en": "Chipboard Veneer 001",
+    "name_ar": "بديل الشيبورد 001",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-2.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0001.jpg"
     ],
+    "badge": "New",
+    "badge_ar": "جديد",
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP202"
+      "chipboard",
+      "page-1"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-3",
-    "name_en": "WPC Wall Panel IP 203",
-    "name_ar": "لوح جداري WPC IP 203",
-    "desc_en": "Interior WPC grooved wall panel in light beige wood tone, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 203.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون خشب بيج فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 203.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0001-4bf1ad3f",
+    "name_en": "Chipboard Veneer 001",
+    "name_ar": "بديل الشيبورد 001",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-3.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0001.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP203"
+      "chipboard",
+      "page-1"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-4",
-    "name_en": "WPC Wall Panel IP 204",
-    "name_ar": "لوح جداري WPC IP 204",
-    "desc_en": "Interior WPC wall panel with gray wood-grain grooved surface, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 204.",
-    "desc_ar": "لوح جداري داخلي من WPC بسطح مخدد بلمسة خشب رمادي، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 204.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0001-0e2d7c3a",
+    "name_en": "Chipboard Veneer 001",
+    "name_ar": "بديل الشيبورد 001",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-4.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0001.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "gray wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP204"
+      "chipboard",
+      "page-1"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-5",
-    "name_en": "WPC Wall Panel IP 205",
-    "name_ar": "لوح جداري WPC IP 205",
-    "desc_en": "Interior WPC grooved wall panel in light natural wood finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 205.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب خشب طبيعي فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 205.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0001-ad2f34e1",
+    "name_en": "Chipboard Veneer 001",
+    "name_ar": "بديل الشيبورد 001",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-5.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0001.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP205"
+      "chipboard",
+      "page-1"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-6",
-    "name_en": "WPC Wall Panel IP 208",
-    "name_ar": "لوح جداري WPC IP 208",
-    "desc_en": "Interior WPC wall panel with horizontal wood slats in medium brown grain, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 208.",
-    "desc_ar": "لوح جداري داخلي من WPC بشرائح خشبية أفقية بلون بني متوسط، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 208.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0001-1ee82669",
+    "name_en": "Chipboard Veneer 001",
+    "name_ar": "بديل الشيبورد 001",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-6.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0001.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "brown wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP208"
+      "chipboard",
+      "page-1"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-7",
-    "name_en": "WPC Wall Panel IP 211",
-    "name_ar": "لوح جداري WPC IP 211",
-    "desc_en": "Interior WPC grooved wall panel in light natural wood color, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 211.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون خشب طبيعي فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 211.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0002-142129a3",
+    "name_en": "Chipboard Veneer 002",
+    "name_ar": "بديل الشيبورد 002",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-7.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP211"
+      "chipboard",
+      "page-2"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-8",
-    "name_en": "WPC Wall Panel IP 212",
-    "name_ar": "لوح جداري WPC IP 212",
-    "desc_en": "Interior WPC ribbed wall panel in medium brown wood tone, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 212.",
-    "desc_ar": "لوح جداري داخلي من WPC مضلع بلون خشب بني متوسط، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 212.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0002-89f3b69c",
+    "name_en": "Chipboard Veneer 002",
+    "name_ar": "بديل الشيبورد 002",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-8.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "medium brown"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP212"
+      "chipboard",
+      "page-2"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-9",
-    "name_en": "WPC Wall Panel IP 213",
-    "name_ar": "لوح جداري WPC IP 213",
-    "desc_en": "Interior WPC grooved wall panel in light beige wood finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 213.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب خشب بيج فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 213.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0002-9f5f40e0",
+    "name_en": "Chipboard Veneer 002",
+    "name_ar": "بديل الشيبورد 002",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-9.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP213"
+      "chipboard",
+      "page-2"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-10",
-    "name_en": "WPC Wall Panel IP 214",
-    "name_ar": "لوح جداري WPC IP 214",
-    "badge": "Bestseller",
-    "badge_ar": "الأكثر مبيعاً",
-    "desc_en": "Interior WPC slatted wall panel in dark brown walnut wood grain, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 214.",
-    "desc_ar": "لوح جداري داخلي من WPC بشرائح بلمسة خشب جوز داكن، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 214.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0002-91eb0e90",
+    "name_en": "Chipboard Veneer 002",
+    "name_ar": "بديل الشيبورد 002",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-10.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "dark brown"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP214"
+      "chipboard",
+      "page-2"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-11",
-    "name_en": "WPC Wall Panel IP 215",
-    "name_ar": "لوح جداري WPC IP 215",
-    "desc_en": "Interior WPC grooved wall panel in light brown wood grain, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 215.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلمسة خشب بني فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 215.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0002-49d55763",
+    "name_en": "Chipboard Veneer 002",
+    "name_ar": "بديل الشيبورد 002",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-11.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light brown"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP215"
+      "chipboard",
+      "page-2"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-12",
-    "name_en": "WPC Wall Panel IP 225",
-    "name_ar": "لوح جداري WPC IP 225",
-    "desc_en": "Interior WPC grooved wall panel in light beige cream wood tone, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 225.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون كريمي بيج فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 225.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0003-52e2c74f",
+    "name_en": "Chipboard Veneer 003",
+    "name_ar": "بديل الشيبورد 003",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-12.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light beige"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP225"
+      "chipboard",
+      "page-3"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-13",
-    "name_en": "WPC Wall Panel IP 226",
-    "name_ar": "لوح جداري WPC IP 226",
-    "desc_en": "Interior WPC grooved wall panel in beige cream finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 226.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب كريمي بيج، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 226.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0003-3c1e9136",
+    "name_en": "Chipboard Veneer 003",
+    "name_ar": "بديل الشيبورد 003",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-13.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "beige"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP226"
+      "chipboard",
+      "page-3"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-14",
-    "name_en": "WPC Wall Panel IP 227",
-    "name_ar": "لوح جداري WPC IP 227",
-    "desc_en": "Interior WPC grooved wall panel in light off-white beige tone, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 227.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون بيج أبيض فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 227.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0003-c47e657d",
+    "name_en": "Chipboard Veneer 003",
+    "name_ar": "بديل الشيبورد 003",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-14.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "off-white"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP227"
+      "chipboard",
+      "page-3"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-15",
-    "name_en": "WPC Wall Panel IP 228",
-    "name_ar": "لوح جداري WPC IP 228",
-    "desc_en": "Interior WPC grooved wall panel in light off-white gray tone, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 228.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون رمادي أبيض فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 228.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0003-6231bc61",
+    "name_en": "Chipboard Veneer 003",
+    "name_ar": "بديل الشيبورد 003",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-15.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP228"
+      "chipboard",
+      "page-3"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-16",
-    "name_en": "WPC Wall Panel IP 230",
-    "name_ar": "لوح جداري WPC IP 230",
-    "desc_en": "Interior WPC grooved wall panel in light beige cream wood finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 230.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب خشب بيج كريمي فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 230.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0003-ef99b27d",
+    "name_en": "Chipboard Veneer 003",
+    "name_ar": "بديل الشيبورد 003",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-16.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light beige"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP230"
+      "chipboard",
+      "page-3"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-17",
-    "name_en": "WPC Wall Panel IP 231",
-    "name_ar": "لوح جداري WPC IP 231",
-    "desc_en": "Interior WPC grooved wall panel in light off-white cream color, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 231.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون كريمي أبيض فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 231.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0004-0481f2c5",
+    "name_en": "Chipboard Veneer 004",
+    "name_ar": "بديل الشيبورد 004",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-17.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "cream"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP231"
+      "chipboard",
+      "page-4"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-18",
-    "name_en": "WPC Wall Panel IP 232",
-    "name_ar": "لوح جداري WPC IP 232",
-    "desc_en": "Interior WPC grooved wall panel in light beige off-white tone, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 232.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون بيج أبيض فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 232.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0004-ac4c19ec",
+    "name_en": "Chipboard Veneer 004",
+    "name_ar": "بديل الشيبورد 004",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-18.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light beige"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP232"
+      "chipboard",
+      "page-4"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-19",
-    "name_en": "WPC Wall Panel IP 233",
-    "name_ar": "لوح جداري WPC IP 233",
-    "desc_en": "Interior WPC grooved wall panel in light neutral wood beige finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 233.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب خشب بيج محايد فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 233.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0004-a2221ae8",
+    "name_en": "Chipboard Veneer 004",
+    "name_ar": "بديل الشيبورد 004",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-19.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP233"
+      "chipboard",
+      "page-4"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-20",
-    "name_en": "WPC Wall Panel IP 234",
-    "name_ar": "لوح جداري WPC IP 234",
-    "desc_en": "Interior WPC grooved wall panel in light off-white cream color, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 234.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلون كريمي أبيض فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 234.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0004-2533aafc",
+    "name_en": "Chipboard Veneer 004",
+    "name_ar": "بديل الشيبورد 004",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-20.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "cream"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP234"
+      "chipboard",
+      "page-4"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-21",
-    "name_en": "WPC Wall Panel IP 245",
-    "name_ar": "لوح جداري WPC IP 245",
-    "desc_en": "Interior WPC grooved wall panel in light gray silver wood grain, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 245.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلمسة خشب رمادي فضي فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 245.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0004-4f76afd3",
+    "name_en": "Chipboard Veneer 004",
+    "name_ar": "بديل الشيبورد 004",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-21.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP245"
+      "chipboard",
+      "page-4"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-22",
-    "name_en": "WPC Wall Panel IP 249",
-    "name_ar": "لوح جداري WPC IP 249",
-    "desc_en": "Interior WPC grooved wall panel in light gray white finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 249.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب رمادي أبيض فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 249.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0005-abb87cf2",
+    "name_en": "Chipboard Veneer 005",
+    "name_ar": "بديل الشيبورد 005",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-22.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0005.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP249"
+      "chipboard",
+      "page-5"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-23",
-    "name_en": "WPC Wall Panel IP 266",
-    "name_ar": "لوح جداري WPC IP 266",
-    "desc_en": "Interior WPC grooved wall panel in light gray beige wood grain, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 266.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلمسة خشب رمادي بيج فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 266.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0005-10ba874a",
+    "name_en": "Chipboard Veneer 005",
+    "name_ar": "بديل الشيبورد 005",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-23.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0005.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP266"
+      "chipboard",
+      "page-5"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-24",
-    "name_en": "WPC Wall Panel IP 267",
-    "name_ar": "لوح جداري WPC IP 267",
-    "desc_en": "Interior WPC grooved wall panel in cool light gray taupe finish, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 267.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد وتشطيب رمادي فاتح بارد، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 267.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0005-3dee685e",
+    "name_en": "Chipboard Veneer 005",
+    "name_ar": "بديل الشيبورد 005",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-24.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0005.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "taupe gray"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP267"
+      "chipboard",
+      "page-5"
     ]
   },
   {
-    "id": "wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-25",
-    "name_en": "WPC Wall Panel IP 268",
-    "name_ar": "لوح جداري WPC IP 268",
-    "desc_en": "Interior WPC grooved wall panel in light gray beige wood grain, 204×9 mm. Size: 204×9 mm. Image: 1024×576px. Codes: IP 268.",
-    "desc_ar": "لوح جداري داخلي من WPC بأخاديد بلمسة خشب رمادي بيج فاتح، 204×9 مم. المقاس: 204×9 mm. الرموز: IP 268.",
-    "price": 145,
-    "category": "wall-panels",
-    "category_ar": "ألواح جدران WPC",
+    "id": "chipboard-0005-de71e805",
+    "name_en": "Chipboard Veneer 005",
+    "name_ar": "بديل الشيبورد 005",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
     "collection": "heritage",
     "images": [
-      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-1781966376691-2f89ac28-15b7-4440-8256-cc7376adb547-25.jpg"
+      "/api/uploads/catalog/chipboard/chipboard-0005.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
-      "ألواح جدران WPC"
+      "بديل الشيبورد"
     ],
     "inStock": true,
     "tags": [
-      "wpc-wall-panel",
-      "IP268"
+      "chipboard",
+      "page-5"
     ]
   },
   {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-1",
-    "name_en": "Outdoor WPC Panel Range",
-    "name_ar": "مجموعة ألواح WPC الخارجية",
-    "desc_en": "Outdoor WPC panels available in 2900×219×26 mm, 2900×156×12 mm, and 3000×40×50 mm sizes. Size: 2900×219×26 mm, 2900×156×12 mm, 3000×40×50 mm. Image: 1024×576px.",
-    "desc_ar": "ألواح WPC خارجية متوفرة بمقاسات 2900×219×26 مم و2900×156×12 مم و3000×40×50 مم. المقاس: 2900×219×26 mm، 2900×156×12 mm، 3000×40×50 mm.",
+    "id": "chipboard-0005-f0138066",
+    "name_en": "Chipboard Veneer 005",
+    "name_ar": "بديل الشيبورد 005",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-5"
+    ]
+  },
+  {
+    "id": "chipboard-0006-73756091",
+    "name_en": "Chipboard Veneer 006",
+    "name_ar": "بديل الشيبورد 006",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-6"
+    ]
+  },
+  {
+    "id": "chipboard-0006-9cba9aa7",
+    "name_en": "Chipboard Veneer 006",
+    "name_ar": "بديل الشيبورد 006",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-6"
+    ]
+  },
+  {
+    "id": "chipboard-0006-a288230e",
+    "name_en": "Chipboard Veneer 006",
+    "name_ar": "بديل الشيبورد 006",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-6"
+    ]
+  },
+  {
+    "id": "chipboard-0006-ee56c1b8",
+    "name_en": "Chipboard Veneer 006",
+    "name_ar": "بديل الشيبورد 006",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-6"
+    ]
+  },
+  {
+    "id": "chipboard-0006-b49c44f5",
+    "name_en": "Chipboard Veneer 006",
+    "name_ar": "بديل الشيبورد 006",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-6"
+    ]
+  },
+  {
+    "id": "chipboard-0007-463849e5",
+    "name_en": "Chipboard Veneer 007",
+    "name_ar": "بديل الشيبورد 007",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-7"
+    ]
+  },
+  {
+    "id": "chipboard-0007-2f6a335b",
+    "name_en": "Chipboard Veneer 007",
+    "name_ar": "بديل الشيبورد 007",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-7"
+    ]
+  },
+  {
+    "id": "chipboard-0007-7dfa236c",
+    "name_en": "Chipboard Veneer 007",
+    "name_ar": "بديل الشيبورد 007",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-7"
+    ]
+  },
+  {
+    "id": "chipboard-0007-8d14fbcd",
+    "name_en": "Chipboard Veneer 007",
+    "name_ar": "بديل الشيبورد 007",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-7"
+    ]
+  },
+  {
+    "id": "chipboard-0008-810320b0",
+    "name_en": "Chipboard Veneer 008",
+    "name_ar": "بديل الشيبورد 008",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-8"
+    ]
+  },
+  {
+    "id": "chipboard-0008-f87d8734",
+    "name_en": "Chipboard Veneer 008",
+    "name_ar": "بديل الشيبورد 008",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-8"
+    ]
+  },
+  {
+    "id": "chipboard-0008-996f6370",
+    "name_en": "Chipboard Veneer 008",
+    "name_ar": "بديل الشيبورد 008",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-8"
+    ]
+  },
+  {
+    "id": "chipboard-0008-1e436aeb",
+    "name_en": "Chipboard Veneer 008",
+    "name_ar": "بديل الشيبورد 008",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-8"
+    ]
+  },
+  {
+    "id": "chipboard-0009-073800ca",
+    "name_en": "Chipboard Veneer 009",
+    "name_ar": "بديل الشيبورد 009",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-9"
+    ]
+  },
+  {
+    "id": "chipboard-0009-9fa636e1",
+    "name_en": "Chipboard Veneer 009",
+    "name_ar": "بديل الشيبورد 009",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-9"
+    ]
+  },
+  {
+    "id": "chipboard-0009-1899a1af",
+    "name_en": "Chipboard Veneer 009",
+    "name_ar": "بديل الشيبورد 009",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-9"
+    ]
+  },
+  {
+    "id": "chipboard-0009-753ed0c7",
+    "name_en": "Chipboard Veneer 009",
+    "name_ar": "بديل الشيبورد 009",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-9"
+    ]
+  },
+  {
+    "id": "chipboard-0010-9337d8e4",
+    "name_en": "Chipboard Veneer 010",
+    "name_ar": "بديل الشيبورد 010",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-10"
+    ]
+  },
+  {
+    "id": "chipboard-0010-2ad82548",
+    "name_en": "Chipboard Veneer 010",
+    "name_ar": "بديل الشيبورد 010",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-10"
+    ]
+  },
+  {
+    "id": "chipboard-0010-f1537e7c",
+    "name_en": "Chipboard Veneer 010",
+    "name_ar": "بديل الشيبورد 010",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-10"
+    ]
+  },
+  {
+    "id": "chipboard-0010-c411d143",
+    "name_en": "Chipboard Veneer 010",
+    "name_ar": "بديل الشيبورد 010",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-10"
+    ]
+  },
+  {
+    "id": "chipboard-0011-a32392f6",
+    "name_en": "Chipboard Veneer 011",
+    "name_ar": "بديل الشيبورد 011",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-11"
+    ]
+  },
+  {
+    "id": "chipboard-0011-e60d3e4b",
+    "name_en": "Chipboard Veneer 011",
+    "name_ar": "بديل الشيبورد 011",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-11"
+    ]
+  },
+  {
+    "id": "chipboard-0011-f7fe0ca3",
+    "name_en": "Chipboard Veneer 011",
+    "name_ar": "بديل الشيبورد 011",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-11"
+    ]
+  },
+  {
+    "id": "chipboard-0011-d1897116",
+    "name_en": "Chipboard Veneer 011",
+    "name_ar": "بديل الشيبورد 011",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-11"
+    ]
+  },
+  {
+    "id": "chipboard-0012-1602ff6f",
+    "name_en": "Chipboard Veneer 012",
+    "name_ar": "بديل الشيبورد 012",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-12"
+    ]
+  },
+  {
+    "id": "chipboard-0012-c444ba36",
+    "name_en": "Chipboard Veneer 012",
+    "name_ar": "بديل الشيبورد 012",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-12"
+    ]
+  },
+  {
+    "id": "chipboard-0012-b2d5dd96",
+    "name_en": "Chipboard Veneer 012",
+    "name_ar": "بديل الشيبورد 012",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-12"
+    ]
+  },
+  {
+    "id": "chipboard-0012-c8a72d1b",
+    "name_en": "Chipboard Veneer 012",
+    "name_ar": "بديل الشيبورد 012",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-12"
+    ]
+  },
+  {
+    "id": "chipboard-0013-5b2e416d",
+    "name_en": "Chipboard Veneer 013",
+    "name_ar": "بديل الشيبورد 013",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-13"
+    ]
+  },
+  {
+    "id": "chipboard-0013-4505f1b1",
+    "name_en": "Chipboard Veneer 013",
+    "name_ar": "بديل الشيبورد 013",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-13"
+    ]
+  },
+  {
+    "id": "chipboard-0013-cd5e8444",
+    "name_en": "Chipboard Veneer 013",
+    "name_ar": "بديل الشيبورد 013",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-13"
+    ]
+  },
+  {
+    "id": "chipboard-0013-049265b6",
+    "name_en": "Chipboard Veneer 013",
+    "name_ar": "بديل الشيبورد 013",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-13"
+    ]
+  },
+  {
+    "id": "chipboard-0014-3058df7c",
+    "name_en": "Chipboard Veneer 014",
+    "name_ar": "بديل الشيبورد 014",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-14"
+    ]
+  },
+  {
+    "id": "chipboard-0014-b3130710",
+    "name_en": "Chipboard Veneer 014",
+    "name_ar": "بديل الشيبورد 014",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-14"
+    ]
+  },
+  {
+    "id": "chipboard-0014-d2dcbf31",
+    "name_en": "Chipboard Veneer 014",
+    "name_ar": "بديل الشيبورد 014",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-14"
+    ]
+  },
+  {
+    "id": "chipboard-0014-695580a6",
+    "name_en": "Chipboard Veneer 014",
+    "name_ar": "بديل الشيبورد 014",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-14"
+    ]
+  },
+  {
+    "id": "chipboard-0015-72a1bd1e",
+    "name_en": "Chipboard Veneer 015",
+    "name_ar": "بديل الشيبورد 015",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0015.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-15"
+    ]
+  },
+  {
+    "id": "chipboard-0015-950db56f",
+    "name_en": "Chipboard Veneer 015",
+    "name_ar": "بديل الشيبورد 015",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0015.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-15"
+    ]
+  },
+  {
+    "id": "chipboard-0015-8d043d1e",
+    "name_en": "Chipboard Veneer 015",
+    "name_ar": "بديل الشيبورد 015",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0015.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-15"
+    ]
+  },
+  {
+    "id": "chipboard-0015-2d9e6a61",
+    "name_en": "Chipboard Veneer 015",
+    "name_ar": "بديل الشيبورد 015",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0015.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-15"
+    ]
+  },
+  {
+    "id": "chipboard-0016-c592db11",
+    "name_en": "Chipboard Veneer 016",
+    "name_ar": "بديل الشيبورد 016",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0016.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-16"
+    ]
+  },
+  {
+    "id": "chipboard-0016-396e96e3",
+    "name_en": "Chipboard Veneer 016",
+    "name_ar": "بديل الشيبورد 016",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0016.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-16"
+    ]
+  },
+  {
+    "id": "chipboard-0016-b26392dc",
+    "name_en": "Chipboard Veneer 016",
+    "name_ar": "بديل الشيبورد 016",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0016.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-16"
+    ]
+  },
+  {
+    "id": "chipboard-0016-998b828c",
+    "name_en": "Chipboard Veneer 016",
+    "name_ar": "بديل الشيبورد 016",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0016.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-16"
+    ]
+  },
+  {
+    "id": "chipboard-0017-68c0235c",
+    "name_en": "Chipboard Veneer 017",
+    "name_ar": "بديل الشيبورد 017",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0017.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-17"
+    ]
+  },
+  {
+    "id": "chipboard-0017-99e690ef",
+    "name_en": "Chipboard Veneer 017",
+    "name_ar": "بديل الشيبورد 017",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0017.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-17"
+    ]
+  },
+  {
+    "id": "chipboard-0017-0b300bd0",
+    "name_en": "Chipboard Veneer 017",
+    "name_ar": "بديل الشيبورد 017",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0017.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-17"
+    ]
+  },
+  {
+    "id": "chipboard-0018-75de7001",
+    "name_en": "Chipboard Veneer 018",
+    "name_ar": "بديل الشيبورد 018",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0018.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-18"
+    ]
+  },
+  {
+    "id": "chipboard-0018-f516dee5",
+    "name_en": "Chipboard Veneer 018",
+    "name_ar": "بديل الشيبورد 018",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0018.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-18"
+    ]
+  },
+  {
+    "id": "chipboard-0018-035da98a",
+    "name_en": "Chipboard Veneer 018",
+    "name_ar": "بديل الشيبورد 018",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0018.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-18"
+    ]
+  },
+  {
+    "id": "chipboard-0019-a9335f7b",
+    "name_en": "Chipboard Veneer 019",
+    "name_ar": "بديل الشيبورد 019",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0019.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-19"
+    ]
+  },
+  {
+    "id": "chipboard-0019-282fffef",
+    "name_en": "Chipboard Veneer 019",
+    "name_ar": "بديل الشيبورد 019",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0019.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-19"
+    ]
+  },
+  {
+    "id": "chipboard-0019-de1dd6f1",
+    "name_en": "Chipboard Veneer 019",
+    "name_ar": "بديل الشيبورد 019",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0019.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-19"
+    ]
+  },
+  {
+    "id": "chipboard-0020-ade7bf98",
+    "name_en": "Chipboard Veneer 020",
+    "name_ar": "بديل الشيبورد 020",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0020.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-20"
+    ]
+  },
+  {
+    "id": "chipboard-0020-d9b3f4f4",
+    "name_en": "Chipboard Veneer 020",
+    "name_ar": "بديل الشيبورد 020",
+    "desc_en": "Premium chipboard veneer from Almanhali Decoration. Catalog: Chipboard. Image 1754×1241px.",
+    "desc_ar": "بديل الشيبورد فاخر من المنهالي للديكور. الكتالوج: Chipboard.",
+    "price": 110,
+    "category": "chipboard",
+    "category_ar": "بديل الشيبورد",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/chipboard/chipboard-0020.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الشيبورد"
+    ],
+    "inStock": true,
+    "tags": [
+      "chipboard",
+      "page-20"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0001-1a6a846b",
+    "name_en": "Outdoor WPC Panel 001",
+    "name_ar": "لوح WPC خارجي 001",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
     "price": 195,
     "category": "outdoor-panels",
     "category_ar": "ألواح WPC الخارجية",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-1.jpg"
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-1"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0002-dab1df4e",
+    "name_en": "Outdoor WPC Panel 002",
+    "name_ar": "لوح WPC خارجي 002",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
@@ -672,489 +2074,2826 @@
     ],
     "inStock": true,
     "tags": [
-      "outdoor-wpc-panel"
+      "outdoor-wpc-panel",
+      "page-2"
     ]
   },
   {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-2",
-    "name_en": "Outdoor WPC Panels OP 101 & OP 111",
-    "name_ar": "ألواح WPC خارجية OP 101 و OP 111",
-    "desc_en": "Outdoor WPC panels in Black (OP 101) and Slate grey (OP 111), 2900×219×26 mm. Size: 2900×219×26 mm. Image: 1024×576px. Codes: OP 101, OP 111.",
-    "desc_ar": "ألواح WPC خارجية بالأسود (OP 101) والرمادي الأردوازي (OP 111)، 2900×219×26 مم. المقاس: 2900×219×26 mm. الرموز: OP 101, OP 111.",
+    "id": "outdoor-wpc-panel-0003-fde1cf6a",
+    "name_en": "Outdoor WPC Panel 003",
+    "name_ar": "لوح WPC خارجي 003",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
     "price": 195,
     "category": "outdoor-panels",
     "category_ar": "ألواح WPC الخارجية",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-2.jpg"
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "black",
-      "slate grey"
-    ],
+    "colors": [],
     "materials": [
       "ألواح WPC الخارجية"
     ],
     "inStock": true,
     "tags": [
       "outdoor-wpc-panel",
-      "OP101",
-      "OP111"
+      "page-3"
     ]
   },
   {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-3",
-    "name_en": "Outdoor WPC Panels OP 121 & OP 131",
-    "name_ar": "ألواح WPC خارجية OP 121 و OP 131",
-    "desc_en": "Outdoor WPC panels in Light grey (OP 121) and Pine wood (OP 131), 2900×219×26 mm. Size: 2900×219×26 mm. Image: 1024×576px. Codes: OP 121, OP 131.",
-    "desc_ar": "ألواح WPC خارجية بالرمادي الفاتح (OP 121) وخشب الصنوبر (OP 131)، 2900×219×26 مم. المقاس: 2900×219×26 mm. الرموز: OP 121, OP 131.",
+    "id": "outdoor-wpc-panel-0004-22adcb72",
+    "name_en": "Outdoor WPC Panel 004",
+    "name_ar": "لوح WPC خارجي 004",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
     "price": 195,
     "category": "outdoor-panels",
     "category_ar": "ألواح WPC الخارجية",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-3.jpg"
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light grey",
-      "pine"
-    ],
+    "colors": [],
     "materials": [
       "ألواح WPC الخارجية"
     ],
     "inStock": true,
     "tags": [
       "outdoor-wpc-panel",
-      "OP121",
-      "OP131"
+      "page-4"
     ]
   },
   {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-4",
-    "name_en": "Outdoor WPC Panels OP 141 & OP 151",
-    "name_ar": "ألواح WPC خارجية OP 141 و OP 151",
-    "desc_en": "Outdoor WPC panels in Teak (OP 141) and Coffee (OP 151), 2900×219×26 mm. Size: 2900×219×26 mm. Image: 1024×576px. Codes: OP 141, OP 151.",
-    "desc_ar": "ألواح WPC خارجية بلون الساج (OP 141) والقهوة (OP 151)، 2900×219×26 مم. المقاس: 2900×219×26 mm. الرموز: OP 141, OP 151.",
+    "id": "outdoor-wpc-panel-0005-d2e98283",
+    "name_en": "Outdoor WPC Panel 005",
+    "name_ar": "لوح WPC خارجي 005",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
     "price": 195,
     "category": "outdoor-panels",
     "category_ar": "ألواح WPC الخارجية",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-4.jpg"
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0005.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "teak",
-      "coffee"
-    ],
+    "colors": [],
     "materials": [
       "ألواح WPC الخارجية"
     ],
     "inStock": true,
     "tags": [
       "outdoor-wpc-panel",
-      "OP141",
-      "OP151"
+      "page-5"
     ]
   },
   {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-5",
-    "name_en": "Outdoor WPC Panel OP 161 Walnut",
-    "name_ar": "لوح WPC خارجي OP 161 جوز",
+    "id": "outdoor-wpc-panel-0006-d8adb0ab",
+    "name_en": "Outdoor WPC Panel 006",
+    "name_ar": "لوح WPC خارجي 006",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-6"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0007-fdcf57ff",
+    "name_en": "Outdoor WPC Panel 007",
+    "name_ar": "لوح WPC خارجي 007",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-7"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0008-3c2bf4e8",
+    "name_en": "Outdoor WPC Panel 008",
+    "name_ar": "لوح WPC خارجي 008",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-8"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0009-a63a97ce",
+    "name_en": "Outdoor WPC Panel 009",
+    "name_ar": "لوح WPC خارجي 009",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-9"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0010-876a8f36",
+    "name_en": "Outdoor WPC Panel 010",
+    "name_ar": "لوح WPC خارجي 010",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: OUTDOOR WPC PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: OUTDOOR WPC PANEL.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-10"
+    ]
+  },
+  {
+    "id": "wpc-timber-tube-0001-d03ace62",
+    "name_en": "WPC Timber Tube 001",
+    "name_ar": "أنبوب خشب WPC 001",
+    "desc_en": "Premium wpc timber tube from Almanhali Decoration. Catalog: wpc timber tube1. Image 1997×1123px.",
+    "desc_ar": "أنابيب خشب WPC فاخر من المنهالي للديكور. الكتالوج: wpc timber tube1.",
+    "price": 155,
+    "category": "timber-tubes",
+    "category_ar": "أنابيب خشب WPC",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-0001.jpg"
+    ],
     "badge": "New",
     "badge_ar": "جديد",
-    "desc_en": "Outdoor WPC panel in Walnut finish (OP 161), 2900×219×26 mm. Size: 2900×219×26 mm. Image: 1024×576px. Codes: OP 161.",
-    "desc_ar": "لوح WPC خارجي بتشطيب الجوز (OP 161)، 2900×219×26 مم. المقاس: 2900×219×26 mm. الرموز: OP 161.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-5.jpg"
-    ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "walnut"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OP161"
-    ]
-  },
-  {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-6",
-    "name_en": "Outdoor WPC Fence Panels OF 101 & OF 111",
-    "name_ar": "ألواح سياج WPC خارجية OF 101 و OF 111",
-    "desc_en": "Outdoor WPC fence panels in Black (OF 101) and Slate grey (OF 111), 2900×156×21 mm. Size: 2900×156×21 mm. Image: 1024×576px. Codes: OF 101, OF 111.",
-    "desc_ar": "ألواح سياج WPC خارجية بالأسود (OF 101) والرمادي الأردوازي (OF 111)، 2900×156×21 مم. المقاس: 2900×156×21 mm. الرموز: OF 101, OF 111.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-6.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "black",
-      "slate grey"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OF101",
-      "OF111"
-    ]
-  },
-  {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-7",
-    "name_en": "Outdoor WPC Fence Panels OF 121 & OF 131",
-    "name_ar": "ألواح سياج WPC خارجية OF 121 و OF 131",
-    "desc_en": "Outdoor WPC cladding panels in Light grey (OF 121) and Pine wood (OF 131), 2900×156×21 mm. Size: 2900×156×21 mm. Image: 1024×576px. Codes: OF 121, OF 131.",
-    "desc_ar": "ألواح تكسية WPC خارجية بالرمادي الفاتح (OF 121) وخشب الصنوبر (OF 131)، 2900×156×21 مم. المقاس: 2900×156×21 mm. الرموز: OF 121, OF 131.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-7.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "light grey",
-      "pine"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OF121",
-      "OF131"
-    ]
-  },
-  {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-8",
-    "name_en": "Outdoor WPC Fence Panels OF 141 & OF 151",
-    "name_ar": "ألواح سياج WPC خارجية OF 141 و OF 151",
-    "desc_en": "Outdoor WPC panels in Teak (OF 141) and Coffee (OF 151), 2900×156×21 mm. Size: 2900×156×21 mm. Image: 1024×576px. Codes: OF 141, OF 151.",
-    "desc_ar": "ألواح WPC خارجية بلون الساج (OF 141) والقهوة (OF 151)، 2900×156×21 مم. المقاس: 2900×156×21 mm. الرموز: OF 141, OF 151.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-8.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "teak",
-      "coffee"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OF141",
-      "OF151"
-    ]
-  },
-  {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-9",
-    "name_en": "Outdoor WPC Panel OF 161 Walnut",
-    "name_ar": "لوح WPC خارجي OF 161 جوز",
-    "desc_en": "Outdoor WPC wall panel in Walnut (OF 161), 2900×156×21 mm. Size: 2900×156×21 mm. Image: 1024×576px. Codes: OF 161.",
-    "desc_ar": "لوح WPC خارجي بلون الجوز (OF 161)، 2900×156×21 مم. المقاس: 2900×156×21 mm. الرموز: OF 161.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-9.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "walnut"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OF161"
-    ]
-  },
-  {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-10",
-    "name_en": "Outdoor WPC Corner Trims OC 101–OC 131",
-    "name_ar": "زوايا WPC خارجية OC 101–OC 131",
-    "desc_en": "Outdoor WPC corner trim pieces in Black, Slate grey, Light grey, and Pine wood. Image: 1024×576px. Codes: OC 101, OC 111, OC 121, OC 131.",
-    "desc_ar": "قطع زوايا WPC خارجية بالأسود والرمادي الأردوازي والرمادي الفاتح وخشب الصنوبر. الرموز: OC 101, OC 111, OC 121, OC 131.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-10.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "black",
-      "slate grey",
-      "light grey",
-      "pine"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OC101",
-      "OC111",
-      "OC121",
-      "OC131"
-    ]
-  },
-  {
-    "id": "outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-11",
-    "name_en": "Outdoor WPC Corner Trims OC 141–OC 161",
-    "name_ar": "زوايا WPC خارجية OC 141–OC 161",
-    "desc_en": "Outdoor WPC corner trim profiles in Teak, Coffee, and Walnut. Image: 1024×576px. Codes: OC 141, OC 151, OC 161.",
-    "desc_ar": "ملفات زوايا WPC خارجية بلون الساج والقهوة والجوز. الرموز: OC 141, OC 151, OC 161.",
-    "price": 195,
-    "category": "outdoor-panels",
-    "category_ar": "ألواح WPC الخارجية",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-1781966207327-9464cc93-1050-4bdc-ad20-0c383ba93990-11.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "teak",
-      "coffee",
-      "walnut"
-    ],
-    "materials": [
-      "ألواح WPC الخارجية"
-    ],
-    "inStock": true,
-    "tags": [
-      "outdoor-wpc-panel",
-      "OC141",
-      "OC151",
-      "OC161"
-    ]
-  },
-  {
-    "id": "wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-2",
-    "name_en": "WPC Timber Tubes IT202–IT205",
-    "name_ar": "أنابيب خشب WPC IT202–IT205",
-    "badge": "Featured",
-    "badge_ar": "مميز",
-    "desc_en": "Hollow WPC timber tubes IT202–IT205, all 3200×100×50 mm with three internal chambers. Size: 3200×100×50 mm. Image: 1024×576px. Codes: IT202, IT203, IT204, IT205.",
-    "desc_ar": "أنابيب WPC مجوفة IT202–IT205، جميعها 3200×100×50 مم بثلاث حجرات داخلية. المقاس: 3200×100×50 mm. الرموز: IT202, IT203, IT204, IT205.",
-    "price": 155,
-    "category": "timber-tubes",
-    "category_ar": "أنابيب خشب WPC",
-    "collection": "desert-luxe",
-    "images": [
-      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-2.jpg"
-    ],
-    "rating": 4.8,
-    "reviewCount": 0,
-    "colors": [
-      "light wood",
-      "gray"
-    ],
+    "colors": [],
     "materials": [
       "أنابيب خشب WPC"
     ],
     "inStock": true,
     "tags": [
       "wpc-timber-tube",
-      "IT202",
-      "IT203",
-      "IT204",
-      "IT205"
+      "page-1"
     ]
   },
   {
-    "id": "wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-3",
-    "name_en": "WPC Timber Tubes IT208–IT213",
-    "name_ar": "أنابيب خشب WPC IT208–IT213",
-    "desc_en": "Hollow WPC timber tubes IT208, IT211, IT212, and IT213, all 3200×100×50 mm. Size: 3200×100×50 mm. Image: 1024×576px. Codes: IT208, IT211, IT212, IT213.",
-    "desc_ar": "أنابيب WPC مجوفة IT208 و IT211 و IT212 و IT213، جميعها 3200×100×50 مم. المقاس: 3200×100×50 mm. الرموز: IT208, IT211, IT212, IT213.",
+    "id": "wpc-timber-tube-0002-0153dd7e",
+    "name_en": "WPC Timber Tube 002",
+    "name_ar": "أنبوب خشب WPC 002",
+    "desc_en": "Premium wpc timber tube from Almanhali Decoration. Catalog: wpc timber tube1. Image 1997×1123px.",
+    "desc_ar": "أنابيب خشب WPC فاخر من المنهالي للديكور. الكتالوج: wpc timber tube1.",
     "price": 155,
     "category": "timber-tubes",
     "category_ar": "أنابيب خشب WPC",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-3.jpg"
+      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-0002.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "dark brown",
-      "light beige"
-    ],
+    "colors": [],
     "materials": [
       "أنابيب خشب WPC"
     ],
     "inStock": true,
     "tags": [
       "wpc-timber-tube",
-      "IT208",
-      "IT211",
-      "IT212",
-      "IT213"
+      "page-2"
     ]
   },
   {
-    "id": "wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-4",
-    "name_en": "WPC Timber Tubes IT214–IT226",
-    "name_ar": "أنابيب خشب WPC IT214–IT226",
-    "desc_en": "Hollow WPC timber tubes IT214, IT215, IT225, and IT226, all 3200×100×50 mm. Size: 3200×100×50 mm. Image: 1024×576px. Codes: IT214, IT215, IT225, IT226.",
-    "desc_ar": "أنابيب WPC مجوفة IT214 و IT215 و IT225 و IT226، جميعها 3200×100×50 مم. المقاس: 3200×100×50 mm. الرموز: IT214, IT215, IT225, IT226.",
+    "id": "wpc-timber-tube-0003-a88d393a",
+    "name_en": "WPC Timber Tube 003",
+    "name_ar": "أنبوب خشب WPC 003",
+    "desc_en": "Premium wpc timber tube from Almanhali Decoration. Catalog: wpc timber tube1. Image 1997×1123px.",
+    "desc_ar": "أنابيب خشب WPC فاخر من المنهالي للديكور. الكتالوج: wpc timber tube1.",
     "price": 155,
     "category": "timber-tubes",
     "category_ar": "أنابيب خشب WPC",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-4.jpg"
+      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-0003.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light wood",
-      "white"
-    ],
+    "colors": [],
     "materials": [
       "أنابيب خشب WPC"
     ],
     "inStock": true,
     "tags": [
       "wpc-timber-tube",
-      "IT214",
-      "IT215",
-      "IT225",
-      "IT226"
+      "page-3"
     ]
   },
   {
-    "id": "wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-5",
-    "name_en": "WPC Timber Tubes IT227–IT231",
-    "name_ar": "أنابيب خشب WPC IT227–IT231",
-    "desc_en": "Hollow white textured WPC timber tubes IT227–IT231, all 3200×100×50 mm. Size: 3200×100×50 mm. Image: 1024×576px. Codes: IT227, IT228, IT230, IT231.",
-    "desc_ar": "أنابيب WPC مجوفة بيضاء IT227–IT231، جميعها 3200×100×50 مم. المقاس: 3200×100×50 mm. الرموز: IT227, IT228, IT230, IT231.",
+    "id": "wpc-timber-tube-0004-17a4fac4",
+    "name_en": "WPC Timber Tube 004",
+    "name_ar": "أنبوب خشب WPC 004",
+    "desc_en": "Premium wpc timber tube from Almanhali Decoration. Catalog: wpc timber tube1. Image 1997×1123px.",
+    "desc_ar": "أنابيب خشب WPC فاخر من المنهالي للديكور. الكتالوج: wpc timber tube1.",
     "price": 155,
     "category": "timber-tubes",
     "category_ar": "أنابيب خشب WPC",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-5.jpg"
+      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-0004.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "white",
-      "cream"
-    ],
+    "colors": [],
     "materials": [
       "أنابيب خشب WPC"
     ],
     "inStock": true,
     "tags": [
       "wpc-timber-tube",
-      "IT227",
-      "IT228",
-      "IT230",
-      "IT231"
+      "page-4"
     ]
   },
   {
-    "id": "wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-6",
-    "name_en": "WPC Timber Tubes IT232–IT245",
-    "name_ar": "أنابيب خشب WPC IT232–IT245",
-    "desc_en": "Hollow WPC timber tubes IT232–IT245, all 3200×100×50 mm. Size: 3200×100×50 mm. Image: 1024×576px. Codes: IT232, IT233, IT234, IT245.",
-    "desc_ar": "أنابيب WPC مجوفة IT232–IT245، جميعها 3200×100×50 مم. المقاس: 3200×100×50 mm. الرموز: IT232, IT233, IT234, IT245.",
+    "id": "wpc-timber-tube-0005-32e5d3b3",
+    "name_en": "WPC Timber Tube 005",
+    "name_ar": "أنبوب خشب WPC 005",
+    "desc_en": "Premium wpc timber tube from Almanhali Decoration. Catalog: wpc timber tube1. Image 1997×1123px.",
+    "desc_ar": "أنابيب خشب WPC فاخر من المنهالي للديكور. الكتالوج: wpc timber tube1.",
     "price": 155,
     "category": "timber-tubes",
     "category_ar": "أنابيب خشب WPC",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-6.jpg"
+      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-0005.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "light beige",
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
       "أنابيب خشب WPC"
     ],
     "inStock": true,
     "tags": [
       "wpc-timber-tube",
-      "IT232",
-      "IT233",
-      "IT234",
-      "IT245"
+      "page-5"
     ]
   },
   {
-    "id": "wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-7",
-    "name_en": "WPC Timber Tubes IT249–IT268",
-    "name_ar": "أنابيب خشب WPC IT249–IT268",
-    "desc_en": "Hollow white textured WPC timber tubes IT249–IT268, all 3200×100×50 mm. Size: 3200×100×50 mm. Image: 1024×576px. Codes: IT249, IT266, IT267, IT268.",
-    "desc_ar": "أنابيب WPC مجوفة بيضاء IT249–IT268، جميعها 3200×100×50 مم. المقاس: 3200×100×50 mm. الرموز: IT249, IT266, IT267, IT268.",
+    "id": "wpc-timber-tube-0006-bf14a4e1",
+    "name_en": "WPC Timber Tube 006",
+    "name_ar": "أنبوب خشب WPC 006",
+    "desc_en": "Premium wpc timber tube from Almanhali Decoration. Catalog: wpc timber tube1. Image 1997×1123px.",
+    "desc_ar": "أنابيب خشب WPC فاخر من المنهالي للديكور. الكتالوج: wpc timber tube1.",
     "price": 155,
     "category": "timber-tubes",
     "category_ar": "أنابيب خشب WPC",
     "collection": "desert-luxe",
     "images": [
-      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-1781966154974-59e2cd00-6523-44df-be50-34209f0d8846-7.jpg"
+      "/api/uploads/catalog/wpc-timber-tube/wpc-timber-tube-0006.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 0,
-    "colors": [
-      "white",
-      "light gray"
-    ],
+    "colors": [],
     "materials": [
       "أنابيب خشب WPC"
     ],
     "inStock": true,
     "tags": [
       "wpc-timber-tube",
-      "IT249",
-      "IT266",
-      "IT267",
-      "IT268"
+      "page-6"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0001-014f598b",
+    "name_en": "WPC Wall Panel 001",
+    "name_ar": "لوح جداري WPC 001",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-1"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0002-e2479fdb",
+    "name_en": "WPC Wall Panel 002",
+    "name_ar": "لوح جداري WPC 002",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-2"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0003-ced5eb3c",
+    "name_en": "WPC Wall Panel 003",
+    "name_ar": "لوح جداري WPC 003",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-3"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0004-61a1e428",
+    "name_en": "WPC Wall Panel 004",
+    "name_ar": "لوح جداري WPC 004",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-4"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0005-2ab91829",
+    "name_en": "WPC Wall Panel 005",
+    "name_ar": "لوح جداري WPC 005",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-5"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0006-03e07c9c",
+    "name_en": "WPC Wall Panel 006",
+    "name_ar": "لوح جداري WPC 006",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-6"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0007-28ae981f",
+    "name_en": "WPC Wall Panel 007",
+    "name_ar": "لوح جداري WPC 007",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-7"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0008-7cf9ba07",
+    "name_en": "WPC Wall Panel 008",
+    "name_ar": "لوح جداري WPC 008",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-8"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0009-409c075e",
+    "name_en": "WPC Wall Panel 009",
+    "name_ar": "لوح جداري WPC 009",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-9"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0010-95c748c5",
+    "name_en": "WPC Wall Panel 010",
+    "name_ar": "لوح جداري WPC 010",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-10"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0011-070f29ef",
+    "name_en": "WPC Wall Panel 011",
+    "name_ar": "لوح جداري WPC 011",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-11"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0012-e6640306",
+    "name_en": "WPC Wall Panel 012",
+    "name_ar": "لوح جداري WPC 012",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-12"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0013-11d00724",
+    "name_en": "WPC Wall Panel 013",
+    "name_ar": "لوح جداري WPC 013",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-13"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0014-44bb0e83",
+    "name_en": "WPC Wall Panel 014",
+    "name_ar": "لوح جداري WPC 014",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-14"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0015-e26e1848",
+    "name_en": "WPC Wall Panel 015",
+    "name_ar": "لوح جداري WPC 015",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0015.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-15"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0016-8e2a5592",
+    "name_en": "WPC Wall Panel 016",
+    "name_ar": "لوح جداري WPC 016",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0016.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-16"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0017-048dc1b4",
+    "name_en": "WPC Wall Panel 017",
+    "name_ar": "لوح جداري WPC 017",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0017.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-17"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0018-501144d3",
+    "name_en": "WPC Wall Panel 018",
+    "name_ar": "لوح جداري WPC 018",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0018.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-18"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0019-6259b07b",
+    "name_en": "WPC Wall Panel 019",
+    "name_ar": "لوح جداري WPC 019",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0019.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-19"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0020-930bffab",
+    "name_en": "WPC Wall Panel 020",
+    "name_ar": "لوح جداري WPC 020",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0020.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-20"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0021-01a4a383",
+    "name_en": "WPC Wall Panel 021",
+    "name_ar": "لوح جداري WPC 021",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0021.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-21"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0022-4ebe3ef8",
+    "name_en": "WPC Wall Panel 022",
+    "name_ar": "لوح جداري WPC 022",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0022.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-22"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0023-5a683c45",
+    "name_en": "WPC Wall Panel 023",
+    "name_ar": "لوح جداري WPC 023",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0023.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-23"
+    ]
+  },
+  {
+    "id": "wpc-wall-panel-0024-bc91ee6a",
+    "name_en": "WPC Wall Panel 024",
+    "name_ar": "لوح جداري WPC 024",
+    "desc_en": "Premium wpc wall panel from Almanhali Decoration. Catalog: WPC WALL PANEL. Image 2000×1125px.",
+    "desc_ar": "ألواح جدران WPC فاخر من المنهالي للديكور. الكتالوج: WPC WALL PANEL.",
+    "price": 145,
+    "category": "wall-panels",
+    "category_ar": "ألواح جدران WPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0024.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح جدران WPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "wpc-wall-panel",
+      "page-24"
+    ]
+  },
+  {
+    "id": "partition-columns-0001-523d48e0",
+    "name_en": "Partition Column 001",
+    "name_ar": "عمود بارتشن 001",
+    "desc_en": "Premium partition column from Almanhali Decoration. Catalog: اعمدة بارتشن ١٠سم صيني طول ٣٢٠. Image 1997×1123px.",
+    "desc_ar": "أعمدة بارتشن فاخر من المنهالي للديكور. الكتالوج: اعمدة بارتشن ١٠سم صيني طول ٣٢٠.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/partition-columns/partition-columns-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أعمدة بارتشن"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns",
+      "page-1"
+    ]
+  },
+  {
+    "id": "partition-columns-0002-fc5be70f",
+    "name_en": "Partition Column 002",
+    "name_ar": "عمود بارتشن 002",
+    "desc_en": "Premium partition column from Almanhali Decoration. Catalog: اعمدة بارتشن ١٠سم صيني طول ٣٢٠. Image 1997×1123px.",
+    "desc_ar": "أعمدة بارتشن فاخر من المنهالي للديكور. الكتالوج: اعمدة بارتشن ١٠سم صيني طول ٣٢٠.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/partition-columns/partition-columns-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أعمدة بارتشن"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns",
+      "page-2"
+    ]
+  },
+  {
+    "id": "partition-columns-0003-7a3e8a17",
+    "name_en": "Partition Column 003",
+    "name_ar": "عمود بارتشن 003",
+    "desc_en": "Premium partition column from Almanhali Decoration. Catalog: اعمدة بارتشن ١٠سم صيني طول ٣٢٠. Image 1997×1123px.",
+    "desc_ar": "أعمدة بارتشن فاخر من المنهالي للديكور. الكتالوج: اعمدة بارتشن ١٠سم صيني طول ٣٢٠.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/partition-columns/partition-columns-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أعمدة بارتشن"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns",
+      "page-3"
+    ]
+  },
+  {
+    "id": "partition-columns-0004-d749b1b3",
+    "name_en": "Partition Column 004",
+    "name_ar": "عمود بارتشن 004",
+    "desc_en": "Premium partition column from Almanhali Decoration. Catalog: اعمدة بارتشن ١٠سم صيني طول ٣٢٠. Image 1997×1123px.",
+    "desc_ar": "أعمدة بارتشن فاخر من المنهالي للديكور. الكتالوج: اعمدة بارتشن ١٠سم صيني طول ٣٢٠.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/partition-columns/partition-columns-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أعمدة بارتشن"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns",
+      "page-4"
+    ]
+  },
+  {
+    "id": "partition-columns-0005-de4a5164",
+    "name_en": "Partition Column 005",
+    "name_ar": "عمود بارتشن 005",
+    "desc_en": "Premium partition column from Almanhali Decoration. Catalog: اعمدة بارتشن ١٠سم صيني طول ٣٢٠. Image 1997×1123px.",
+    "desc_ar": "أعمدة بارتشن فاخر من المنهالي للديكور. الكتالوج: اعمدة بارتشن ١٠سم صيني طول ٣٢٠.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/partition-columns/partition-columns-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أعمدة بارتشن"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns",
+      "page-5"
+    ]
+  },
+  {
+    "id": "partition-columns-0006-f400427f",
+    "name_en": "Partition Column 006",
+    "name_ar": "عمود بارتشن 006",
+    "desc_en": "Premium partition column from Almanhali Decoration. Catalog: اعمدة بارتشن ١٠سم صيني طول ٣٢٠. Image 1997×1123px.",
+    "desc_ar": "أعمدة بارتشن فاخر من المنهالي للديكور. الكتالوج: اعمدة بارتشن ١٠سم صيني طول ٣٢٠.",
+    "price": 220,
+    "category": "partition-columns",
+    "category_ar": "أعمدة بارتشن",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/partition-columns/partition-columns-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أعمدة بارتشن"
+    ],
+    "inStock": true,
+    "tags": [
+      "partition-columns",
+      "page-6"
+    ]
+  },
+  {
+    "id": "spc-flooring-0001-ce44669d",
+    "name_en": "SPC Flooring 001",
+    "name_ar": "أرضيات SPC 001",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-1"
+    ]
+  },
+  {
+    "id": "spc-flooring-0002-f5d73148",
+    "name_en": "SPC Flooring 002",
+    "name_ar": "أرضيات SPC 002",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-2"
+    ]
+  },
+  {
+    "id": "spc-flooring-0003-f5f36a1f",
+    "name_en": "SPC Flooring 003",
+    "name_ar": "أرضيات SPC 003",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-3"
+    ]
+  },
+  {
+    "id": "spc-flooring-0004-ffcb292d",
+    "name_en": "SPC Flooring 004",
+    "name_ar": "أرضيات SPC 004",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-4"
+    ]
+  },
+  {
+    "id": "spc-flooring-0005-1928bdbd",
+    "name_en": "SPC Flooring 005",
+    "name_ar": "أرضيات SPC 005",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-5"
+    ]
+  },
+  {
+    "id": "spc-flooring-0006-796d7c04",
+    "name_en": "SPC Flooring 006",
+    "name_ar": "أرضيات SPC 006",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-6"
+    ]
+  },
+  {
+    "id": "spc-flooring-0007-d83d07e7",
+    "name_en": "SPC Flooring 007",
+    "name_ar": "أرضيات SPC 007",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-7"
+    ]
+  },
+  {
+    "id": "spc-flooring-0008-883ab2a2",
+    "name_en": "SPC Flooring 008",
+    "name_ar": "أرضيات SPC 008",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-8"
+    ]
+  },
+  {
+    "id": "spc-flooring-0009-e623eb0b",
+    "name_en": "SPC Flooring 009",
+    "name_ar": "أرضيات SPC 009",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-9"
+    ]
+  },
+  {
+    "id": "spc-flooring-0010-b5a40bf2",
+    "name_en": "SPC Flooring 010",
+    "name_ar": "أرضيات SPC 010",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-10"
+    ]
+  },
+  {
+    "id": "spc-flooring-0011-59031c69",
+    "name_en": "SPC Flooring 011",
+    "name_ar": "أرضيات SPC 011",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-11"
+    ]
+  },
+  {
+    "id": "spc-flooring-0012-8adde6d7",
+    "name_en": "SPC Flooring 012",
+    "name_ar": "أرضيات SPC 012",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-12"
+    ]
+  },
+  {
+    "id": "spc-flooring-0013-2f048462",
+    "name_en": "SPC Flooring 013",
+    "name_ar": "أرضيات SPC 013",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-13"
+    ]
+  },
+  {
+    "id": "spc-flooring-0014-2a5a3b15",
+    "name_en": "SPC Flooring 014",
+    "name_ar": "أرضيات SPC 014",
+    "desc_en": "Premium spc flooring from Almanhali Decoration. Catalog: كتلوج ارضيات spc المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "أرضيات SPC فاخر من المنهالي للديكور. الكتالوج: كتلوج ارضيات spc المنهالي للديكور.",
+    "price": 189,
+    "category": "flooring",
+    "category_ar": "أرضيات SPC",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/spc-flooring/spc-flooring-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "أرضيات SPC"
+    ],
+    "inStock": true,
+    "tags": [
+      "spc-flooring",
+      "page-14"
+    ]
+  },
+  {
+    "id": "stone-alternative-0001-910e9c93",
+    "name_en": "Stone Alternative Panel 001",
+    "name_ar": "بديل الحجر 001",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-1"
+    ]
+  },
+  {
+    "id": "stone-alternative-0002-4403e464",
+    "name_en": "Stone Alternative Panel 002",
+    "name_ar": "بديل الحجر 002",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-2"
+    ]
+  },
+  {
+    "id": "stone-alternative-0003-8404f58f",
+    "name_en": "Stone Alternative Panel 003",
+    "name_ar": "بديل الحجر 003",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-3"
+    ]
+  },
+  {
+    "id": "stone-alternative-0004-f7827777",
+    "name_en": "Stone Alternative Panel 004",
+    "name_ar": "بديل الحجر 004",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-4"
+    ]
+  },
+  {
+    "id": "stone-alternative-0005-55ba5773",
+    "name_en": "Stone Alternative Panel 005",
+    "name_ar": "بديل الحجر 005",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-5"
+    ]
+  },
+  {
+    "id": "stone-alternative-0006-adc302df",
+    "name_en": "Stone Alternative Panel 006",
+    "name_ar": "بديل الحجر 006",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-6"
+    ]
+  },
+  {
+    "id": "stone-alternative-0007-5ad7145d",
+    "name_en": "Stone Alternative Panel 007",
+    "name_ar": "بديل الحجر 007",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-7"
+    ]
+  },
+  {
+    "id": "stone-alternative-0008-d6f38415",
+    "name_en": "Stone Alternative Panel 008",
+    "name_ar": "بديل الحجر 008",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-8"
+    ]
+  },
+  {
+    "id": "stone-alternative-0009-252eaa50",
+    "name_en": "Stone Alternative Panel 009",
+    "name_ar": "بديل الحجر 009",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-9"
+    ]
+  },
+  {
+    "id": "stone-alternative-0010-01070c37",
+    "name_en": "Stone Alternative Panel 010",
+    "name_ar": "بديل الحجر 010",
+    "desc_en": "Premium stone alternative panel from Almanhali Decoration. Catalog: كتلوج بديل الحجر المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "بديل الحجر فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الحجر المنهالي للديكور.",
+    "price": 175,
+    "category": "stone-alternative",
+    "category_ar": "بديل الحجر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/stone-alternative/stone-alternative-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الحجر"
+    ],
+    "inStock": true,
+    "tags": [
+      "stone-alternative",
+      "page-10"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0001-1cb243ce",
+    "name_en": "Outdoor WPC Panel 001",
+    "name_ar": "لوح WPC خارجي 001",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-1"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0002-e9fa5921",
+    "name_en": "Outdoor WPC Panel 002",
+    "name_ar": "لوح WPC خارجي 002",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-2"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0003-c7062880",
+    "name_en": "Outdoor WPC Panel 003",
+    "name_ar": "لوح WPC خارجي 003",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-3"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0004-9fba3809",
+    "name_en": "Outdoor WPC Panel 004",
+    "name_ar": "لوح WPC خارجي 004",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-4"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0005-36e2d37f",
+    "name_en": "Outdoor WPC Panel 005",
+    "name_ar": "لوح WPC خارجي 005",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-5"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0006-2c4bb203",
+    "name_en": "Outdoor WPC Panel 006",
+    "name_ar": "لوح WPC خارجي 006",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-6"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0007-eac5fb84",
+    "name_en": "Outdoor WPC Panel 007",
+    "name_ar": "لوح WPC خارجي 007",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-7"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0008-eafbe168",
+    "name_en": "Outdoor WPC Panel 008",
+    "name_ar": "لوح WPC خارجي 008",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-8"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0009-9a52a1d1",
+    "name_en": "Outdoor WPC Panel 009",
+    "name_ar": "لوح WPC خارجي 009",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-9"
+    ]
+  },
+  {
+    "id": "outdoor-wpc-panel-0010-612f9b08",
+    "name_en": "Outdoor WPC Panel 010",
+    "name_ar": "لوح WPC خارجي 010",
+    "desc_en": "Premium outdoor wpc panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا. Image 2000×1125px.",
+    "desc_ar": "ألواح WPC الخارجية فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الخارجي المضلع والسادة والزوايا.",
+    "price": 195,
+    "category": "outdoor-panels",
+    "category_ar": "ألواح WPC الخارجية",
+    "collection": "desert-luxe",
+    "images": [
+      "/api/uploads/catalog/outdoor-wpc-panel/outdoor-wpc-panel-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "ألواح WPC الخارجية"
+    ],
+    "inStock": true,
+    "tags": [
+      "outdoor-wpc-panel",
+      "page-10"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0001-e8fa2e92",
+    "name_en": "Interior Wood Panel 001",
+    "name_ar": "بديل الخشب الداخلي 001",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-1"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0002-1a25c57e",
+    "name_en": "Interior Wood Panel 002",
+    "name_ar": "بديل الخشب الداخلي 002",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-2"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0003-1ee53924",
+    "name_en": "Interior Wood Panel 003",
+    "name_ar": "بديل الخشب الداخلي 003",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-3"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0004-059b2622",
+    "name_en": "Interior Wood Panel 004",
+    "name_ar": "بديل الخشب الداخلي 004",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-4"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0005-fd388e16",
+    "name_en": "Interior Wood Panel 005",
+    "name_ar": "بديل الخشب الداخلي 005",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-5"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0006-271ded12",
+    "name_en": "Interior Wood Panel 006",
+    "name_ar": "بديل الخشب الداخلي 006",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-6"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0007-1da0f158",
+    "name_en": "Interior Wood Panel 007",
+    "name_ar": "بديل الخشب الداخلي 007",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0007.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-7"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0008-4d83e22d",
+    "name_en": "Interior Wood Panel 008",
+    "name_ar": "بديل الخشب الداخلي 008",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0008.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-8"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0009-f0d83786",
+    "name_en": "Interior Wood Panel 009",
+    "name_ar": "بديل الخشب الداخلي 009",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0009.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-9"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0010-318f52d9",
+    "name_en": "Interior Wood Panel 010",
+    "name_ar": "بديل الخشب الداخلي 010",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0010.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-10"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0011-eef5bc6d",
+    "name_en": "Interior Wood Panel 011",
+    "name_ar": "بديل الخشب الداخلي 011",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0011.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-11"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0012-6301c045",
+    "name_en": "Interior Wood Panel 012",
+    "name_ar": "بديل الخشب الداخلي 012",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0012.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-12"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0013-ffb2efac",
+    "name_en": "Interior Wood Panel 013",
+    "name_ar": "بديل الخشب الداخلي 013",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0013.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-13"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0014-a013ec0f",
+    "name_en": "Interior Wood Panel 014",
+    "name_ar": "بديل الخشب الداخلي 014",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0014.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-14"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0015-e2c4f5fd",
+    "name_en": "Interior Wood Panel 015",
+    "name_ar": "بديل الخشب الداخلي 015",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0015.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-15"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0016-968fb845",
+    "name_en": "Interior Wood Panel 016",
+    "name_ar": "بديل الخشب الداخلي 016",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0016.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-16"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0017-c462e47c",
+    "name_en": "Interior Wood Panel 017",
+    "name_ar": "بديل الخشب الداخلي 017",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0017.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-17"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0018-8d96462b",
+    "name_en": "Interior Wood Panel 018",
+    "name_ar": "بديل الخشب الداخلي 018",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0018.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-18"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0019-dc017d95",
+    "name_en": "Interior Wood Panel 019",
+    "name_ar": "بديل الخشب الداخلي 019",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0019.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-19"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0020-4bad6d1e",
+    "name_en": "Interior Wood Panel 020",
+    "name_ar": "بديل الخشب الداخلي 020",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0020.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-20"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0021-eadd17e7",
+    "name_en": "Interior Wood Panel 021",
+    "name_ar": "بديل الخشب الداخلي 021",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0021.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-21"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0022-886ec439",
+    "name_en": "Interior Wood Panel 022",
+    "name_ar": "بديل الخشب الداخلي 022",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0022.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-22"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0023-7b1019c6",
+    "name_en": "Interior Wood Panel 023",
+    "name_ar": "بديل الخشب الداخلي 023",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0023.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-23"
+    ]
+  },
+  {
+    "id": "interior-wood-panel-0024-5fcda8d5",
+    "name_en": "Interior Wood Panel 024",
+    "name_ar": "بديل الخشب الداخلي 024",
+    "desc_en": "Premium interior wood panel from Almanhali Decoration. Catalog: كتلوج بديل الخشب الداخلي ٢٠سم. Image 2000×1125px.",
+    "desc_ar": "بديل الخشب الداخلي فاخر من المنهالي للديكور. الكتالوج: كتلوج بديل الخشب الداخلي ٢٠سم.",
+    "price": 165,
+    "category": "interior-wood",
+    "category_ar": "بديل الخشب الداخلي",
+    "collection": "heritage",
+    "images": [
+      "/api/uploads/catalog/interior-wood-panel/interior-wood-panel-0024.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "بديل الخشب الداخلي"
+    ],
+    "inStock": true,
+    "tags": [
+      "interior-wood-panel",
+      "page-24"
+    ]
+  },
+  {
+    "id": "soundproofing-0001-05383b42",
+    "name_en": "Soundproof Panel 001",
+    "name_ar": "عازل صوت 001",
+    "desc_en": "Premium soundproof panel from Almanhali Decoration. Catalog: كتلوج عوازل الصوت المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "عوازل الصوت فاخر من المنهالي للديكور. الكتالوج: كتلوج عوازل الصوت المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/catalog/soundproofing/soundproofing-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "عوازل الصوت"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing",
+      "page-1"
+    ]
+  },
+  {
+    "id": "soundproofing-0002-7380fdd1",
+    "name_en": "Soundproof Panel 002",
+    "name_ar": "عازل صوت 002",
+    "desc_en": "Premium soundproof panel from Almanhali Decoration. Catalog: كتلوج عوازل الصوت المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "عوازل الصوت فاخر من المنهالي للديكور. الكتالوج: كتلوج عوازل الصوت المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/catalog/soundproofing/soundproofing-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "عوازل الصوت"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing",
+      "page-2"
+    ]
+  },
+  {
+    "id": "soundproofing-0003-760d6f7a",
+    "name_en": "Soundproof Panel 003",
+    "name_ar": "عازل صوت 003",
+    "desc_en": "Premium soundproof panel from Almanhali Decoration. Catalog: كتلوج عوازل الصوت المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "عوازل الصوت فاخر من المنهالي للديكور. الكتالوج: كتلوج عوازل الصوت المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/catalog/soundproofing/soundproofing-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "عوازل الصوت"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing",
+      "page-3"
+    ]
+  },
+  {
+    "id": "soundproofing-0004-e588482d",
+    "name_en": "Soundproof Panel 004",
+    "name_ar": "عازل صوت 004",
+    "desc_en": "Premium soundproof panel from Almanhali Decoration. Catalog: كتلوج عوازل الصوت المنهالي للديكور. Image 2000×1125px.",
+    "desc_ar": "عوازل الصوت فاخر من المنهالي للديكور. الكتالوج: كتلوج عوازل الصوت المنهالي للديكور.",
+    "price": 120,
+    "category": "soundproofing",
+    "category_ar": "عوازل الصوت",
+    "collection": "quiet-luxury",
+    "images": [
+      "/api/uploads/catalog/soundproofing/soundproofing-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "عوازل الصوت"
+    ],
+    "inStock": true,
+    "tags": [
+      "soundproofing",
+      "page-4"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-0001-55db0938",
+    "name_en": "Fiber Baseboard 001",
+    "name_ar": "نعلة فايبر 001",
+    "desc_en": "Premium fiber baseboard from Almanhali Decoration. Catalog: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦. Image 2000×1125px.",
+    "desc_ar": "نعلات فايبر فاخر من المنهالي للديكور. الكتالوج: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/fiber-baseboards/fiber-baseboards-0001.jpg"
+    ],
+    "badge": "New",
+    "badge_ar": "جديد",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "نعلات فايبر"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards",
+      "page-1"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-0002-af9d233b",
+    "name_en": "Fiber Baseboard 002",
+    "name_ar": "نعلة فايبر 002",
+    "desc_en": "Premium fiber baseboard from Almanhali Decoration. Catalog: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦. Image 2000×1125px.",
+    "desc_ar": "نعلات فايبر فاخر من المنهالي للديكور. الكتالوج: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/fiber-baseboards/fiber-baseboards-0002.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "نعلات فايبر"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards",
+      "page-2"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-0003-1d802ed1",
+    "name_en": "Fiber Baseboard 003",
+    "name_ar": "نعلة فايبر 003",
+    "desc_en": "Premium fiber baseboard from Almanhali Decoration. Catalog: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦. Image 2000×1125px.",
+    "desc_ar": "نعلات فايبر فاخر من المنهالي للديكور. الكتالوج: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/fiber-baseboards/fiber-baseboards-0003.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "نعلات فايبر"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards",
+      "page-3"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-0004-387c0856",
+    "name_en": "Fiber Baseboard 004",
+    "name_ar": "نعلة فايبر 004",
+    "desc_en": "Premium fiber baseboard from Almanhali Decoration. Catalog: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦. Image 2000×1125px.",
+    "desc_ar": "نعلات فايبر فاخر من المنهالي للديكور. الكتالوج: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/fiber-baseboards/fiber-baseboards-0004.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "نعلات فايبر"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards",
+      "page-4"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-0005-0f7d4fac",
+    "name_en": "Fiber Baseboard 005",
+    "name_ar": "نعلة فايبر 005",
+    "desc_en": "Premium fiber baseboard from Almanhali Decoration. Catalog: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦. Image 2000×1125px.",
+    "desc_ar": "نعلات فايبر فاخر من المنهالي للديكور. الكتالوج: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/fiber-baseboards/fiber-baseboards-0005.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "نعلات فايبر"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards",
+      "page-5"
+    ]
+  },
+  {
+    "id": "fiber-baseboards-0006-961c1015",
+    "name_en": "Fiber Baseboard 006",
+    "name_ar": "نعلة فايبر 006",
+    "desc_en": "Premium fiber baseboard from Almanhali Decoration. Catalog: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦. Image 2000×1125px.",
+    "desc_ar": "نعلات فايبر فاخر من المنهالي للديكور. الكتالوج: كتلوج نعلات فايبر المنهالي للديكور ٢٠٢٦.",
+    "price": 85,
+    "category": "baseboards",
+    "category_ar": "نعلات فايبر",
+    "collection": "marble-elegance",
+    "images": [
+      "/api/uploads/catalog/fiber-baseboards/fiber-baseboards-0006.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 0,
+    "colors": [],
+    "materials": [
+      "نعلات فايبر"
+    ],
+    "inStock": true,
+    "tags": [
+      "fiber-baseboards",
+      "page-6"
     ]
   }
 ]
