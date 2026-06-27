@@ -18,7 +18,7 @@ const paymentMethods: { id: PaymentMethod; icon: typeof CreditCard; labelKey: st
   { id: 'tabby', icon: CreditCard, labelKey: 'tabby' },
 ];
 
-const SAUDI_CITIES = ['Riyadh', 'Jeddah', 'Dammam', 'Makkah', 'Madinah', 'Khobar', 'Other Saudi City'];
+const SAUDI_CITIES = ['Dammam', 'Khobar', 'Dhahran', 'Riyadh', 'Jeddah', 'Makkah', 'Madinah', 'Other Saudi City'];
 
 interface PaymentSession {
   orderId: string;
@@ -44,7 +44,7 @@ export default function CheckoutPage() {
     fullName: '',
     phone: '',
     address: '',
-    city: 'Riyadh',
+    city: 'Dammam',
     postalCode: '',
   });
 

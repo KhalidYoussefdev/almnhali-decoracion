@@ -11,7 +11,7 @@ interface Message {
 }
 
 const SUGGESTIONS = [
-  'What flooring works best for Riyadh heat?',
+  'What flooring works best for Dammam heat?',
   'Complete the look for my living room',
   'Show me desert-inspired wall panels',
 ];
@@ -39,7 +39,7 @@ export function AIAssistant() {
     // Simulated AI response — replace with OpenAI/Claude API in production
     await new Promise((r) => setTimeout(r, 1200));
     const responses: Record<string, string> = {
-      flooring: 'For Riyadh\'s climate, I recommend our Heritage Oak SPC Flooring — waterproof, heat-resistant, and beautifully authentic. Would you like to see it in AR?',
+      flooring: 'For Dammam\'s climate, I recommend our Heritage Oak SPC Flooring — waterproof, heat-resistant, and beautifully authentic. Would you like to see it in AR?',
       look: 'Based on trending Saudi interiors, I\'d pair the Desert Sand WPC Panel with Aura Gold Lamp and Heritage Linen Cushions. Shall I add these to your cart?',
       default: 'I\'d love to help! Browse our Heritage Collection for timeless Saudi-inspired pieces, or try our AR tool to visualize products in your room.',
     };

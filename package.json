@@ -2,13 +2,13 @@
   "name": "almnhali-decoracion",
   "version": "1.0.0",
   "private": true,
-  "description": "Almnhali Decoración — Luxury home decoration, Riyadh Saudi Arabia",
+  "description": "Almnhali Decoración — Luxury home decoration, Dammam Saudi Arabia",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0",
     "lint": "next lint",
-    "dev:mobile": "npm run start --workspace=@almnhali/mobile"
+    "dev:mobile": "npm run start --prefix apps/mobile"
   },
   "workspaces": [
     "packages/*"

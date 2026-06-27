@@ -10,8 +10,10 @@ import { WhatsAppButton } from '@/components/layout/WhatsAppButton';
 import { LocaleHtmlAttrs } from '@/components/layout/LocaleHtmlAttrs';
 import { ThemeInjector } from '@/components/layout/ThemeInjector';
 import { AnnouncementBar } from '@/components/layout/AnnouncementBar';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { getSettings } from '@/lib/data-store';
 import { SettingsProvider } from '@/contexts/SettingsContext';
+import { buildBaseMetadata, organizationJsonLd, websiteJsonLd } from '@/lib/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -20,21 +22,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const settings = await getSettings();
-  const isAr = locale === 'ar';
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://almnhali.com';
-
-  return {
-    title: isAr ? settings.seo.title_ar : settings.seo.title_en,
-    description: isAr ? settings.seo.description_ar : settings.seo.description_en,
-    keywords: (isAr ? settings.seo.keywords_ar : settings.seo.keywords_en).split(',').map((k) => k.trim()),
-    openGraph: {
-      title: isAr ? settings.seo.title_ar : settings.seo.title_en,
-      description: isAr ? settings.seo.description_ar : settings.seo.description_en,
-      images: [{ url: settings.seo.ogImage.startsWith('http') ? settings.seo.ogImage : `${siteUrl}${settings.seo.ogImage}` }],
-      locale: isAr ? 'ar_SA' : 'en_SA',
-      type: 'website',
-    },
-  };
+  return buildBaseMetadata(locale, settings);
 }
 
 export default async function LocaleLayout({
@@ -53,6 +41,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <SettingsProvider settings={settings}>
+        <JsonLd data={[organizationJsonLd(settings), websiteJsonLd()]} />
         <LocaleHtmlAttrs locale={locale} />
         <ThemeInjector settings={settings} />
         <AnnouncementBar settings={settings} locale={locale} />

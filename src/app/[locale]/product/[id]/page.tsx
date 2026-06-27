@@ -79,7 +79,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
             {product.arModelUrl && <Button variant="secondary" size="lg" onClick={() => setShowAR(!showAR)}>{t('viewAR')}</Button>}
           </div>
           <div className="grid grid-cols-2 gap-4 pt-4 border-t border-beige-dark/30">
-            <div className="flex items-center gap-3 text-sm"><Truck className="h-5 w-5 text-gold" /><span>2-5 day delivery in Riyadh</span></div>
+            <div className="flex items-center gap-3 text-sm"><Truck className="h-5 w-5 text-gold" /><span>{locale === 'ar' ? 'توصيل خلال 2-5 أيام في الدمام والمنطقة الشرقية' : '2-5 day delivery in Dammam & Eastern Province'}</span></div>
             <div className="flex items-center gap-3 text-sm"><Shield className="h-5 w-5 text-gold" /><span>2-year warranty</span></div>
           </div>
         </motion.div>

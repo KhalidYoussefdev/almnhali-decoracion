@@ -8,7 +8,7 @@ export const brand = {
     en: 'Elevating Saudi Homes with Timeless Elegance',
     ar: 'نرتقي بمنازل السعودية بأناقة خالدة',
   },
-  location: 'Riyadh, Saudi Arabia',
+  location: 'Dammam, Saudi Arabia',
   currency: 'SAR',
   currencySymbol: 'ر.س',
   phone: '+966 11 XXX XXXX',

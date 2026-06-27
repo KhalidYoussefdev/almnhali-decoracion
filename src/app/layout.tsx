@@ -9,15 +9,35 @@ const ibmArabic = IBM_Plex_Sans_Arabic({ subsets: ['arabic'], weight: ['400', '5
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://almnhali.com'),
-  title: 'Almanhali Decoration | Premium Home Decoration — Riyadh',
-  description: 'Luxury home decoration and interior design for Saudi Arabia. SPC flooring, wall panels, and curated decor.',
-  keywords: ['home decor', 'Saudi Arabia', 'Riyadh', 'interior design', 'SPC flooring', 'المنهالي للديكور'],
+  title: 'Almanhali Decoration | Premium Home Decoration — Dammam',
+  description:
+    'Luxury home decoration and interior design in Dammam and the Eastern Province. WPC wall panels, SPC flooring, and curated decor with delivery across Saudi Arabia.',
+  keywords: [
+    'home decor',
+    'Dammam',
+    'Khobar',
+    'Eastern Province',
+    'Saudi Arabia',
+    'interior design',
+    'WPC wall panels',
+    'SPC flooring',
+    'المنهالي للديكور',
+    'الدمام',
+  ],
   openGraph: {
-    title: 'Almanhali Decoration',
-    description: 'Elevating Saudi Homes with Timeless Elegance',
+    title: 'Almanhali Decoration | Premium Home Decoration — Dammam',
+    description: 'Elevating Saudi homes in Dammam and the Eastern Province with timeless elegance',
     locale: 'en_SA',
     type: 'website',
+    siteName: 'Almanhali Decoration',
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  ...(process.env.GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.GOOGLE_SITE_VERIFICATION } }
+    : {}),
   icons: {
     icon: [{ url: '/favicon.png', type: 'image/png' }],
     apple: [{ url: '/favicon.png', type: 'image/png' }],
