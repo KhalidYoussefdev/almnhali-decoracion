@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  ...(process.env.GOOGLE_SITE_VERIFICATION
-    ? { verification: { google: process.env.GOOGLE_SITE_VERIFICATION } }
-    : {}),
+  verification: {
+    google: '4q_7wm3MbL88MqBugoje1_Y5wpb10X_JHEUX-zCGro0',
+  },
   icons: {
     icon: [{ url: '/favicon.png', type: 'image/png' }],
     apple: [{ url: '/favicon.png', type: 'image/png' }],
