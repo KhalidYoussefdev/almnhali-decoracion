@@ -1,4 +1,4 @@
-import { ScrollView, View, Text, Image, StyleSheet, Pressable } from 'react-native';
+import { ScrollView, View, Text, Image, StyleSheet, Pressable, ActivityIndicator } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -7,11 +7,13 @@ import { Logo } from '@/components/Logo';
 import { Button } from '@/components/Button';
 import { ProductCard } from '@/components/ProductCard';
 import { AIChat } from '@/components/AIChat';
-import { products } from '@/data/products';
+import { useProducts } from '@/hooks/useProducts';
 import { t, getLocale, setLocale, isRTL } from '@/i18n';
 
 export default function HomeScreen() {
-  const featured = products.filter((p) => p.badge);
+  const { products, loading } = useProducts();
+  const featured = products.filter((p) => p.badge).slice(0, 4);
+  const display = featured.length > 0 ? featured : products.slice(0, 4);
 
   return (
     <SafeAreaView style={styles.safe}>
@@ -25,7 +27,7 @@ export default function HomeScreen() {
 
         <View style={styles.hero}>
           <Image
-            source={{ uri: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80' }}
+            source={{ uri: 'https://almnhali.com/api/uploads/catalog/wpc-wall-panel/wpc-wall-panel-0001.jpg' }}
             style={styles.heroImage}
           />
           <LinearGradient colors={['transparent', 'rgba(10,37,64,0.85)']} style={styles.heroOverlay}>
@@ -41,20 +43,24 @@ export default function HomeScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionLabel}>{t('featured')}</Text>
           <Text style={styles.sectionTitle}>{t('bestsellers')}</Text>
-          <View style={styles.productGrid}>
-            {featured.map((product) => (
-              <View key={product.id} style={styles.productCol}>
-                <ProductCard product={product} />
-              </View>
-            ))}
-          </View>
+          {loading ? (
+            <ActivityIndicator color={colors.gold.DEFAULT} style={{ marginVertical: 24 }} />
+          ) : (
+            <View style={styles.productGrid}>
+              {display.map((product) => (
+                <View key={product.id} style={styles.productCol}>
+                  <ProductCard product={product} />
+                </View>
+              ))}
+            </View>
+          )}
         </View>
 
         <View style={styles.trustRow}>
           {[
-            { icon: 'car-outline' as const, label: t('delivery') },
-            { icon: 'shield-checkmark-outline' as const, label: 'Premium Quality' },
-            { icon: 'refresh-outline' as const, label: '30-Day Returns' },
+            { label: t('delivery') },
+            { label: t('quality') },
+            { label: t('returns') },
           ].map((item) => (
             <View key={item.label} style={styles.trustItem}>
               <Text style={styles.trustIcon}>✦</Text>

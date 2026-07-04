@@ -1,23 +1,36 @@
 import { useState, useMemo } from 'react';
-import { View, Text, TextInput, FlatList, Pressable, StyleSheet } from 'react-native';
+import { View, Text, TextInput, FlatList, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, spacing, borderRadius } from '@almnhali/design-system';
 import { ProductCard } from '@/components/ProductCard';
-import { products } from '@/data/products';
+import { useProducts } from '@/hooks/useProducts';
 import { t, getLocale } from '@/i18n';
 
-const categories = [
-  { id: 'all', en: 'All', ar: 'الكل' },
-  { id: 'flooring', en: 'Flooring', ar: 'أرضيات' },
-  { id: 'wall-panels', en: 'Wall Panels', ar: 'ألواح' },
-  { id: 'lighting', en: 'Lighting', ar: 'إضاءة' },
-];
+const CATEGORY_LABELS: Record<string, { en: string; ar: string }> = {
+  all: { en: 'All', ar: 'الكل' },
+  chipboard: { en: 'Chipboard', ar: 'بديل الشيبورد' },
+  'wall-panels': { en: 'Wall Panels', ar: 'ألواح جدران' },
+  flooring: { en: 'Flooring', ar: 'أرضيات' },
+  'outdoor-panels': { en: 'Outdoor', ar: 'خارجي' },
+  'interior-wood': { en: 'Interior Wood', ar: 'بديل الخشب' },
+  'stone-alternative': { en: 'Stone', ar: 'بديل الحجر' },
+  baseboards: { en: 'Baseboards', ar: 'نعلات' },
+  'timber-tubes': { en: 'Timber Tubes', ar: 'أنابيب' },
+  soundproofing: { en: 'Soundproofing', ar: 'عوازل' },
+  'partition-columns': { en: 'Columns', ar: 'أعمدة' },
+};
 
 export default function ShopScreen() {
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('all');
   const locale = getLocale();
+  const { products, loading } = useProducts();
+
+  const categories = useMemo(() => {
+    const ids = new Set(products.map((p) => p.category));
+    return ['all', ...Array.from(ids)];
+  }, [products]);
 
   const filtered = useMemo(() => {
     let result = [...products];
@@ -27,13 +40,13 @@ export default function ShopScreen() {
       result = result.filter((p) => p.name_en.toLowerCase().includes(q) || p.name_ar.includes(q));
     }
     return result;
-  }, [search, category]);
+  }, [products, search, category]);
 
   return (
     <SafeAreaView style={styles.safe}>
       <View style={styles.header}>
         <Text style={styles.title}>{t('shop')}</Text>
-        <Text style={styles.count}>{filtered.length} products</Text>
+        <Text style={styles.count}>{filtered.length} {t('products')}</Text>
       </View>
 
       <View style={styles.searchRow}>
@@ -50,33 +63,37 @@ export default function ShopScreen() {
       <FlatList
         horizontal
         data={categories}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item}
         showsHorizontalScrollIndicator={false}
         style={styles.categories}
         contentContainerStyle={{ paddingHorizontal: spacing.md, gap: 8 }}
-        renderItem={({ item }) => (
-          <Pressable
-            onPress={() => setCategory(item.id)}
-            style={[styles.chip, category === item.id && styles.chipActive]}
-          >
-            <Text style={[styles.chipText, category === item.id && styles.chipTextActive]}>
-              {locale === 'ar' ? item.ar : item.en}
-            </Text>
-          </Pressable>
-        )}
+        renderItem={({ item }) => {
+          const label = CATEGORY_LABELS[item] ?? { en: item, ar: item };
+          return (
+            <Pressable onPress={() => setCategory(item)} style={[styles.chip, category === item && styles.chipActive]}>
+              <Text style={[styles.chipText, category === item && styles.chipTextActive]}>
+                {locale === 'ar' ? label.ar : label.en}
+              </Text>
+            </Pressable>
+          );
+        }}
       />
 
-      <FlatList
-        data={filtered}
-        keyExtractor={(item) => item.id}
-        numColumns={2}
-        contentContainerStyle={{ padding: spacing.sm }}
-        renderItem={({ item }) => (
-          <View style={{ width: '50%' }}>
-            <ProductCard product={item} />
-          </View>
-        )}
-      />
+      {loading ? (
+        <ActivityIndicator style={{ marginTop: 40 }} color={colors.gold.DEFAULT} />
+      ) : (
+        <FlatList
+          data={filtered}
+          keyExtractor={(item) => item.id}
+          numColumns={2}
+          contentContainerStyle={{ padding: spacing.sm }}
+          renderItem={({ item }) => (
+            <View style={{ width: '50%' }}>
+              <ProductCard product={item} />
+            </View>
+          )}
+        />
+      )}
     </SafeAreaView>
   );
 }

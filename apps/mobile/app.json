@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Almnhali Decoración",
+    "name": "Almanhali Decoration",
     "slug": "almnhali-decoracion",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,27 +8,48 @@
     "scheme": "almnhali",
     "userInterfaceStyle": "automatic",
     "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
       "backgroundColor": "#0A2540"
     },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.almnhali.decoracion",
+      "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "Used for AR room placement and product visualization",
-        "NSFaceIDUsageDescription": "Used for secure biometric login"
+        "NSFaceIDUsageDescription": "Used for secure biometric login",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
       }
     },
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0A2540"
       },
       "package": "com.almnhali.decoracion",
-      "permissions": ["CAMERA", "USE_BIOMETRIC", "USE_FINGERPRINT"]
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      },
+      "privacyPolicyUrl": "https://almnhali.com/privacy"
     },
     "plugins": [
       "expo-router",
       "expo-local-authentication",
-      "expo-camera"
+      "expo-camera",
+      "expo-asset",
+      "expo-secure-store"
     ]
   }
 }

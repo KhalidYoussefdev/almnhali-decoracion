@@ -13,6 +13,7 @@ import { AnnouncementBar } from '@/components/layout/AnnouncementBar';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { getSettings } from '@/lib/data-store';
 import { SettingsProvider } from '@/contexts/SettingsContext';
+import { AuthProvider } from '@/components/auth/AuthProvider';
 import { buildBaseMetadata, organizationJsonLd, websiteJsonLd } from '@/lib/seo';
 
 export function generateStaticParams() {
@@ -41,6 +42,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <SettingsProvider settings={settings}>
+        <AuthProvider>
         <JsonLd data={[organizationJsonLd(settings), websiteJsonLd()]} />
         <LocaleHtmlAttrs locale={locale} />
         <ThemeInjector settings={settings} />
@@ -50,6 +52,7 @@ export default async function LocaleLayout({
         <Footer />
         <WhatsAppButton />
         <AIAssistant />
+        </AuthProvider>
       </SettingsProvider>
     </NextIntlClientProvider>
   );

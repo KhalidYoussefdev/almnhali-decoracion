@@ -52,10 +52,28 @@
     "settings": "Settings",
     "logout": "Sign Out"
   },
+  "auth": {
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join Almanhali Decoration — shop, save wishlists, and track orders in Dammam.",
+    "loginTitle": "Sign In",
+    "loginSubtitle": "Welcome back to Almanhali Decoration.",
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone (+966 optional)",
+    "password": "Password (min 8 characters)",
+    "confirmPassword": "Confirm password",
+    "createAccount": "Create Account",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "creating": "Creating account...",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "guestPrompt": "Sign in or create an account to save your wishlist and track orders."
+  },
   "ai": {
     "title": "Design Assistant",
-    "placeholder": "Ask about styles, sizing, or room ideas...",
-    "greeting": "Hello! I'm your Almanhali Decoration design assistant. How can I help elevate your space today?"
+    "placeholder": "Ask about products, contact, or delivery...",
+    "greeting": "Hello! I'm your Almanhali assistant in Dammam. I can guide you to products, help you contact our team, or explain delivery & AR preview."
   },
   "trust": {
     "delivery": "Saudi-wide Delivery",

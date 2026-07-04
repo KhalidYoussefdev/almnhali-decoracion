@@ -3,7 +3,7 @@ import { getAllProducts } from '@/data/products';
 import { getSettings } from '@/lib/data-store';
 import { localePath } from '@/lib/seo';
 
-const STATIC_PATHS = ['', '/shop', '/collections', '/inspiration'];
+const STATIC_PATHS = ['', '/shop', '/collections', '/inspiration', '/login', '/register', '/privacy'];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [products, settings] = await Promise.all([getAllProducts(), getSettings()]);

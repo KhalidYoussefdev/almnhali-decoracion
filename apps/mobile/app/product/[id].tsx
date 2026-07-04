@@ -1,29 +1,34 @@
 import { useState } from 'react';
 import { View, Text, Image, ScrollView, Pressable, StyleSheet } from 'react-native';
 import { useLocalSearchParams, router } from 'expo-router';
+import { openAR } from '@/lib/navigation';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, spacing, borderRadius } from '@almnhali/design-system';
 import { Button } from '@/components/Button';
 import { ProductCard } from '@/components/ProductCard';
-import { getProductById, getRecommendations } from '@/data/products';
+import { getRecommendations } from '@/data/products';
+import { resolveImageUrl } from '@/lib/api';
+import { supportsAR } from '@/lib/ar-intelligence';
+import { useProduct } from '@/hooks/useProduct';
 import { useCartStore } from '@/stores/cart';
 import { useWishlistStore } from '@/stores/wishlist';
 import { t, getLocale } from '@/i18n';
 
 export default function ProductScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const product = getProductById(id!);
+  const { product, loading } = useProduct(id);
   const locale = getLocale();
   const addItem = useCartStore((s) => s.addItem);
   const { toggle, has } = useWishlistStore();
 
-  if (!product) return <View><Text>Product not found</Text></View>;
+  if (loading) return <View style={styles.container}><Text>{locale === 'ar' ? 'جاري التحميل...' : 'Loading...'}</Text></View>;
+  if (!product) return <View style={styles.container}><Text>Product not found</Text></View>;
 
   const recommendations = getRecommendations(product.id);
 
   return (
     <ScrollView style={styles.container}>
-      <Image source={{ uri: product.images[0] }} style={styles.image} />
+      <Image source={{ uri: resolveImageUrl(product.images[0]) }} style={styles.image} />
       <View style={styles.content}>
         <Text style={styles.category}>{locale === 'ar' ? product.category_ar : product.category}</Text>
         <Text style={styles.name}>{locale === 'ar' ? product.name_ar : product.name_en}</Text>
@@ -34,13 +39,22 @@ export default function ProductScreen() {
         <Text style={styles.price}>{product.price} {locale === 'ar' ? 'ر.س' : 'SAR'}</Text>
         <Text style={styles.desc}>{locale === 'ar' ? product.desc_ar : product.desc_en}</Text>
 
+        {supportsAR(product) && (
+          <Button
+            title={t('viewAR')}
+            variant="outline"
+            onPress={() => openAR(product.id)}
+            style={{ marginTop: spacing.md }}
+          />
+        )}
+
         <View style={styles.actions}>
           <Button title={t('addToCart')} variant="gold" onPress={() => addItem(product.id)} style={{ flex: 1 }} />
           <Pressable style={styles.iconBtn} onPress={() => toggle(product.id)}>
             <Ionicons name={has(product.id) ? 'heart' : 'heart-outline'} size={24} color={has(product.id) ? colors.terracotta.DEFAULT : colors.navy.DEFAULT} />
           </Pressable>
-          {product.arModelUrl && (
-            <Pressable style={styles.iconBtn} onPress={() => router.push(`/ar/${product.id}`)}>
+          {supportsAR(product) && (
+            <Pressable style={styles.iconBtn} onPress={() => openAR(product.id)}>
               <Ionicons name="cube" size={24} color={colors.navy.DEFAULT} />
             </Pressable>
           )}

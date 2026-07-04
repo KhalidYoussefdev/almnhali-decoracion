@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 import { SlidersHorizontal, X } from 'lucide-react';
@@ -17,7 +18,13 @@ export default function ShopPage() {
   const settings = useSiteSettings();
   const categories = settings.categories;
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const searchParams = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+  useEffect(() => {
+    const category = searchParams.get('category');
+    if (category) setSelectedCategory(category);
+  }, [searchParams]);
   const [sort, setSort] = useState<SortOption>('featured');
   const [search, setSearch] = useState('');
   const { products, loading } = useProducts();

@@ -1,8 +1,11 @@
 import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
+import { openAR } from '@/lib/navigation';
 import { colors, spacing, borderRadius } from '@almnhali/design-system';
 import { type Product } from '@/data/products';
+import { resolveImageUrl } from '@/lib/api';
+import { supportsAR } from '@/lib/ar-intelligence';
 import { getLocale, t } from '@/i18n';
 import { useWishlistStore } from '@/stores/wishlist';
 import { useCartStore } from '@/stores/cart';
@@ -21,7 +24,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Pressable style={styles.card} onPress={() => router.push(`/product/${product.id}`)}>
       <View style={styles.imageContainer}>
-        <Image source={{ uri: product.images[0] }} style={styles.image} />
+        <Image source={{ uri: resolveImageUrl(product.images[0]) }} style={styles.image} />
         {badge && (
           <View style={styles.badge}>
             <Text style={styles.badgeText}>{badge}</Text>
@@ -30,8 +33,11 @@ export function ProductCard({ product }: ProductCardProps) {
         <Pressable style={styles.wishlistBtn} onPress={() => toggle(product.id)}>
           <Ionicons name={has(product.id) ? 'heart' : 'heart-outline'} size={20} color={has(product.id) ? colors.terracotta.DEFAULT : colors.navy.DEFAULT} />
         </Pressable>
-        {product.arModelUrl && (
-          <Pressable style={styles.arBtn} onPress={() => router.push(`/ar/${product.id}`)}>
+        {supportsAR(product) && (
+          <Pressable
+            style={styles.arBtn}
+            onPress={() => openAR(product.id)}
+          >
             <Ionicons name="cube-outline" size={18} color={colors.navy.DEFAULT} />
           </Pressable>
         )}
