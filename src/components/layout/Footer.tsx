@@ -4,7 +4,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
 import { useSiteSettings } from '@/contexts/SettingsContext';
-import { Phone } from 'lucide-react';
+import { Instagram, Twitter, Phone } from 'lucide-react';
+import { SnapchatIcon } from '@/components/ui/SnapchatIcon';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -26,17 +27,51 @@ export function Footer() {
           <div className="md:col-span-2">
             <Logo theme="dark" />
             <p className="mt-4 text-cream/70 max-w-md leading-relaxed">{tagline}</p>
-            {settings.contact.phone && (
-              <div className="mt-6">
+            <div className="flex flex-wrap gap-4 mt-6">
+              {/* Single phone icon — call only */}
+              {settings.contact.phone && (
                 <a
                   href={`tel:${settings.contact.phone}`}
-                  className="inline-flex p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
                   aria-label={isAr ? 'اتصل بنا' : 'Call us'}
                 >
                   <Phone className="h-5 w-5 text-gold" />
                 </a>
-              </div>
-            )}
+              )}
+              {settings.social.instagram && (
+                <a
+                  href={settings.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5 text-gold" />
+                </a>
+              )}
+              {settings.social.twitter && (
+                <a
+                  href={settings.social.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="X (Twitter)"
+                >
+                  <Twitter className="h-5 w-5 text-gold" />
+                </a>
+              )}
+              {settings.social.snapchat && (
+                <a
+                  href={settings.social.snapchat}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="Snapchat"
+                >
+                  <SnapchatIcon className="h-5 w-5 text-gold" />
+                </a>
+              )}
+            </div>
           </div>
 
           <div>
