@@ -21,7 +21,9 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const cartCount = useCartStore((s) => s.itemCount());
-  const { theme, setTheme } = useThemeStore();
+  const theme = useThemeStore((s) => s.theme);
+  const toggleTheme = useThemeStore((s) => s.toggleTheme);
+  const [isDark, setIsDark] = useState(false);
   const announcement = settings.announcement.enabled
     ? locale === 'ar'
       ? settings.announcement.text_ar
@@ -46,14 +48,22 @@ export function Header() {
     setMobileOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    const update = () => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    };
+    update();
+    const obs = new MutationObserver(update);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    return () => obs.disconnect();
+  }, [theme]);
+
   const toggleLocale = () => {
     router.replace(pathname, { locale: locale === 'en' ? 'ar' : 'en' });
   };
 
-  const toggleTheme = () => {
-    const next = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    document.documentElement.classList.toggle('dark', next === 'dark');
+  const onToggleTheme = () => {
+    toggleTheme();
   };
 
   return (
@@ -118,11 +128,11 @@ export function Header() {
             </button>
 
             <button
-              onClick={toggleTheme}
-              className="p-2 text-navy dark:text-cream hover:text-gold transition-colors hidden sm:block"
-              aria-label="Toggle theme"
+              onClick={onToggleTheme}
+              className="p-2 text-navy dark:text-cream hover:text-gold transition-colors"
+              aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
             >
-              {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </button>
 
             <button
@@ -214,7 +224,7 @@ export function Header() {
                   </Link>
                 </motion.div>
               ))}
-              <div className="mt-6 flex gap-4">
+              <div className="mt-6 flex flex-wrap gap-4">
                 <Link href="/account" onClick={() => setMobileOpen(false)} className="text-navy dark:text-cream">
                   {t('account')}
                 </Link>
@@ -222,6 +232,20 @@ export function Header() {
                   {t('wishlist')}
                 </Link>
               </div>
+              <button
+                type="button"
+                onClick={onToggleTheme}
+                className="mt-8 w-full flex items-center justify-center gap-2 py-3 rounded-xl border border-gold/40 text-navy dark:text-cream font-medium hover:bg-gold/10"
+              >
+                {isDark ? <Sun className="h-5 w-5 text-gold" /> : <Moon className="h-5 w-5 text-gold" />}
+                {isDark
+                  ? locale === 'ar'
+                    ? 'الوضع الفاتح'
+                    : 'Light mode'
+                  : locale === 'ar'
+                    ? 'الوضع الداكن'
+                    : 'Dark mode'}
+              </button>
             </motion.nav>
           </motion.div>
         )}

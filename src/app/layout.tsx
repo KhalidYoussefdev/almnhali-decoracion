@@ -44,10 +44,32 @@ export const metadata: Metadata = {
   },
 };
 
+const themeInitScript = `
+(function(){
+  try {
+    var raw = localStorage.getItem('almnhali-theme');
+    var theme = 'light';
+    if (raw) {
+      var parsed = JSON.parse(raw);
+      theme = (parsed && parsed.state && parsed.state.theme) || theme;
+    }
+    var dark = theme === 'dark' || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (dark) document.documentElement.classList.add('dark');
+    else document.documentElement.classList.remove('dark');
+    document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+  } catch (e) {}
+})();
+`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className={`${playfair.variable} ${inter.variable} ${notoArabic.variable} ${ibmArabic.variable}`}>
-      <body suppressHydrationWarning>{children}</body>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
+      <body suppressHydrationWarning className="bg-cream text-navy dark:bg-navy-900 dark:text-cream">
+        {children}
+      </body>
     </html>
   );
 }
