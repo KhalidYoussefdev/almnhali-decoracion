@@ -1,33 +1,37 @@
 const MOYASAR_API = 'https://api.moyasar.com/v1';
 
 export function getPublishableKey(): string {
-  return process.env.NEXT_PUBLIC_MOYASAR_PUBLISHABLE_KEY ?? '';
+  return (process.env.NEXT_PUBLIC_MOYASAR_PUBLISHABLE_KEY ?? '').trim();
 }
 
 export function getSecretKey(): string {
-  return process.env.MOYASAR_SECRET_KEY ?? '';
+  return (process.env.MOYASAR_SECRET_KEY ?? '').trim();
 }
 
 export function isPaymentConfigured(): boolean {
-  return Boolean(getPublishableKey() && getSecretKey());
+  const pk = getPublishableKey();
+  const sk = getSecretKey();
+  return Boolean(pk && sk && (pk.startsWith('pk_') || pk.startsWith('pk_test_') || pk.startsWith('pk_live_')));
 }
 
 export function toHalalas(amountSar: number): number {
   return Math.round(amountSar * 100);
 }
 
-/** Map UI payment choice to Moyasar form methods (live account). */
+/**
+ * Moyasar form methods.
+ * Always include creditcard for Mada/Visa/MC so the pay form is never empty.
+ * Apple Pay / STC Pay are optional extras when selected.
+ */
 export function moyasarMethods(method: string): string[] {
   switch (method) {
     case 'apple':
-      return ['applepay'];
+      // Apple Pay alone is empty on non-Safari — keep card as fallback
+      return ['applepay', 'creditcard'];
     case 'stc':
-      return ['stcpay'];
+      return ['stcpay', 'creditcard'];
     case 'mada':
-      // Moyasar creditcard form accepts Mada + Visa/MC when enabled in dashboard
-      return ['creditcard'];
     case 'tabby':
-      return ['creditcard'];
     default:
       return ['creditcard'];
   }
