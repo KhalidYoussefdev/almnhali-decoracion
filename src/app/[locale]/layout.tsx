@@ -9,7 +9,6 @@ import { AIAssistant } from '@/components/ai/AIAssistant';
 import { WhatsAppButton } from '@/components/layout/WhatsAppButton';
 import { LocaleHtmlAttrs } from '@/components/layout/LocaleHtmlAttrs';
 import { ThemeInjector } from '@/components/layout/ThemeInjector';
-import { AnnouncementBar } from '@/components/layout/AnnouncementBar';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { getSettings } from '@/lib/data-store';
 import { SettingsProvider } from '@/contexts/SettingsContext';
@@ -46,9 +45,8 @@ export default async function LocaleLayout({
         <JsonLd data={[organizationJsonLd(settings), websiteJsonLd()]} />
         <LocaleHtmlAttrs locale={locale} />
         <ThemeInjector settings={settings} />
-        <AnnouncementBar settings={settings} locale={locale} />
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen pt-16 md:pt-[4.5rem]">{children}</main>
         <Footer />
         <WhatsAppButton />
         <AIAssistant />

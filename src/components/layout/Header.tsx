@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ShoppingBag, Heart, User, Menu, X, Sun, Moon } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
@@ -8,6 +8,7 @@ import { Link, usePathname, useRouter } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
 import { useCartStore } from '@/stores/cart';
 import { useThemeStore } from '@/stores/theme';
+import { useSiteSettings } from '@/contexts/SettingsContext';
 import { cn } from '@/lib/utils';
 
 export function Header() {
@@ -15,10 +16,17 @@ export function Header() {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const settings = useSiteSettings();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const cartCount = useCartStore((s) => s.itemCount());
   const { theme, setTheme } = useThemeStore();
+  const announcement = settings.announcement.enabled
+    ? locale === 'ar'
+      ? settings.announcement.text_ar
+      : settings.announcement.text_en
+    : null;
 
   const navLinks = [
     { href: '/catalog', label: t('catalog') },
@@ -26,6 +34,17 @@ export function Header() {
     { href: '/collections', label: t('collections') },
     { href: '/inspiration', label: t('inspiration') },
   ];
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 12);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
 
   const toggleLocale = () => {
     router.replace(pathname, { locale: locale === 'en' ? 'ar' : 'en' });
@@ -38,9 +57,21 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-sticky bg-cream/95 dark:bg-navy-800/95 backdrop-blur-lg border-b border-beige-dark/30 dark:border-navy-600/30">
+    <header
+      className={cn(
+        'fixed top-0 inset-x-0 z-[100] transition-all duration-300',
+        scrolled
+          ? 'bg-cream/98 dark:bg-navy-800/98 backdrop-blur-xl shadow-md border-b border-beige-dark/40 dark:border-navy-600/50'
+          : 'bg-cream/90 dark:bg-navy-800/90 backdrop-blur-md border-b border-transparent',
+      )}
+    >
+      {announcement && (
+        <div className="bg-gold text-navy text-center text-sm py-2 px-4 font-medium">
+          {announcement}
+        </div>
+      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-16 md:h-[4.5rem]">
           <button
             className="md:hidden p-2 text-navy dark:text-cream"
             onClick={() => setMobileOpen(true)}
@@ -53,24 +84,31 @@ export function Header() {
             <Logo variant="compact" theme="light" className="dark:[&_span]:text-cream" />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          {/* Always-visible main menu on desktop while scrolling */}
+          <nav className="hidden md:flex items-center gap-6 lg:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'text-sm font-medium tracking-wide transition-colors hover:text-gold',
-                  pathname.startsWith(link.href)
+                  'relative text-sm font-medium tracking-wide transition-colors hover:text-gold py-1',
+                  pathname === link.href || pathname.startsWith(`${link.href}/`)
                     ? 'text-gold'
-                    : 'text-navy dark:text-cream'
+                    : 'text-navy dark:text-cream',
                 )}
               >
                 {link.label}
+                {(pathname === link.href || pathname.startsWith(`${link.href}/`)) && (
+                  <motion.span
+                    layoutId="nav-underline"
+                    className="absolute -bottom-0.5 inset-x-0 h-0.5 bg-gold rounded-full"
+                  />
+                )}
               </Link>
             ))}
           </nav>
 
-          <div className="flex items-center gap-2 md:gap-4">
+          <div className="flex items-center gap-1 sm:gap-2 md:gap-3">
             <button
               onClick={() => setSearchOpen(!searchOpen)}
               className="p-2 text-navy dark:text-cream hover:text-gold transition-colors"
@@ -120,7 +158,7 @@ export function Header() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="border-t border-beige-dark/30 dark:border-navy-600/30 overflow-hidden"
+            className="border-t border-beige-dark/30 dark:border-navy-600/30 overflow-hidden bg-cream dark:bg-navy-800"
           >
             <div className="max-w-7xl mx-auto px-4 py-4">
               <input
@@ -140,7 +178,7 @@ export function Header() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-modal bg-navy/60 backdrop-blur-sm md:hidden"
+            className="fixed inset-0 z-[110] bg-navy/60 backdrop-blur-sm md:hidden"
             onClick={() => setMobileOpen(false)}
           >
             <motion.nav
@@ -157,15 +195,24 @@ export function Header() {
                   <X className="h-6 w-6 text-navy dark:text-cream" />
                 </button>
               </div>
-              {navLinks.map((link) => (
-                <Link
+              {navLinks.map((link, i) => (
+                <motion.div
                   key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block py-3 text-lg font-medium text-navy dark:text-cream hover:text-gold border-b border-beige-dark/30"
+                  initial={{ opacity: 0, x: -12 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.05 }}
                 >
-                  {link.label}
-                </Link>
+                  <Link
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className={cn(
+                      'block py-3 text-lg font-medium border-b border-beige-dark/30',
+                      pathname.startsWith(link.href) ? 'text-gold' : 'text-navy dark:text-cream hover:text-gold',
+                    )}
+                  >
+                    {link.label}
+                  </Link>
+                </motion.div>
               ))}
               <div className="mt-6 flex gap-4">
                 <Link href="/account" onClick={() => setMobileOpen(false)} className="text-navy dark:text-cream">

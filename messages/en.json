@@ -25,7 +25,9 @@
     "shopView": "Shop View",
     "allCategories": "All Categories",
     "backToCatalog": "Back to Catalog",
-    "footerNote": "Almanhali Decoration — Dammam, Saudi Arabia"
+    "footerNote": "Almanhali Decoration — Dammam, Saudi Arabia",
+    "browseOnly": "Browse only — no prices",
+    "view": "View"
   },
   "hero": {
     "title": "Elevate Your Space",

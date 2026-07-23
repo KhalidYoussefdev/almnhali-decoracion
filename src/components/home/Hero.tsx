@@ -6,7 +6,7 @@ import { useRef } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Button } from '@/components/ui/Button';
-import { Box } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 
 export function Hero() {
@@ -45,10 +45,12 @@ export function Hero() {
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-white leading-tight">{title}</h1>
             <p className="mt-4 text-lg md:text-xl text-cream/90 max-w-lg">{subtitle}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href="/collections"><Button variant="gold" size="lg">{cta}</Button></Link>
-              <Link href="/inspiration?ar=true">
+              <Link href="/collections">
+                <Button variant="gold" size="lg">{cta}</Button>
+              </Link>
+              <Link href="/catalog">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-navy">
-                  <Box className="h-5 w-5" /> {secondaryCta}
+                  <BookOpen className="h-5 w-5" /> {secondaryCta}
                 </Button>
               </Link>
             </div>

@@ -16,12 +16,20 @@ export function toHalalas(amountSar: number): number {
   return Math.round(amountSar * 100);
 }
 
+/** Map UI payment choice to Moyasar form methods (live account). */
 export function moyasarMethods(method: string): string[] {
   switch (method) {
-    case 'apple': return ['applepay'];
-    case 'stc': return ['stcpay'];
+    case 'apple':
+      return ['applepay'];
+    case 'stc':
+      return ['stcpay'];
     case 'mada':
-    default: return ['creditcard'];
+      // Moyasar creditcard form accepts Mada + Visa/MC when enabled in dashboard
+      return ['creditcard'];
+    case 'tabby':
+      return ['creditcard'];
+    default:
+      return ['creditcard'];
   }
 }
 

@@ -10,7 +10,7 @@ const SETTINGS_FILE = path.join(DATA_DIR, 'settings.json');
 const CATALOG_VERSION_FILE = path.join(DATA_DIR, '.catalog-version');
 const SETTINGS_VERSION_FILE = path.join(DATA_DIR, '.settings-version');
 const CATALOG_VERSION = '5';
-const SETTINGS_VERSION = '7';
+const SETTINGS_VERSION = '8';
 
 async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });
@@ -70,6 +70,7 @@ export async function getSettings(): Promise<SiteSettings> {
   if (version !== SETTINGS_VERSION) {
     merged.brand = { ...merged.brand, ...DEFAULT_SETTINGS.brand };
     merged.seo = { ...merged.seo, ...DEFAULT_SETTINGS.seo };
+    merged.hero = { ...merged.hero, ...DEFAULT_SETTINGS.hero };
     merged.contact = DEFAULT_SETTINGS.contact;
     merged.social = DEFAULT_SETTINGS.social;
     merged.categories = DEFAULT_SETTINGS.categories;

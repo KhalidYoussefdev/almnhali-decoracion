@@ -100,8 +100,8 @@ export const DEFAULT_SETTINGS: SiteSettings = {
     subtitle_ar: 'ديكور منزلي فاخر مصمم للأناقة السعودية',
     cta_en: 'Explore Collections',
     cta_ar: 'استكشف المجموعات',
-    secondaryCta_en: 'Virtual Room Tour',
-    secondaryCta_ar: 'جولة افتراضية',
+    secondaryCta_en: 'Browse Catalog',
+    secondaryCta_ar: 'تصفح الكتالوج',
   },
   theme: {
     navy: '#0A2540',
