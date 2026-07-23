@@ -15,7 +15,7 @@
     "badge": "Popular",
     "heroTitle": "Bestseller Product Catalogue",
     "heroSubtitle": "Explore categories — Dammam & Eastern Province",
-    "popular": "Popular Product · 爆款品类",
+    "popular": "Popular Categories",
     "items": "items",
     "allProducts": "All Products",
     "loading": "Loading catalog...",
@@ -26,14 +26,13 @@
     "allCategories": "All Categories",
     "backToCatalog": "Back to Catalog",
     "footerNote": "Almanhali Decoration — Dammam, Saudi Arabia",
-    "browseOnly": "Browse only — no prices",
     "view": "View"
   },
   "hero": {
     "title": "Elevate Your Space",
     "subtitle": "Premium home decoration crafted for Saudi elegance",
     "cta": "Explore Collections",
-    "secondary": "Virtual Room Tour"
+    "secondary": "Browse Catalog"
   },
   "shop": {
     "title": "Shop",

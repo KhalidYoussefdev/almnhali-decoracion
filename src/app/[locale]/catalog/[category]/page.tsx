@@ -93,9 +93,6 @@ export default function CatalogCategoryPage({
           <span className="shrink-0 px-3 py-1.5 rounded-full bg-gold text-navy text-xs font-semibold">
             {t('productCatalog')}
           </span>
-          <span className="shrink-0 px-3 py-1.5 rounded-full border border-gold/40 text-xs text-gold font-medium">
-            {t('browseOnly')}
-          </span>
           <Link
             href="/catalog"
             className="shrink-0 px-3 py-1.5 rounded-full border border-beige-dark/50 text-xs text-navy dark:text-cream"

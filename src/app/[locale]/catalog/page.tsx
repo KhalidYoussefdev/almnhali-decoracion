@@ -86,7 +86,6 @@ export default function BrowseCatalogPage() {
             <p className="text-gold text-xs font-semibold tracking-widest uppercase">{t('badge')}</p>
             <h2 className="font-display text-2xl mt-1 leading-tight">{t('heroTitle')}</h2>
             <p className="text-cream/80 text-sm mt-1">{t('heroSubtitle')}</p>
-            <p className="text-[11px] text-gold/90 mt-2 font-medium">{t('browseOnly')}</p>
           </motion.div>
         </motion.div>
 
