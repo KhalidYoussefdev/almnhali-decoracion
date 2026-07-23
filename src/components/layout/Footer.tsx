@@ -4,7 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
 import { useSiteSettings } from '@/contexts/SettingsContext';
-import { Instagram, Twitter, Phone } from 'lucide-react';
+import { Instagram, Twitter, Phone, Mail, MessageCircle } from 'lucide-react';
 import { SnapchatIcon } from '@/components/ui/SnapchatIcon';
 import { whatsappUrl } from '@/lib/image';
 
@@ -20,6 +20,7 @@ export function Footer() {
   const allProducts = isAr ? settings.footer.allProducts_ar : settings.footer.allProducts_en;
   const collectionsLink = isAr ? settings.footer.collectionsLink_ar : settings.footer.collectionsLink_en;
   const emailPlaceholder = isAr ? settings.footer.emailPlaceholder_ar : settings.footer.emailPlaceholder_en;
+  const email = settings.contact.email || 'info@almnhali.com';
 
   return (
     <footer className="bg-navy text-cream">
@@ -29,6 +30,16 @@ export function Footer() {
             <Logo theme="dark" />
             <p className="mt-4 text-cream/70 max-w-md leading-relaxed">{tagline}</p>
             <div className="flex flex-wrap gap-4 mt-6">
+              {/* Only one phone icon — opens a call */}
+              {settings.contact.phone && (
+                <a
+                  href={`tel:${settings.contact.phone}`}
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label={isAr ? 'اتصل بنا' : 'Call us'}
+                >
+                  <Phone className="h-5 w-5 text-gold" />
+                </a>
+              )}
               {settings.contact.whatsapp && (
                 <a
                   href={whatsappUrl(settings.contact.whatsapp, isAr ? 'مرحباً' : 'Hello')}
@@ -37,7 +48,16 @@ export function Footer() {
                   className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
                   aria-label="WhatsApp"
                 >
-                  <Phone className="h-5 w-5 text-gold" />
+                  <MessageCircle className="h-5 w-5 text-gold" />
+                </a>
+              )}
+              {email && (
+                <a
+                  href={`mailto:${email}`}
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="Email"
+                >
+                  <Mail className="h-5 w-5 text-gold" />
                 </a>
               )}
               {settings.social.instagram && (
