@@ -20,7 +20,7 @@ export function Footer() {
   const shopHeading = isAr ? settings.footer.shopHeading_ar : settings.footer.shopHeading_en;
   const allProducts = isAr ? settings.footer.allProducts_ar : settings.footer.allProducts_en;
   const collectionsLink = isAr ? settings.footer.collectionsLink_ar : settings.footer.collectionsLink_en;
-  const inspirationLink = isAr ? settings.footer.inspirationLink_ar : settings.footer.inspirationLink_en;
+
   const emailPlaceholder = isAr ? settings.footer.emailPlaceholder_ar : settings.footer.emailPlaceholder_en;
 
   return (
@@ -66,7 +66,6 @@ export function Footer() {
               <li><Link href="/catalog" className="hover:text-gold transition-colors">{isAr ? 'تصفح الكتالوج' : 'Browse Catalog'}</Link></li>
               <li><Link href="/shop" className="hover:text-gold transition-colors">{allProducts}</Link></li>
               <li><Link href="/collections" className="hover:text-gold transition-colors">{collectionsLink}</Link></li>
-              <li><Link href="/inspiration" className="hover:text-gold transition-colors">{inspirationLink}</Link></li>
             </ul>
           </div>
 

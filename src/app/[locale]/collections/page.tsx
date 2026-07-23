@@ -1,54 +1,181 @@
 'use client';
 
-import { AppImage } from '@/components/ui/AppImage';
+import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { AppImage } from '@/components/ui/AppImage';
+import { useProducts } from '@/hooks/useProducts';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 import { getLocalizedField } from '@/lib/utils';
+
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.06, delayChildren: 0.15 },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 28, scale: 0.96 },
+  show: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: { type: 'spring', stiffness: 320, damping: 24 },
+  },
+};
 
 export default function CollectionsPage() {
   const locale = useLocale();
   const t = useTranslations('nav');
+  const tCat = useTranslations('catalog');
   const settings = useSiteSettings();
+  const { products, loading } = useProducts();
+  const isAr = locale === 'ar';
+
+  const cards = useMemo(() => {
+    return settings.collections.map((collection) => {
+      const count = products.filter((p) => p.collection === collection.id).length;
+      return { ...collection, count };
+    });
+  }, [settings.collections, products]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-      <motion.h1
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="font-display text-4xl md:text-5xl text-navy dark:text-cream mb-12"
-      >
-        {t('collections')}
-      </motion.h1>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {settings.collections.map((collection, i) => (
-          <motion.div
-            key={collection.id}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: i * 0.1 }}
+    <div className="min-h-screen bg-[#f4f4f4] dark:bg-navy-900">
+      <div className="mx-auto max-w-lg min-h-screen bg-white dark:bg-navy-800 shadow-xl overflow-hidden">
+        <motion.div
+          initial={{ opacity: 0, y: -12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45 }}
+          className="bg-navy text-cream px-5 py-4 flex items-center justify-between"
+        >
+          <div>
+            <p className="text-[10px] tracking-[0.2em] uppercase text-gold font-semibold">
+              {isAr ? settings.brand.name_ar : settings.brand.name_en}
+            </p>
+            <h1 className="font-display text-xl mt-0.5">{t('collections')}</h1>
+          </div>
+          <Link
+            href="/catalog"
+            className="text-xs border border-gold/40 text-gold px-3 py-1.5 rounded-full hover:bg-gold/10 transition-colors"
           >
-            <Link href={`/collections/${collection.id}`} className="group block relative aspect-[3/2] rounded-2xl overflow-hidden">
-              <AppImage
-                src={collection.image}
-                alt={getLocalizedField(collection, 'name', locale)}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
-                sizes="50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent" />
-              <div className="absolute bottom-0 p-8">
-                <h2 className="font-display text-3xl text-white group-hover:text-gold transition-colors">
-                  {getLocalizedField(collection, 'name', locale)}
-                </h2>
-                <p className="mt-2 text-cream/70">{getLocalizedField(collection, 'desc', locale)}</p>
-              </div>
-            </Link>
+            {t('catalog')}
+          </Link>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 1.04 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7 }}
+          className="relative h-48 overflow-hidden"
+        >
+          <AppImage
+            src={settings.collections[0]?.image || settings.hero.image}
+            alt={t('collections')}
+            fill
+            className="object-cover"
+            priority
+            sizes="512px"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/50 to-transparent" />
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.25, duration: 0.5 }}
+            className="absolute inset-x-0 bottom-0 p-5 text-white"
+          >
+            <p className="text-gold text-xs font-semibold tracking-widest uppercase">
+              {isAr ? 'مجموعات' : 'Collections'}
+            </p>
+            <h2 className="font-display text-2xl mt-1 leading-tight">
+              {isAr ? 'مجموعات منتقاة' : 'Curated Collections'}
+            </h2>
+            <p className="text-cream/80 text-sm mt-1">
+              {isAr
+                ? 'استكشف مجموعات الديكور — الدمام والمنطقة الشرقية'
+                : 'Explore decor collections — Dammam & Eastern Province'}
+            </p>
           </motion.div>
-        ))}
+        </motion.div>
+
+        <div className="px-4 pt-6 pb-2">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            className="flex items-center gap-3 mb-4"
+          >
+            <div className="h-px flex-1 bg-gold/40" />
+            <h3 className="text-sm font-bold text-navy dark:text-cream tracking-wide whitespace-nowrap">
+              {isAr ? 'المجموعات' : 'All Collections'}
+            </h3>
+            <div className="h-px flex-1 bg-gold/40" />
+          </motion.div>
+        </div>
+
+        {loading ? (
+          <div className="p-12 text-center text-charcoal/50 text-sm">{tCat('loading')}</div>
+        ) : (
+          <motion.div
+            variants={container}
+            initial="hidden"
+            animate="show"
+            className="px-4 pb-10 grid grid-cols-2 gap-3"
+          >
+            {cards.map((card) => {
+              const primary = getLocalizedField(card, 'name', locale);
+              const secondary = isAr ? card.name_en : card.name_ar;
+              return (
+                <motion.div key={card.id} variants={item} whileHover={{ y: -4 }} whileTap={{ scale: 0.97 }}>
+                  <Link
+                    href={`/collections/${card.id}`}
+                    className="group block relative aspect-[3/4] rounded-xl overflow-hidden bg-beige shadow-sm"
+                  >
+                    <AppImage
+                      src={card.image}
+                      alt={primary}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                      sizes="(max-width: 512px) 50vw, 256px"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-90 group-hover:opacity-100 transition-opacity" />
+                    <div className="absolute inset-x-0 bottom-0 p-3 text-white">
+                      <p className="text-[13px] font-bold leading-snug">{primary}</p>
+                      <p className="text-[11px] text-white/75 mt-0.5 leading-snug line-clamp-2">{secondary}</p>
+                      <p className="text-[10px] text-gold mt-1.5 font-medium">
+                        {card.count} {tCat('items')}
+                      </p>
+                    </div>
+                    <span className="absolute top-2 end-2 w-2 h-2 rounded-full bg-gold opacity-0 group-hover:opacity-100 transition-opacity shadow-[0_0_8px_#C5A46E]" />
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        )}
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="border-t border-beige-dark/40 px-5 py-6 text-center bg-beige/40 dark:bg-navy-900"
+        >
+          <p className="text-xs text-charcoal/60 dark:text-cream/50">{tCat('footerNote')}</p>
+          <p className="text-sm text-navy dark:text-cream font-medium mt-1" dir="ltr">
+            {settings.contact.phone}
+          </p>
+          <div className="mt-3 flex justify-center gap-3">
+            <Link href="/catalog" className="text-xs text-gold font-semibold">
+              {t('catalog')}
+            </Link>
+            <span className="text-charcoal/30">·</span>
+            <Link href="/shop" className="text-xs text-gold font-semibold">
+              {t('shop')}
+            </Link>
+          </div>
+        </motion.div>
       </div>
     </div>
   );

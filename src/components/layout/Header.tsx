@@ -7,7 +7,7 @@ import { Search, ShoppingBag, Heart, User, Menu, X, Sun, Moon } from 'lucide-rea
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
-import { useCartStore } from '@/stores/cart';
+import { getCartItemCount, useCartStore } from '@/stores/cart';
 import { useThemeStore } from '@/stores/theme';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 import { cn } from '@/lib/utils';
@@ -22,7 +22,9 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const cartCount = useCartStore((s) => s.itemCount());
+  const [cartReady, setCartReady] = useState(false);
+  const cartItems = useCartStore((s) => s.items);
+  const cartCount = cartReady ? getCartItemCount(cartItems) : 0;
   const theme = useThemeStore((s) => s.theme);
   const toggleTheme = useThemeStore((s) => s.toggleTheme);
   const [isDark, setIsDark] = useState(false);
@@ -38,11 +40,12 @@ export function Header() {
     { href: '/catalog', label: t('catalog') },
     { href: '/shop', label: t('shop') },
     { href: '/collections', label: t('collections') },
-    { href: '/inspiration', label: t('inspiration') },
   ];
 
   useEffect(() => {
     setMounted(true);
+    setCartReady(useCartStore.persist.hasHydrated());
+    return useCartStore.persist.onFinishHydration(() => setCartReady(true));
   }, []);
 
   useEffect(() => {
@@ -169,7 +172,7 @@ export function Header() {
                 >
                   <ShoppingBag className="h-5 w-5 text-gold" />
                   {t('cart')}
-                  {cartCount > 0 && (
+                  {cartReady && cartCount > 0 && (
                     <span className="ms-auto rounded-full bg-gold px-2 py-0.5 text-xs font-bold text-navy">
                       {cartCount}
                     </span>
@@ -317,7 +320,7 @@ export function Header() {
                 className="relative p-2 text-navy dark:text-cream hover:text-gold transition-colors"
               >
                 <ShoppingBag className="h-5 w-5" />
-                {cartCount > 0 && (
+                {cartReady && cartCount > 0 && (
                   <span className="absolute -top-0.5 -end-0.5 h-5 w-5 flex items-center justify-center bg-gold text-navy text-xs font-bold rounded-full">
                     {cartCount}
                   </span>
