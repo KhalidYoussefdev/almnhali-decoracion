@@ -10,7 +10,7 @@ const SETTINGS_FILE = path.join(DATA_DIR, 'settings.json');
 const CATALOG_VERSION_FILE = path.join(DATA_DIR, '.catalog-version');
 const SETTINGS_VERSION_FILE = path.join(DATA_DIR, '.settings-version');
 const CATALOG_VERSION = '5';
-const SETTINGS_VERSION = '9';
+const SETTINGS_VERSION = '10';
 
 async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });

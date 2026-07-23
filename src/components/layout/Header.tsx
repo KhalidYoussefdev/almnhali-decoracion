@@ -87,7 +87,7 @@ export function Header() {
       <AnimatePresence>
         {mobileOpen && (
           <div className="md:hidden" role="dialog" aria-modal="true" aria-label="Menu">
-            {/* Backdrop */}
+            {/* Blurred page behind — main header bar stays above (z-100 → raised while open) */}
             <motion.button
               type="button"
               aria-label="Close menu"
@@ -95,19 +95,19 @@ export function Header() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="fixed inset-0 z-[200] bg-black/55 backdrop-blur-[2px]"
+              className="fixed inset-0 z-[150] bg-navy/40 backdrop-blur-md supports-[backdrop-filter]:bg-navy/30"
               onClick={closeMenu}
             />
 
-            {/* Drawer panel — solid background, full height, not clipped by header */}
+            {/* Solid drawer — clearly visible over blur */}
             <motion.aside
               initial={{ x: isAr ? '100%' : '-100%' }}
               animate={{ x: 0 }}
               exit={{ x: isAr ? '100%' : '-100%' }}
               transition={{ type: 'tween', duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
               className={cn(
-                'fixed top-0 bottom-0 z-[210] flex w-[min(20rem,88vw)] flex-col',
-                'bg-cream dark:bg-navy-800 shadow-2xl',
+                'fixed top-0 bottom-0 z-[160] flex w-[min(20rem,88vw)] flex-col',
+                'bg-cream/95 dark:bg-navy-800/95 backdrop-blur-xl shadow-2xl border-e border-beige-dark/30 dark:border-navy-600',
                 isAr ? 'right-0' : 'left-0',
               )}
             >
@@ -211,8 +211,10 @@ export function Header() {
     <>
       <header
         className={cn(
-          'fixed top-0 inset-x-0 z-[100] transition-all duration-300',
-          scrolled
+          'fixed top-0 inset-x-0 transition-all duration-300',
+          /* Stay visible above blur when mobile menu is open */
+          mobileOpen ? 'z-[170]' : 'z-[100]',
+          scrolled || mobileOpen
             ? 'bg-cream/98 dark:bg-navy-800/98 backdrop-blur-xl shadow-md border-b border-beige-dark/40 dark:border-navy-600/50'
             : 'bg-cream/90 dark:bg-navy-800/90 backdrop-blur-md border-b border-transparent',
         )}
@@ -227,11 +229,15 @@ export function Header() {
             <button
               type="button"
               className="md:hidden p-2.5 -ms-1 rounded-xl text-navy dark:text-cream hover:bg-beige/80 dark:hover:bg-navy-700"
-              onClick={() => setMobileOpen(true)}
-              aria-label="Open menu"
+              onClick={() => setMobileOpen((open) => !open)}
+              aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={mobileOpen}
             >
-              <Menu className="h-6 w-6" strokeWidth={2.25} />
+              {mobileOpen ? (
+                <X className="h-6 w-6" strokeWidth={2.25} />
+              ) : (
+                <Menu className="h-6 w-6" strokeWidth={2.25} />
+              )}
             </button>
 
             <Link href="/" className="flex-shrink-0">

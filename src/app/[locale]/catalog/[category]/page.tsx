@@ -1,8 +1,9 @@
 'use client';
 
-import { use, useMemo } from 'react';
-import { motion } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Eye } from 'lucide-react';
+import { use, useMemo, useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronLeft, ChevronRight, X, Eye } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { AppImage } from '@/components/ui/AppImage';
@@ -10,6 +11,7 @@ import { useProducts } from '@/hooks/useProducts';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 import { getLocalizedField } from '@/lib/utils';
 import { getProductsByCategory } from '@/lib/catalog-browse';
+import type { Product } from '@/types/product';
 
 const gridContainer = {
   hidden: { opacity: 0 },
@@ -40,12 +42,49 @@ export default function CatalogCategoryPage({
   const { products, loading } = useProducts();
   const isAr = locale === 'ar';
   const BackIcon = isAr ? ChevronRight : ChevronLeft;
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
 
   const categoryMeta = settings.categories.find((c) => c.id === category);
   const list = useMemo(
     () => getProductsByCategory(products, category),
     [products, category],
   );
+
+  const active: Product | null =
+    activeIndex !== null && list[activeIndex] ? list[activeIndex] : null;
+
+  const closeViewer = useCallback(() => setActiveIndex(null), []);
+  const goPrev = useCallback(() => {
+    setActiveIndex((i) => {
+      if (i === null || list.length === 0) return i;
+      return (i - 1 + list.length) % list.length;
+    });
+  }, [list.length]);
+  const goNext = useCallback(() => {
+    setActiveIndex((i) => {
+      if (i === null || list.length === 0) return i;
+      return (i + 1) % list.length;
+    });
+  }, [list.length]);
+
+  useEffect(() => {
+    if (activeIndex === null) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeViewer();
+      if (e.key === 'ArrowLeft') (isAr ? goNext : goPrev)();
+      if (e.key === 'ArrowRight') (isAr ? goPrev : goNext)();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [activeIndex, closeViewer, goPrev, goNext, isAr]);
 
   const title = categoryMeta
     ? isAr
@@ -57,6 +96,103 @@ export default function CatalogCategoryPage({
       ? categoryMeta.name_en
       : categoryMeta.name_ar
     : '';
+
+  const lightbox =
+    mounted &&
+    createPortal(
+      <AnimatePresence>
+        {active && activeIndex !== null && (
+          <div className="fixed inset-0 z-[300]" role="dialog" aria-modal="true">
+            <motion.button
+              type="button"
+              aria-label={t('close')}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0 bg-navy/70 backdrop-blur-md"
+              onClick={closeViewer}
+            />
+            <motion.div
+              initial={{ opacity: 0, scale: 0.94, y: 16 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.96, y: 12 }}
+              transition={{ type: 'spring', stiffness: 320, damping: 28 }}
+              className="absolute inset-x-3 top-[max(4.5rem,10%)] bottom-6 mx-auto flex max-w-lg flex-col overflow-hidden rounded-2xl bg-cream dark:bg-navy-800 shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between gap-2 border-b border-beige-dark/40 dark:border-navy-600 px-4 py-3">
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-semibold text-navy dark:text-cream">
+                    {getLocalizedField(active, 'name', locale)}
+                  </p>
+                  <p className="text-[11px] text-charcoal/60 dark:text-cream/50">
+                    {activeIndex + 1} / {list.length}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={closeViewer}
+                  className="rounded-full p-2 text-navy dark:text-cream hover:bg-beige dark:hover:bg-navy-700"
+                  aria-label={t('close')}
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
+
+              <div className="relative flex-1 min-h-0 bg-beige dark:bg-navy-900">
+                <AppImage
+                  key={active.id}
+                  src={active.images[0]}
+                  alt={getLocalizedField(active, 'name', locale)}
+                  fill
+                  className="object-contain p-2"
+                  sizes="512px"
+                  priority
+                />
+                {list.length > 1 && (
+                  <>
+                    <button
+                      type="button"
+                      onClick={goPrev}
+                      className="absolute start-2 top-1/2 -translate-y-1/2 rounded-full bg-navy/70 p-2 text-cream backdrop-blur-sm hover:bg-navy"
+                      aria-label="Previous"
+                    >
+                      <BackIcon className="h-5 w-5" />
+                    </button>
+                    <button
+                      type="button"
+                      onClick={goNext}
+                      className="absolute end-2 top-1/2 -translate-y-1/2 rounded-full bg-navy/70 p-2 text-cream backdrop-blur-sm hover:bg-navy"
+                      aria-label="Next"
+                    >
+                      {isAr ? (
+                        <ChevronLeft className="h-5 w-5" />
+                      ) : (
+                        <ChevronRight className="h-5 w-5" />
+                      )}
+                    </button>
+                  </>
+                )}
+              </div>
+
+              {active.images.length > 1 && (
+                <div className="flex gap-2 overflow-x-auto border-t border-beige-dark/40 dark:border-navy-600 p-3">
+                  {active.images.map((img, i) => (
+                    <div
+                      key={img + i}
+                      className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg border border-beige-dark/40"
+                    >
+                      <AppImage src={img} alt="" fill className="object-cover" sizes="56px" />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>,
+      document.body,
+    );
 
   return (
     <div className="min-h-screen bg-[#f4f4f4] dark:bg-navy-900">
@@ -112,11 +248,12 @@ export default function CatalogCategoryPage({
             animate="show"
             className="grid grid-cols-2 gap-2 p-3"
           >
-            {list.map((product) => (
+            {list.map((product, index) => (
               <motion.div key={product.id} variants={gridItem} whileHover={{ y: -3 }} whileTap={{ scale: 0.98 }}>
-                <Link
-                  href={`/product/${product.id}`}
-                  className="group block bg-white dark:bg-navy-700 rounded-lg overflow-hidden border border-beige-dark/30 shadow-sm"
+                <button
+                  type="button"
+                  onClick={() => setActiveIndex(index)}
+                  className="group block w-full text-start bg-white dark:bg-navy-700 rounded-lg overflow-hidden border border-beige-dark/30 shadow-sm"
                 >
                   <div className="relative aspect-square bg-beige overflow-hidden">
                     <AppImage
@@ -142,9 +279,8 @@ export default function CatalogCategoryPage({
                     <p className="text-[12px] font-semibold text-navy dark:text-cream line-clamp-2 leading-snug min-h-[2.4em]">
                       {getLocalizedField(product, 'name', locale)}
                     </p>
-                    {/* Browse-only: no prices in catalog */}
                   </div>
-                </Link>
+                </button>
               </motion.div>
             ))}
           </motion.div>
@@ -165,6 +301,8 @@ export default function CatalogCategoryPage({
           </Link>
         </motion.div>
       </div>
+
+      {lightbox}
     </div>
   );
 }
