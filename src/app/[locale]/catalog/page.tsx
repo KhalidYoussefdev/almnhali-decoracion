@@ -148,31 +148,6 @@ export default function BrowseCatalogPage() {
           </motion.div>
         )}
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="border-t border-beige-dark/40 px-5 py-6 text-center bg-beige/40 dark:bg-navy-900"
-        >
-          <p className="text-xs text-charcoal/60 dark:text-cream/50">{t('footerNote')}</p>
-          <p className="text-sm text-navy dark:text-cream font-medium mt-1" dir="ltr">
-            {settings.contact.phone}
-          </p>
-          <div className="mt-3 flex justify-center gap-3">
-            <Link href="/shop" className="text-xs text-gold font-semibold">
-              {t('allProducts')}
-            </Link>
-            <span className="text-charcoal/30">·</span>
-            <a
-              href={`https://wa.me/${settings.contact.whatsapp.replace(/\D/g, '')}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-gold font-semibold"
-            >
-              WhatsApp
-            </a>
-          </div>
-        </motion.div>
       </div>
     </div>
   );

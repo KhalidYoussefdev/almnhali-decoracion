@@ -115,7 +115,7 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   },
   contact: {
     phone: '+966558466791',
-    email: 'hello@almnhali.com',
+    email: 'info@almnhali.com',
     whatsapp: '+966558466791',
   },
   social: {

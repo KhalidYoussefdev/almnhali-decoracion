@@ -4,10 +4,9 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Logo } from '@/components/ui/Logo';
 import { useSiteSettings } from '@/contexts/SettingsContext';
-import { Instagram, Twitter, Phone } from 'lucide-react';
+import { Instagram, Twitter, Phone, Mail, MapPin } from 'lucide-react';
 import { SnapchatIcon } from '@/components/ui/SnapchatIcon';
 import { whatsappUrl } from '@/lib/image';
-
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -20,8 +19,7 @@ export function Footer() {
   const shopHeading = isAr ? settings.footer.shopHeading_ar : settings.footer.shopHeading_en;
   const allProducts = isAr ? settings.footer.allProducts_ar : settings.footer.allProducts_en;
   const collectionsLink = isAr ? settings.footer.collectionsLink_ar : settings.footer.collectionsLink_en;
-
-  const emailPlaceholder = isAr ? settings.footer.emailPlaceholder_ar : settings.footer.emailPlaceholder_en;
+  const email = settings.contact.email || 'info@almnhali.com';
 
   return (
     <footer className="bg-navy text-cream">
@@ -30,6 +28,28 @@ export function Footer() {
           <div className="md:col-span-2">
             <Logo theme="dark" />
             <p className="mt-4 text-cream/70 max-w-md leading-relaxed">{tagline}</p>
+
+            <div className="mt-6 space-y-2 text-sm text-cream/70">
+              {location && (
+                <p className="flex items-start gap-2">
+                  <MapPin className="h-4 w-4 text-gold shrink-0 mt-0.5" />
+                  <span>{location}</span>
+                </p>
+              )}
+              {settings.contact.phone && (
+                <a href={`tel:${settings.contact.phone}`} className="flex items-center gap-2 hover:text-gold" dir="ltr">
+                  <Phone className="h-4 w-4 text-gold shrink-0" />
+                  {settings.contact.phone}
+                </a>
+              )}
+              {email && (
+                <a href={`mailto:${email}`} className="flex items-center gap-2 hover:text-gold" dir="ltr">
+                  <Mail className="h-4 w-4 text-gold shrink-0" />
+                  {email}
+                </a>
+              )}
+            </div>
+
             <div className="flex flex-wrap gap-4 mt-6">
               {settings.contact.whatsapp && (
                 <a
@@ -43,17 +63,35 @@ export function Footer() {
                 </a>
               )}
               {settings.social.instagram && (
-                <a href={settings.social.instagram} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="Instagram">
+                <a
+                  href={settings.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="Instagram"
+                >
                   <Instagram className="h-5 w-5 text-gold" />
                 </a>
               )}
               {settings.social.twitter && (
-                <a href={settings.social.twitter} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="X (Twitter)">
+                <a
+                  href={settings.social.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="X (Twitter)"
+                >
                   <Twitter className="h-5 w-5 text-gold" />
                 </a>
               )}
               {settings.social.snapchat && (
-                <a href={settings.social.snapchat} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors" aria-label="Snapchat">
+                <a
+                  href={settings.social.snapchat}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
+                  aria-label="Snapchat"
+                >
                   <SnapchatIcon className="h-5 w-5 text-gold" />
                 </a>
               )}
@@ -63,24 +101,48 @@ export function Footer() {
           <div>
             <h4 className="font-display text-gold mb-4">{shopHeading}</h4>
             <ul className="space-y-2 text-cream/70">
-              <li><Link href="/catalog" className="hover:text-gold transition-colors">{isAr ? 'تصفح الكتالوج' : 'Browse Catalog'}</Link></li>
-              <li><Link href="/shop" className="hover:text-gold transition-colors">{allProducts}</Link></li>
-              <li><Link href="/collections" className="hover:text-gold transition-colors">{collectionsLink}</Link></li>
+              <li>
+                <Link href="/catalog" className="hover:text-gold transition-colors">
+                  {isAr ? 'تصفح الكتالوج' : 'Browse Catalog'}
+                </Link>
+              </li>
+              <li>
+                <Link href="/shop" className="hover:text-gold transition-colors">
+                  {allProducts}
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections" className="hover:text-gold transition-colors">
+                  {collectionsLink}
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display text-gold mb-4">{t('newsletter')}</h4>
-            <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder={emailPlaceholder}
-                className="flex-1 px-4 py-2 rounded-lg bg-navy-600 border border-navy-400 text-cream placeholder:text-cream/40 focus:border-gold outline-none"
-              />
-              <button type="submit" className="px-4 py-2 bg-gold text-navy font-semibold rounded-lg hover:opacity-90 transition-opacity">
-                {t('subscribe')}
-              </button>
-            </form>
+            <h4 className="font-display text-gold mb-4">{isAr ? 'تواصل معنا' : 'Contact'}</h4>
+            <ul className="space-y-3 text-cream/70 text-sm">
+              <li>
+                <a href={`mailto:${email}`} className="hover:text-gold break-all" dir="ltr">
+                  {email}
+                </a>
+              </li>
+              <li>
+                <a href={`tel:${settings.contact.phone}`} className="hover:text-gold" dir="ltr">
+                  {settings.contact.phone}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={whatsappUrl(settings.contact.whatsapp, isAr ? 'مرحباً' : 'Hello')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gold"
+                >
+                  WhatsApp
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

@@ -133,21 +133,6 @@ export default function CollectionsPage() {
           </div>
         )}
 
-        <div className="border-t border-beige-dark/40 px-5 py-6 text-center bg-beige/40 dark:bg-navy-900">
-          <p className="text-xs text-charcoal/60 dark:text-cream/50">{tCat('footerNote')}</p>
-          <p className="text-sm text-navy dark:text-cream font-medium mt-1" dir="ltr">
-            {settings.contact.phone}
-          </p>
-          <div className="mt-3 flex justify-center gap-3">
-            <Link href="/catalog" className="text-xs text-gold font-semibold">
-              {t('catalog')}
-            </Link>
-            <span className="text-charcoal/30">·</span>
-            <Link href="/shop" className="text-xs text-gold font-semibold">
-              {t('shop')}
-            </Link>
-          </div>
-        </div>
       </div>
     </div>
   );
