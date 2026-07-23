@@ -6,6 +6,7 @@ import { Logo } from '@/components/ui/Logo';
 import { useSiteSettings } from '@/contexts/SettingsContext';
 import { Instagram, Twitter, Phone } from 'lucide-react';
 import { SnapchatIcon } from '@/components/ui/SnapchatIcon';
+import { whatsappUrl } from '@/lib/image';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -28,12 +29,13 @@ export function Footer() {
             <Logo theme="dark" />
             <p className="mt-4 text-cream/70 max-w-md leading-relaxed">{tagline}</p>
             <div className="flex flex-wrap gap-4 mt-6">
-              {/* Single phone icon — call only */}
-              {settings.contact.phone && (
+              {settings.contact.whatsapp && (
                 <a
-                  href={`tel:${settings.contact.phone}`}
+                  href={whatsappUrl(settings.contact.whatsapp, isAr ? 'مرحباً' : 'Hello')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-2 rounded-full border border-gold/30 hover:bg-gold/10 transition-colors"
-                  aria-label={isAr ? 'اتصل بنا' : 'Call us'}
+                  aria-label="WhatsApp"
                 >
                   <Phone className="h-5 w-5 text-gold" />
                 </a>
