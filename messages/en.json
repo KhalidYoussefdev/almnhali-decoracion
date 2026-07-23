@@ -1,6 +1,7 @@
 {
   "nav": {
     "shop": "Shop",
+    "catalog": "Browse Catalog",
     "collections": "Collections",
     "inspiration": "Inspiration",
     "about": "About",
@@ -8,6 +9,23 @@
     "cart": "Cart",
     "account": "Account",
     "wishlist": "Wishlist"
+  },
+  "catalog": {
+    "title": "Browse Catalog",
+    "badge": "Popular",
+    "heroTitle": "Bestseller Product Catalogue",
+    "heroSubtitle": "Explore categories — Dammam & Eastern Province",
+    "popular": "Popular Product · 爆款品类",
+    "items": "items",
+    "allProducts": "All Products",
+    "loading": "Loading catalog...",
+    "empty": "No products in this category",
+    "back": "Back",
+    "productCatalog": "Product Catalog",
+    "shopView": "Shop View",
+    "allCategories": "All Categories",
+    "backToCatalog": "Back to Catalog",
+    "footerNote": "Almanhali Decoration — Dammam, Saudi Arabia"
   },
   "hero": {
     "title": "Elevate Your Space",

@@ -21,6 +21,7 @@ export function Header() {
   const { theme, setTheme } = useThemeStore();
 
   const navLinks = [
+    { href: '/catalog', label: t('catalog') },
     { href: '/shop', label: t('shop') },
     { href: '/collections', label: t('collections') },
     { href: '/inspiration', label: t('inspiration') },

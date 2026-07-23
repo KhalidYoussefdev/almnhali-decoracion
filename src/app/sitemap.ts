@@ -3,7 +3,7 @@ import { getAllProducts } from '@/data/products';
 import { getSettings } from '@/lib/data-store';
 import { localePath } from '@/lib/seo';
 
-const STATIC_PATHS = ['', '/shop', '/collections', '/inspiration', '/login', '/register', '/privacy'];
+const STATIC_PATHS = ['', '/shop', '/catalog', '/collections', '/inspiration', '/login', '/register', '/privacy'];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [products, settings] = await Promise.all([getAllProducts(), getSettings()]);
@@ -26,6 +26,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: now,
         changeFrequency: 'weekly',
         priority: 0.7,
+      });
+    }
+
+    for (const category of settings.categories) {
+      entries.push({
+        url: localePath(locale, `/catalog/${category.id}`),
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.75,
       });
     }
 

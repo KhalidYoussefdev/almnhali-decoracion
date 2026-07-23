@@ -63,6 +63,7 @@ export function Footer() {
           <div>
             <h4 className="font-display text-gold mb-4">{shopHeading}</h4>
             <ul className="space-y-2 text-cream/70">
+              <li><Link href="/catalog" className="hover:text-gold transition-colors">{isAr ? 'تصفح الكتالوج' : 'Browse Catalog'}</Link></li>
               <li><Link href="/shop" className="hover:text-gold transition-colors">{allProducts}</Link></li>
               <li><Link href="/collections" className="hover:text-gold transition-colors">{collectionsLink}</Link></li>
               <li><Link href="/inspiration" className="hover:text-gold transition-colors">{inspirationLink}</Link></li>
