@@ -63,7 +63,10 @@ export async function POST(req: Request) {
   }
 
   const orderId = randomUUID();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://almnhali.com').replace(/\/$/, '');
+  // next-intl uses as-needed: English has no /en prefix
+  const localePrefix = locale === 'ar' ? '/ar' : '';
+  const callbackUrl = `${siteUrl}${localePrefix}/checkout/success`;
 
   const order: Order = {
     id: orderId,
@@ -81,12 +84,20 @@ export async function POST(req: Request) {
 
   await saveOrder(order);
 
+  const publishableKey = getPublishableKey();
+  if (!publishableKey) {
+    return NextResponse.json(
+      { error: 'Moyasar publishable key missing on server' },
+      { status: 503 },
+    );
+  }
+
   return NextResponse.json({
     orderId,
     amount: amountHalalas,
     total,
-    publishableKey: getPublishableKey(),
-    callbackUrl: `${siteUrl}/${locale}/checkout/success`,
+    publishableKey,
+    callbackUrl,
     methods: moyasarMethods(paymentMethod),
     description: `Almnhali Order ${orderId.slice(0, 8)}`,
     metadata: { order_id: orderId },

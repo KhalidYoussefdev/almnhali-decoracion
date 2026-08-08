@@ -138,6 +138,10 @@ export default function CheckoutPage() {
         methods: data.methods?.length ? data.methods : ['creditcard'],
         description: data.description,
       });
+      // Jump to payment form after session starts
+      window.setTimeout(() => {
+        document.getElementById('checkout-pay-form')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
     } catch {
       setError(isAr ? 'خطأ في الاتصال. حاول مرة أخرى.' : 'Network error. Please try again.');
     } finally {
@@ -312,25 +316,31 @@ export default function CheckoutPage() {
           )}
         </div>
       ) : (
-        <div className="space-y-6">
+        <div id="checkout-pay-form" className="space-y-6">
           <div className="p-4 bg-green-50 dark:bg-green-900/20 rounded-xl text-sm text-green-800 dark:text-green-200">
             {isAr
               ? `الإجمالي: ${formatPrice(session.total, locale)} — أدخل بيانات البطاقة أدناه للدفع`
               : `Total: ${formatPrice(session.total, locale)} — Enter your card details below to pay`}
           </div>
 
-          <section className="p-6 bg-white dark:bg-navy-800 rounded-2xl shadow-sm">
-            <h2 className="font-display text-xl mb-4">
-              {isAr ? 'ادفع الآن' : 'Pay now'}
+          <section className="p-6 bg-white rounded-2xl shadow-sm border border-beige-dark/30">
+            <h2 className="font-display text-xl mb-2 text-navy">
+              {isAr ? 'ادفع الآن بالبطاقة' : 'Pay now with card'}
             </h2>
+            <p className="text-xs text-charcoal/60 mb-4">
+              {isAr
+                ? 'مدى · فيزا · ماستركارد — نموذج آمن من Moyasar'
+                : 'Mada · Visa · Mastercard — secure form by Moyasar'}
+            </p>
             <MoyasarCheckout
               key={session.orderId}
               amount={session.amount}
               description={session.description}
               publishableKey={session.publishableKey}
               callbackUrl={session.callbackUrl}
-              methods={session.methods}
+              methods={['creditcard']}
               orderId={session.orderId}
+              language={isAr ? 'ar' : 'en'}
             />
           </section>
 

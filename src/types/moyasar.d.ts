@@ -1,5 +1,5 @@
 interface MoyasarInitConfig {
-  element: string;
+  element: string | HTMLElement;
   amount: number;
   currency: string;
   description: string;
@@ -7,6 +7,7 @@ interface MoyasarInitConfig {
   callback_url: string;
   methods: string[];
   supported_networks?: string[];
+  language?: string;
   metadata?: Record<string, string>;
   on_completed?: (payment: { id: string; status: string; metadata?: Record<string, string> }) => Promise<void>;
 }
