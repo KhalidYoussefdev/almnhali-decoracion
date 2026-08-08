@@ -126,9 +126,9 @@ export default function CollectionsPage() {
         ) : filtered.length === 0 ? (
           <div className="p-12 text-center text-charcoal/50 text-sm">{tCat('empty')}</div>
         ) : (
-          <div className="grid grid-cols-2 gap-3 p-3 pb-10">
+          <div className="grid grid-cols-2 gap-2 p-2 pb-8">
             {filtered.map((product, i) => (
-              <ProductCard key={product.id} product={product} index={i} />
+              <ProductCard key={product.id} product={product} index={i} compact />
             ))}
           </div>
         )}

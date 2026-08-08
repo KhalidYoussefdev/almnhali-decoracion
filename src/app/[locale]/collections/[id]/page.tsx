@@ -79,9 +79,9 @@ export default function CollectionDetailPage({ params }: { params: Promise<{ id:
             </Link>
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-3 p-3 pb-10">
+          <div className="grid grid-cols-2 gap-2 p-2 pb-8">
             {list.map((product, i) => (
-              <ProductCard key={product.id} product={product} index={i} />
+              <ProductCard key={product.id} product={product} index={i} compact />
             ))}
           </div>
         )}
