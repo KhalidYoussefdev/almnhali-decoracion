@@ -3,8 +3,9 @@ import path from 'path';
 import crypto from 'crypto';
 import type { RegisterInput, User } from '@/types/user';
 import { hashPassword } from '@/lib/customer-auth';
+import { getDataDir } from '@/lib/persist-path';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+const DATA_DIR = getDataDir();
 const USERS_FILE = path.join(DATA_DIR, 'users.json');
 
 async function ensureDataDir() {

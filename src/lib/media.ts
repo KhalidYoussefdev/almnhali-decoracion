@@ -1,7 +1,9 @@
 import path from 'path';
+import { getDataDir } from '@/lib/persist-path';
 
-export const UPLOAD_DIR = path.join(process.cwd(), 'data', 'uploads');
+export const UPLOAD_DIR = path.join(getDataDir(), 'uploads');
 export const LEGACY_UPLOAD_DIR = path.join(process.cwd(), 'public', 'uploads');
+export const LEGACY_DATA_UPLOAD_DIR = path.join(process.cwd(), 'data', 'uploads');
 export const UPLOAD_URL_PREFIX = '/api/uploads/';
 
 const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg']);
@@ -43,5 +45,5 @@ export function uploadUrlToFilename(url: string): string | null {
 }
 
 export function uploadDirs(): string[] {
-  return [UPLOAD_DIR, LEGACY_UPLOAD_DIR];
+  return [UPLOAD_DIR, LEGACY_DATA_UPLOAD_DIR, LEGACY_UPLOAD_DIR];
 }

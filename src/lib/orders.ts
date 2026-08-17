@@ -1,8 +1,9 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { Order } from '@/types/order';
+import { getDataDir } from '@/lib/persist-path';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+const DATA_DIR = getDataDir();
 const ORDERS_FILE = path.join(DATA_DIR, 'orders.json');
 
 async function ensureDataDir() {
